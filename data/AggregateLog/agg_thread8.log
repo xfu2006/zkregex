@@ -1,0 +1,31 @@
+------ SINGLE NODE aggregate ------------. NO MPI
+LOG: to_proc_list: actual: 2954 -> new_total: 4096
+REMOVE LATER 202: num_more: 3621
+AggSetup size: 4096 21704 ms
+AggProve Step 1: Build Vec of Claims and Proofs: 4096 Proofs 144768 ms
+AggProve Step 2: Aggregate SubsetPrf1 105492 ms
+AggProve Step 3: Aggregate SubsetPrf2 105528 ms
+AggProve Step 4: Aggregate KZGProof 191162 ms
+LOG: ----- Groth Proof Time:  63864 ms
+AggProve Step 5: Aggregate Groth16 63864 ms
+LOG: -- ZkConn agg_prove Size: 4096 116581 ms
+LOG: AGGProof Time Total:  727401 ms
+LOG: #### SERIALIZED PROOF SIZE: 2056760 bytes
+LOG: ----- Groth AggVer Time:  474 ms
+AggVerify: Step1: Groth16 474 ms
+AggVerify: Step2: LinearCheck: for all: r=hash(c_st,c1) 13 ms
+AggVerify: Step3: subset1 proof 597 ms
+AggVerify: Step4: subset2 proof 596 ms
+AggVerify: Step5: kzg proof 1013 ms
+AggVerify: Step6: compute cm1(kzg_all) and check agg_claim_set1.c_cp 0 us
+AggVerify: Step7: check subset1.c_cq = subset2.c_cp 0 us
+AggVerify: Step8: check set2.c_cq = kzg.c_cp 0 us
+AggVerify: Step9: check vec r, c1, c_st match their commitments in claims 607 ms
+AggVerify: Step10: check all hash contained in Groth16 claims. 2093 ms
+LOG: -- ZkConn agg_ver check (C1): claims and v_cm 598 ms
+LOG: -- ZkConn agg_ver check (C2): const columns 7 us
+LOG: --  ZkConn agg_ver check (C3): MIPP proofs 530 ms
+LOG: -- ZkConn agg_ver check (C4): DLOG c1 and c2 174 us
+LOG: -- ZkConn agg_ver check (C5): Fiat-Shamir c 9 us
+AggVerify: Step11: check connector prf. 1128 ms
+PERF_USE_AggVerify size: 4096 6524 ms

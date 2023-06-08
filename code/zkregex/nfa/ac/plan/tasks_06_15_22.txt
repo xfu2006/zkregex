@@ -1,0 +1,19 @@
+=========== GIT Instructions ===========
+git add .
+git commit -a -m "some msg"
+git tag NEW_TAG_NAME
+
+git fetch origin
+git merge origin/MAIN2
+# resolve any conflicts (not many)
+
+================ TASKS ================
+ALL: 
+1. read Section 4 of attached paper (circuit design).
+2. read jsnark/JSnark/za_interface/za/circ/zkreg/ZaTraceVerifier.java (and correlate with Section 4).
+3. read jsnark/JSnark/za_interface/za/test files
+Thank about the following questions: (under ARCHITECTURE DESIGN: inheritance, polymorphism ....)
+(1) what are the required functions to be implemented? 
+(2) what are those logical_.... functions?
+(3) how do we support the unit testing?
+(4) practice a ghidra analysis of a function [30 min]

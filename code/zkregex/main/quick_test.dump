@@ -1,0 +1,10 @@
+===== DATA for fft: log_min_size: 24 -> log_max_size: 24, NODES: 4 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  1 ms
+LOG: size: 16777216 -----
+LOG: 	 Round: 0, Time: 5135 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: 	 Round: 1, Time: 5079 ms
+REPORT_op: fft, size: 16777216, time: 5079 ms, np: 4
+LOG: WaitForBarrier of Main 10518 ms
+ACC COMPLETED

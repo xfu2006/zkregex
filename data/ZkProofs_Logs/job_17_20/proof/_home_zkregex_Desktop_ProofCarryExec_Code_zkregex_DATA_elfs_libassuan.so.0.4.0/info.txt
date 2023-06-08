@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libassuan.so.0.4.0 70856 17 0 17 0 17499781

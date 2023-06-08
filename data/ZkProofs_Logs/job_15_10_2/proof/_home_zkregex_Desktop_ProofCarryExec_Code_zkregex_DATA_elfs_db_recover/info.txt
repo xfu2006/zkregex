@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/db_recover 11600 15 0 9 0 17499781

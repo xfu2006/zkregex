@@ -1,0 +1,72 @@
+F = GF(prime)
+ALPHA = 5
+
+MDS_matrix_field = matrix(F, t, t)
+for i in range(0, t):
+	for j in range(0, t):
+		MDS_matrix_field[i, j] = F(int(MDS_matrix[i][j], 16))
+round_constants_field = []
+for i in range(0, (R_F + R_P) * t):
+	round_constants_field.append(F(int(round_constants[i], 16)))
+
+#MDS_matrix_field = MDS_matrix_field.transpose() # QUICK FIX TO CHANGE MATRIX MUL ORDER (BOTH M AND M**T ARE SECURE HERE!)
+
+def print_words_to_hex(words):
+	hex_length = int(ceil(float(n) / 4)) + 2 # +2 for "0x"
+	s = ""
+	for entry in words:
+		s += "{0:#0{1}x}".format(int(entry), hex_length) + " "
+	return s
+
+def print_concat_words_to_large(words):
+	hex_length = int(ceil(float(n) / 4))
+	nums = ["{0:0{1}x}".format(int(entry), hex_length) for entry in words]
+	final_string = "0x" + ''.join(nums)
+	return final_string
+
+def perm(input_words):
+	R_f = int(R_F / 2)
+	round_constants_counter = 0
+
+	state_words = list(input_words)
+
+	# First full rounds
+	for r in range(0, R_f):
+		# Round constants, nonlinear layer, matrix multiplication
+		for i in range(0, t):
+			state_words[i] = state_words[i] + round_constants_field[round_constants_counter]
+			round_constants_counter += 1
+		for i in range(0, t):
+			state_words[i] = (state_words[i])**ALPHA
+		state_words = list(MDS_matrix_field * vector(state_words))
+
+	# Middle partial rounds
+	for r in range(0, R_P):
+		# Round constants, nonlinear layer, matrix multiplication
+		for i in range(0, t):
+			state_words[i] = state_words[i] + round_constants_field[round_constants_counter]
+			round_constants_counter += 1
+		state_words[0] = (state_words[0])**ALPHA
+		state_words = list(MDS_matrix_field * vector(state_words))
+
+	# Last full rounds
+	for r in range(0, R_f):
+		# Round constants, nonlinear layer, matrix multiplication
+		for i in range(0, t):
+			state_words[i] = state_words[i] + round_constants_field[round_constants_counter]
+			round_constants_counter += 1
+		for i in range(0, t):
+			state_words[i] = (state_words[i])**ALPHA
+		state_words = list(MDS_matrix_field * vector(state_words))
+	
+	return state_words
+
+input_words = []
+for i in input:
+	input_words.append(F(i))
+
+output_words = perm(input_words)
+
+#print("Input: " + print_words_to_hex(input_words))
+print("OUTPUT: " + print_words_to_hex(output_words))
+#print("Output: " + print_concat_words_to_large(output_words))

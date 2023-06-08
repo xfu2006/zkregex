@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/cygrpc.cpython-39-x86_64-linux-gnu.so_partx71_1 1000000 20 1000000 12 7075655 12643888

@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libpam.so.0.83.1 61680 16 0 26 0 17499781

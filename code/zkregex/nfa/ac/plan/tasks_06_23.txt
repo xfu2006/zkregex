@@ -1,0 +1,41 @@
+Tasks:
+----------------------------------
+All: continue to work in Gildra. (30 minutes)
+--> Ask Author3 (hash-it)
+--> *** REMIND: handling of FUNCTION POINTERS!!!!!!
+-------> you should review C language function pointer SYNTAX.
+--------> ARRAY OF FUNCTION POINTERS.
+		---> dynamic function dispatch tables
+-----------------------------------
+T1: add a branch in main() function in App.java so that:
+	given a directory, it performs scan of all files in a folder. 
+	For each file being scanned, it prints something like:
+	---------------------
+	a.bin  xxkb  good  20ms
+	b.bin  VIRUS! 30ms
+	...
+	Total: xxx files, yyy kb, xxx seconds
+	---------------------
+
+T2: complete the unit test functions in ACFastTest.
+	(a) make a sample SIGNATURE file so that your AC could load from
+	(a) put the 3 sample virus files in ac/data/real_virus
+	(b) when performing test, dynamically create folder
+		in zkregex/DATA (name it as work_folder)
+	(c) extract the files
+	(d) scan them and verify that they are indeed identified as virus 
+	(e) once all done, remove the work_folder in DATA.
+	Note: try to refactor the program well, put OS related
+	functions into the Tool class.
+
+	perform the same for benign files. put 3 samples in ac/data/benigh_files
+
+T3: Class diagram for the arithmetic circuit. 
+*** how can I parallel the design ***
+1kb of bin executable; ----> 70MB of R1CS file 
+1Mb ----<> 72GB
+10Mb --> 720Gb (SPARK) 
+------------------------------------------------------
+
+
+

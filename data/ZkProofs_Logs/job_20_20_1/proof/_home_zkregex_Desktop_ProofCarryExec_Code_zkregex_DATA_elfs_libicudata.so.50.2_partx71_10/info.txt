@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libicudata.so.50.2_partx71_10 1000000 20 10000000 20 18518355 1501484

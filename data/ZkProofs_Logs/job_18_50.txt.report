@@ -1,0 +1,260 @@
+======================  Job: job_18_50.txt  ======================
+ Group_ID: 18, Subset_ID: 50 224 ms
+ENTERING one-time setup: TOTAL: VirtMem: 1962857 MB, Mem: 23194 MB
+-- preprocess Step1: broadcast config files 1796 ms
+---Java Main Preprpocessing Details---
+ OUTPUT: LOG1: 
+========== Batch Preproess: job_file: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/acc/batchscripts/jobs/job_18_50.txt
+ save data to: /tmp2/batchprove
+ num_worker: 25, server_id: 0, n_servers: 4
+ StartTimer: 2023-04-15T18:06:12.503Z
+============
+DEBUG USE 101: load dfa_file: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/anti_virus_input/clamav_full/sigs.dat
+Build the Trie ...
+Build Trie Time: 73358 ms
+Build the Fail Edges...
+Build FailEdge Time: 65179 ms
+LOG1: build DFA ...states: 19027891 356618 ms
+LOG1: replicate DFA 0 ms
+LOG1: Job Details: server_id: 0, n_servers: 4, begin_idx: 0, end_idx: 2, files_to_process.len: 2, all files: 5
+ group_size_nibbles: 516096
+LOG1: PERF_USE_GetFileList 2 ms
+LOG1: ==============Worker Thread 0 starts at: 2023-04-15T18:12:09.189Z==============
+LOG1: ==============Worker Thread 1 starts at: 2023-04-15T18:12:09.189Z==============
+LOG1: ==============Worker Thread 2 starts at: 2023-04-15T18:12:09.189Z==============
+LOG1: ==============Worker Thread 2 stops at: 2023-04-15T18:12:09.189Z==============
+LOG1: ==============Worker Thread 3 starts at: 2023-04-15T18:12:09.189Z==============
+LOG1: ==============Worker Thread 4 starts at: 2023-04-15T18:12:09.189Z==============
+LOG1: ==============Worker Thread 3 stops at: 2023-04-15T18:12:09.190Z==============
+LOG1: ==============Worker Thread 4 stops at: 2023-04-15T18:12:09.190Z==============
+LOG1: ==============Worker Thread 5 starts at: 2023-04-15T18:12:09.190Z==============
+LOG1: ==============Worker Thread 6 starts at: 2023-04-15T18:12:09.190Z==============
+LOG1: ==============Worker Thread 6 stops at: 2023-04-15T18:12:09.191Z==============
+LOG1: ==============Worker Thread 5 stops at: 2023-04-15T18:12:09.191Z==============
+LOG1: ==============Worker Thread 7 starts at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 8 starts at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 7 stops at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 9 starts at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 8 stops at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 9 stops at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 10 starts at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 11 starts at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 10 stops at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 11 stops at: 2023-04-15T18:12:09.192Z==============
+LOG1: ==============Worker Thread 15 starts at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 14 starts at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 12 starts at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 14 stops at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 13 starts at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 15 stops at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 13 stops at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 12 stops at: 2023-04-15T18:12:19.961Z==============
+LOG1: ==============Worker Thread 16 starts at: 2023-04-15T18:12:19.963Z==============
+LOG1: ==============Worker Thread 17 starts at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 19 starts at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 18 starts at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 16 stops at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 20 starts at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 18 stops at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 19 stops at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 17 stops at: 2023-04-15T18:12:19.964Z==============
+LOG1: ==============Worker Thread 20 stops at: 2023-04-15T18:12:19.965Z==============
+LOG1: ==============Worker Thread 24 starts at: 2023-04-15T18:12:19.966Z==============
+LOG1: ==============Worker Thread 22 starts at: 2023-04-15T18:12:19.965Z==============
+LOG1: ==============Worker Thread 21 starts at: 2023-04-15T18:12:19.965Z==============
+LOG1: ==============Worker Thread 23 starts at: 2023-04-15T18:12:19.965Z==============
+LOG1: ==============Worker Thread 24 stops at: 2023-04-15T18:12:19.968Z==============
+LOG1: ==============Worker Thread 23 stops at: 2023-04-15T18:12:19.969Z==============
+LOG1: ==============Worker Thread 21 stops at: 2023-04-15T18:12:19.969Z==============
+LOG1: ==============Worker Thread 22 stops at: 2023-04-15T18:12:19.969Z==============
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36 11073 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2 11084 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2 1295 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36 1307 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2 3710 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36 4994 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36, file size: 156920 bytes , padded to 516096 nibbles:  5247 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2, file size: 168312 bytes , padded to 516096 nibbles:  6667 ms
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36 1670 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libefivar.so.1.36
+LOG1: ==============Worker Thread 1 stops at: 2023-04-15T18:12:33.484Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2 1792 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libdbus-glib-1.so.2.2.2
+LOG1: ==============Worker Thread 0 stops at: 2023-04-15T18:12:33.740Z==============
+LOG1: Thread 0 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 1 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 2 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 3 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 4 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 5 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 6 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 7 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 8 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 9 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 10 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 11 completed at: 2023-04-15T18:12:33.741Z
+LOG1: Thread 12 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 13 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 14 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 15 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 16 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 17 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 18 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 19 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 20 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 21 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 22 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 23 completed at: 2023-04-15T18:12:33.742Z
+LOG1: Thread 24 completed at: 2023-04-15T18:12:33.742Z
+LOG1: PERF_USE_ProcessAllFiles 24554 ms
+
+ERR: 
+
+-- preprocess Step1: broadcast config files 383265 ms
+PERF_USE_PreprocessTransitions 393298 ms
+AFTER PreprocessTransitions.: TOTAL: VirtMem: 1962857 MB, Mem: 29686 MB
+preprocess_gcd: me: 0, /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat ...
+-- -- process_gcd Step 1: generate set for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat, set_size: 34474 245 ms
+-- -- process_gcd Step 2: gen P for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat, poly_size: 1032448 32671 ms
+-- -- process_gcd Step 3: gen P_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat, poly_size: 34474 892 ms
+-- -- process_gcd Step 4: write P_D for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat, poly_size: 1032447 81 ms
+-- -- process_gcd Step 5: gen GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat, poly_size: 997974 19246 ms
+-- -- process_gcd Step 6: gen PD_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat, poly_size: 34473 5360 ms
+-- -- process_gcd Step 7: gen Bizout identity for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat. a:34474, b:34473, s: 34472, t: 34473 9827 ms
+-- -- process_gcd Step 8. write ALL files  for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat 1458 ms
+-- PROCESS_GCD TOTAL for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/states.dat 69783 ms
+preprocess_gcd: me: 0, /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat ...
+-- -- process_gcd Step 1: generate set for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat, set_size: 84585 127 ms
+-- -- process_gcd Step 2: gen P for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat, poly_size: 1032192 26329 ms
+-- -- process_gcd Step 3: gen P_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat, poly_size: 84585 2134 ms
+-- -- process_gcd Step 4: write P_D for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat, poly_size: 1032191 80 ms
+-- -- process_gcd Step 5: gen GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat, poly_size: 947607 19553 ms
+-- -- process_gcd Step 6: gen PD_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat, poly_size: 84584 6341 ms
+-- -- process_gcd Step 7: gen Bizout identity for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat. a:84585, b:84584, s: 84583, t: 84584 23613 ms
+-- -- process_gcd Step 8. write ALL files  for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat 1495 ms
+-- PROCESS_GCD TOTAL for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36/trans.dat 79677 ms
+-- -- process_gcd Step 9. tar the dir: /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36 1 us
+PERF_BATCH_GCD: me: 0, #jobs: 1 158220 ms
+PERF_USE_Batch_GCD 167304 ms
+gen_dis_qap: filesize: 516096
+-- GenQAP Step 1: LoadWitness 3456 ms
+-- GenQAP Step 1: LoadWitness: TOTAL: VirtMem: 1971487 MB, Mem: 35918 MB
+Transfer Poly Evidence:  414 ms
+Transfer Poly Evidence: : TOTAL: VirtMem: 1971487 MB, Mem: 36170 MB
+RunJsnark 18377 ms
+RunJsnark: TOTAL: VirtMem: 1971487 MB, Mem: 38188 MB
+ParseLocalR1CS Constraints: 131072:  9648 ms
+ParseLocalR1CS: TOTAL: VirtMem: 1991873 MB, Mem: 58752 MB
+Local->DisR1CS: 33554432:  8956 ms
+Local->DisR1CS: TOTAL: VirtMem: 1991873 MB, Mem: 58893 MB
+Build DisVars of Len: 45980915:  9287 ms
+Build DisVars: TOTAL: VirtMem: 1993884 MB, Mem: 60794 MB
+Check DisR1CS SAT:  8874 ms
+Check DisR1CS SAT: : TOTAL: VirtMem: 1994636 MB, Mem: 64253 MB
+-- GenQAP Step 2: GenDisR1CS: size: 33554432,  73429 ms
+-- GenQAP Step 2: GenDisR1CS: TOTAL: VirtMem: 1993260 MB, Mem: 64295 MB
+-- GenQAP Step 3: GenQAP: vars: 45980915 12107 ms
+-- GenQAP Step 3: GenQAP: TOTAL: VirtMem: 2001555 MB, Mem: 73375 MB
+-- GenQAP Step 4: GenDisKey for SigmaProtos size: 45980915 27059 ms
+-- GenQAP Step 4: GenDisKey for SigmaProtos: TOTAL: VirtMem: 2044805 MB, Mem: 119804 MB
+PERF_USE_GenQAP 132219 ms
+PERF_USE_GenSigmaKey 27660 ms
+PERF_USE_GenSubsetPoly 886 ms
+PERF_USE_OnetimeSetup 730488 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2->101 9213 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2
+===================================
+ProveStep1: PERF_USE_GenWitness1 2497 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:45980915, LocalVars: 179565 96 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 231 us
+ProveStep4: PERF_USE_Groth1. Constraints: 33554432 817 ms
+ProveStep5: PERF_USE_GenDpSetCommit 274 ms
+ProveStep5: PERF_USE_EvalCirc2 227 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 33554432 4247 ms
+ProveStep7: PERF_USE_Groth16Stage2 6691 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 97436827 79611 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 130149 1231 ms
+PERF_USE_WritePrf 256 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libdbus-glib-1.so.2.2.2  95820 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36->101 96054 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36
+===================================
+ProveStep1: PERF_USE_GenWitness1 2744 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:45980915, LocalVars: 179565 92 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 392 us
+ProveStep4: PERF_USE_Groth1. Constraints: 33554432 692 ms
+ProveStep5: PERF_USE_GenDpSetCommit 256 ms
+ProveStep5: PERF_USE_EvalCirc2 237 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 33554432 4275 ms
+ProveStep7: PERF_USE_Groth16Stage2 6582 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 97436827 79987 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 119060 1153 ms
+PERF_USE_WritePrf 211 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libefivar.so.1.36  96129 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libevent_extra-2.0.so.5.1.9
+===================================
+ProveStep1: PERF_USE_GenWitness1 2867 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:45980915, LocalVars: 179565 119 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 254 us
+ProveStep4: PERF_USE_Groth1. Constraints: 33554432 665 ms
+ProveStep5: PERF_USE_GenDpSetCommit 293 ms
+ProveStep5: PERF_USE_EvalCirc2 209 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 33554432 4360 ms
+ProveStep7: PERF_USE_Groth16Stage2 6507 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 97436827 79675 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 130764 1270 ms
+PERF_USE_WritePrf 187 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libevent_extra-2.0.so.5.1.9
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libevent_extra-2.0.so.5.1.9  96075 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libuser.so.1.5.0
+===================================
+ProveStep1: PERF_USE_GenWitness1 2636 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:45980915, LocalVars: 179565 70 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 456 us
+ProveStep4: PERF_USE_Groth1. Constraints: 33554432 715 ms
+ProveStep5: PERF_USE_GenDpSetCommit 253 ms
+ProveStep5: PERF_USE_EvalCirc2 200 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 33554432 4281 ms
+ProveStep7: PERF_USE_Groth16Stage2 6572 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 97436827 79404 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 122404 1246 ms
+PERF_USE_WritePrf 214 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libuser.so.1.5.0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_libuser.so.1.5.0  95481 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_selfserv
+===================================
+ProveStep1: PERF_USE_GenWitness1 2683 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:45980915, LocalVars: 179565 110 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 383 us
+ProveStep4: PERF_USE_Groth1. Constraints: 33554432 730 ms
+ProveStep5: PERF_USE_GenDpSetCommit 272 ms
+ProveStep5: PERF_USE_EvalCirc2 213 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 33554432 4265 ms
+ProveStep7: PERF_USE_Groth16Stage2 6552 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 97436827 79758 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 139622 2112 ms
+PERF_USE_WritePrf 237 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_selfserv
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_selfserv  96812 ms

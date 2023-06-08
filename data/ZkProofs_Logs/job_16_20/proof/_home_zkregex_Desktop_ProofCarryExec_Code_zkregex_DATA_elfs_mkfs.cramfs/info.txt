@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/mkfs.cramfs 37024 16 0 18 0 17499781

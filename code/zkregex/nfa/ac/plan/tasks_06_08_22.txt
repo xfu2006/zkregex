@@ -1,0 +1,51 @@
+--------------------------------------
+Plan Week 06/09/2022
+--------------------------------------
+Our final goal is to answer the following questions:
+(1) does AC signature has FALSE POSITIVE? (report virus for GOOD files)
+(2) does AC signature has FALSE NEGATIVE? (report NO virus for BAD files)
+This eventually will be tested in ACTest.java and ACFastTest.java
+(testGood/BadFiles operations). 
+
+We will design and factor the job into the following tasks:
+
+T1. collect sample VIRUS files
+	In nfa/ac/data/clamav/source/main.ndb (we have all virus hex signatures)
+	e.g., Win.Trojan.Parite-1.0 .......
+	Need to find 3 REAL viruses in the last and save them into:
+	*** nfa/ac/data/real_virus ***
+	TO avoid files being removed when people download, 7z 
+	the file with password "abc123" (see post: https://stackoverflow.com/questions/28160254/7-zip-command-to-create-and-extract-a-password-protected-zip-file-on-windows) 
+
+T2. collect sample SIMULATED VIRUS
+	In case T1 does not work, we can collect 3 sample executables 
+	from /usr/bin and put them in folder
+	*** nfa/ac/data/simulated_virus/src ***
+	Finish extract_sig.py to generate signatures for them
+	check: https://blog.adamsweet.org/?p=250
+
+T3. Provide a scan() function in AC
+	1. in ac/src/...../Tools.java implement the following utility function
+		[a] toAbsolutePath
+		[b] getFiles
+	2. in ac/src/..../AC.java implement the following functions
+		[a] isVirus(filename)
+		[b] listViruses(dirname)
+
+===============================================
+GIT instructions
+===============================================
+Save your current version (in case I've error in merge)
+go to ROOT project dir.
+> git add .
+> git commit -a -m "some desc"
+> git tag FNAME_BEFORE_06092022_MERGE
+
+# start a new branch
+> git fetch origin
+> git checkout origin MAIN2
+> git checkout -b FNAME_NEW_DIGIT
+> git add .
+> git commit -a -m "somemsg"
+	
+	

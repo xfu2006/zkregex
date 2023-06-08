@@ -1,0 +1,2933 @@
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 4 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  32 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 12245 MB, Mem: 34 MB
+LOG:  -- Generating QAP of size: 1048576 77 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 12438 MB, Mem: 227 MB
+LOG: Diskey::gen size: 8, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 25888 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 13144 MB, Mem: 1295 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 4 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 62 ms
+LOG: ------ msm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 97 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 996 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 996 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 198 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 11 us
+LOG: -- prove_stage1 Step5: synchronize 85 us
+LOG: -- prove_stage1 TOTAL 996 ms
+LOG: ------ msm: size: 262144 3233 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3235 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 256 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3235 ms
+LOG: -- prove_stage2 Step1: compute A 3236 ms
+LOG: ------ msm_g2: size: 262144 10057 ms
+LOG: -- prove_stage2 Step2: compute B2 10075 ms
+LOG: ------ msm: size: 262144 3217 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3219 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 261 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3220 ms
+LOG: -- prove_stage2 Step3: compute B1 3220 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 118 ms
+LOG: ------ msm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 86 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2613 ms
+LOG: ------ msm: size: 262143 3221 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3223 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 263 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3223 ms
+LOG: -- prove_stage2 Step4: compute Ck 5841 ms
+LOG: -- prove_stage2 TOTAL 22373 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 13248 MB, Mem: 1532 MB
+LOG: ProveStage1 and 2: 1048576 23700 ms
+LOG: 	 Round: 0, Time: 23545 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 12439 MB, Mem: 724 MB
+LOG:  -- Generating QAP of size: 1048576 71 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 12459 MB, Mem: 743 MB
+LOG: Diskey::gen size: 8, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 25808 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 13397 MB, Mem: 1707 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 60 ms
+LOG: ------ msm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 82 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 994 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 994 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 198 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 10 us
+LOG: -- prove_stage1 Step5: synchronize 82 us
+LOG: -- prove_stage1 TOTAL 995 ms
+LOG: ------ msm: size: 262144 3216 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3218 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 271 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3218 ms
+LOG: -- prove_stage2 Step1: compute A 3218 ms
+LOG: ------ msm_g2: size: 262144 10066 ms
+LOG: -- prove_stage2 Step2: compute B2 10083 ms
+LOG: ------ msm: size: 262144 3222 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3224 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 268 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3224 ms
+LOG: -- prove_stage2 Step3: compute B1 3224 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 134 ms
+LOG: ------ msm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 88 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2630 ms
+LOG: ------ msm: size: 262143 3219 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3220 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 248 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3221 ms
+LOG: -- prove_stage2 Step4: compute Ck 5854 ms
+LOG: -- prove_stage2 TOTAL 22382 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 13394 MB, Mem: 1740 MB
+LOG: ProveStage1 and 2: 1048576 23708 ms
+LOG: 	 Round: 1, Time: 23551 ms
+REPORT_op: groth16prove, size: 1048576, time: 23551 ms, np: 4
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 12346 MB, Mem: 692 MB
+LOG:  -- Generating QAP of size: 2097152 152 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 12634 MB, Mem: 980 MB
+LOG: Diskey::gen size: 8, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 49660 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 13989 MB, Mem: 2353 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 131 ms
+LOG: ------ msm: size: 131071 1752 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1752 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 81 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1883 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 1886 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 11 us
+LOG: -- prove_stage1 Step5: synchronize 95 us
+LOG: -- prove_stage1 TOTAL 1886 ms
+LOG: ------ msm: size: 524288 5838 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5862 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5864 ms
+LOG: -- prove_stage2 Step1: compute A 5864 ms
+LOG: ------ msm_g2: size: 524288 18214 ms
+LOG: -- prove_stage2 Step2: compute B2 18254 ms
+LOG: ------ msm: size: 524288 5849 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5872 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5873 ms
+LOG: -- prove_stage2 Step3: compute B1 5873 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 248 ms
+LOG: ------ msm: size: 393215 4532 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4532 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 99 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 4781 ms
+LOG: ------ msm: size: 524287 5952 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 5974 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5976 ms
+LOG: -- prove_stage2 Step4: compute Ck 10762 ms
+LOG: -- prove_stage2 TOTAL 40755 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 13989 MB, Mem: 2668 MB
+LOG: ProveStage1 and 2: 2097152 42980 ms
+LOG: 	 Round: 0, Time: 42821 ms
+REPORT_op: groth16prove, size: 2097152, time: 42821 ms, np: 4
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 12296 MB, Mem: 975 MB
+LOG:  -- Generating QAP of size: 4194304 307 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 13032 MB, Mem: 1711 MB
+LOG: Diskey::gen size: 8, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 96389 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 15649 MB, Mem: 4425 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 265 ms
+LOG: ------ msm: size: 262143 3220 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3220 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 91 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3485 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 3489 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 102 us
+LOG: -- prove_stage1 TOTAL 3490 ms
+LOG: ------ msm: size: 1048576 11113 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11158 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11159 ms
+LOG: -- prove_stage2 Step1: compute A 11160 ms
+LOG: ------ msm_g2: size: 1048576 34615 ms
+LOG: -- prove_stage2 Step2: compute B2 34700 ms
+LOG: ------ msm: size: 1048576 11092 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11143 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11144 ms
+LOG: -- prove_stage2 Step3: compute B1 11144 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 504 ms
+LOG: ------ msm: size: 786431 8469 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 8469 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 109 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 8975 ms
+LOG: ------ msm: size: 1048575 11090 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 11133 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11135 ms
+LOG: -- prove_stage2 Step4: compute Ck 20117 ms
+LOG: -- prove_stage2 TOTAL 77122 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 15544 MB, Mem: 4483 MB
+LOG: ProveStage1 and 2: 4194304 80944 ms
+LOG: 	 Round: 0, Time: 80802 ms
+REPORT_op: groth16prove, size: 4194304, time: 80802 ms, np: 4
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 12344 MB, Mem: 1283 MB
+LOG:  -- Generating QAP of size: 8388608 606 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 13880 MB, Mem: 2819 MB
+LOG: Diskey::gen size: 8, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 182433 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 18798 MB, Mem: 8096 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 543 ms
+LOG: ------ msm: size: 524287 5836 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 5836 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 102 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6381 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 6383 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 98 us
+LOG: -- prove_stage1 TOTAL 6384 ms
+LOG: ------ msm: size: 2097152 20972 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21062 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21064 ms
+LOG: -- prove_stage2 Step1: compute A 21064 ms
+LOG: ------ msm_g2: size: 2097152 65325 ms
+LOG: -- prove_stage2 Step2: compute B2 65471 ms
+LOG: ------ msm: size: 2097152 20966 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21052 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21054 ms
+LOG: -- prove_stage2 Step3: compute B1 21054 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 1000 ms
+LOG: ------ msm: size: 1572863 15992 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 15992 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 111 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 16995 ms
+LOG: ------ msm: size: 2097151 20977 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 21066 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21068 ms
+LOG: -- prove_stage2 Step4: compute Ck 38069 ms
+LOG: -- prove_stage2 TOTAL 145661 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 18839 MB, Mem: 8531 MB
+LOG: ProveStage1 and 2: 8388608 152377 ms
+LOG: 	 Round: 0, Time: 152258 ms
+REPORT_op: groth16prove, size: 8388608, time: 152258 ms, np: 4
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 12375 MB, Mem: 2067 MB
+LOG:  -- Generating QAP of size: 16777216 1215 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 15447 MB, Mem: 5139 MB
+LOG: Diskey::gen size: 8, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 358159 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 25262 MB, Mem: 15100 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 1127 ms
+LOG: ------ msm: size: 1048575 11112 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 11112 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 114 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 12242 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 12246 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 93 us
+LOG: -- prove_stage1 TOTAL 12246 ms
+LOG: ------ msm: size: 4194304 40084 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40254 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40256 ms
+LOG: -- prove_stage2 Step1: compute A 40256 ms
+LOG: ------ msm_g2: size: 4194304 125993 ms
+LOG: -- prove_stage2 Step2: compute B2 126289 ms
+LOG: ------ msm: size: 4194304 39884 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40052 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40054 ms
+LOG: -- prove_stage2 Step3: compute B1 40054 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 2018 ms
+LOG: ------ msm: size: 3145727 30611 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 30611 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 4 113 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 32631 ms
+LOG: ------ msm: size: 4194303 39988 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 40160 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40161 ms
+LOG: -- prove_stage2 Step4: compute Ck 72804 ms
+LOG: -- prove_stage2 TOTAL 279405 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 25262 MB, Mem: 15497 MB
+LOG: ProveStage1 and 2: 16777216 291984 ms
+LOG: 	 Round: 0, Time: 291904 ms
+REPORT_op: groth16prove, size: 16777216, time: 291904 ms, np: 4
+TIMEOUT for op: fft size: 16777216
+LOG: WaitForBarrier of Main 1357733 ms
+ACC COMPLETED
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 8 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  23 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24570 MB, Mem: 79 MB
+LOG:  -- Generating QAP of size: 1048576 39 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 24765 MB, Mem: 274 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 14087 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 25768 MB, Mem: 1664 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 4 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 31 ms
+LOG: ------ msm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 324 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 542 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 542 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 119 us
+LOG: -- prove_stage1 TOTAL 542 ms
+LOG: ------ msm: size: 131072 1705 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1706 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 236 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1706 ms
+LOG: -- prove_stage2 Step1: compute A 1706 ms
+LOG: ------ msm_g2: size: 131072 5329 ms
+LOG: -- prove_stage2 Step2: compute B2 5339 ms
+LOG: ------ msm: size: 131072 1703 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 254 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1704 ms
+LOG: -- prove_stage2 Step3: compute B1 1705 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 66 ms
+LOG: ------ msm: size: 98303 1323 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1323 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 153 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1390 ms
+LOG: ------ msm: size: 131071 1709 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1710 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 242 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1710 ms
+LOG: -- prove_stage2 Step4: compute Ck 3101 ms
+LOG: -- prove_stage2 TOTAL 11853 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 25768 MB, Mem: 1768 MB
+LOG: ProveStage1 and 2: 1048576 12757 ms
+LOG: 	 Round: 0, Time: 12580 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24760 MB, Mem: 762 MB
+LOG:  -- Generating QAP of size: 1048576 38 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 24844 MB, Mem: 846 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 14182 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 25912 MB, Mem: 1951 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 33 ms
+LOG: ------ msm: size: 32767 520 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 520 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 147 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 554 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 554 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 208 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 11 us
+LOG: -- prove_stage1 Step5: synchronize 116 us
+LOG: -- prove_stage1 TOTAL 554 ms
+LOG: ------ msm: size: 131072 1772 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1773 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 248 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1773 ms
+LOG: -- prove_stage2 Step1: compute A 1773 ms
+LOG: ------ msm_g2: size: 131072 5360 ms
+LOG: -- prove_stage2 Step2: compute B2 5365 ms
+LOG: ------ msm: size: 131072 1702 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1703 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 288 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1704 ms
+LOG: -- prove_stage2 Step3: compute B1 1704 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 64 ms
+LOG: ------ msm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 145 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1384 ms
+LOG: ------ msm: size: 131071 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1705 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 245 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1705 ms
+LOG: -- prove_stage2 Step4: compute Ck 3091 ms
+LOG: -- prove_stage2 TOTAL 11935 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 25936 MB, Mem: 2034 MB
+LOG: ProveStage1 and 2: 1048576 12845 ms
+LOG: 	 Round: 1, Time: 12673 ms
+REPORT_op: groth16prove, size: 1048576, time: 12673 ms, np: 8
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24895 MB, Mem: 994 MB
+LOG:  -- Generating QAP of size: 2097152 73 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 25059 MB, Mem: 1157 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 25889 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 26417 MB, Mem: 2768 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 63 ms
+LOG: ------ msm: size: 65535 936 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 936 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 653 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1001 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 1004 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 11 us
+LOG: -- prove_stage1 Step5: synchronize 137 us
+LOG: -- prove_stage1 TOTAL 1004 ms
+LOG: ------ msm: size: 262144 3226 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3237 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 309 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3237 ms
+LOG: -- prove_stage2 Step1: compute A 3237 ms
+LOG: ------ msm_g2: size: 262144 10075 ms
+LOG: -- prove_stage2 Step2: compute B2 10093 ms
+LOG: ------ msm: size: 262144 3223 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3225 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 306 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3225 ms
+LOG: -- prove_stage2 Step3: compute B1 3225 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 132 ms
+LOG: ------ msm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 153 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2628 ms
+LOG: ------ msm: size: 262143 3299 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3310 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 265 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3310 ms
+LOG: -- prove_stage2 Step4: compute Ck 5943 ms
+LOG: -- prove_stage2 TOTAL 22500 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 26570 MB, Mem: 3135 MB
+LOG: ProveStage1 and 2: 2097152 23865 ms
+LOG: 	 Round: 0, Time: 23695 ms
+REPORT_op: groth16prove, size: 2097152, time: 23695 ms, np: 8
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24713 MB, Mem: 1279 MB
+LOG:  -- Generating QAP of size: 4194304 153 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 25417 MB, Mem: 1982 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 49713 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 28073 MB, Mem: 4671 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 135 ms
+LOG: ------ msm: size: 131071 1704 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1704 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 6 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1846 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 1849 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 198 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 125 us
+LOG: -- prove_stage1 TOTAL 1850 ms
+LOG: ------ msm: size: 524288 5844 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5867 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 544 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5867 ms
+LOG: -- prove_stage2 Step1: compute A 5867 ms
+LOG: ------ msm_g2: size: 524288 18281 ms
+LOG: -- prove_stage2 Step2: compute B2 18320 ms
+LOG: ------ msm: size: 524288 5835 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5855 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 9 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5865 ms
+LOG: -- prove_stage2 Step3: compute B1 5865 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 271 ms
+LOG: ------ msm: size: 393215 4534 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4534 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 1 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 4807 ms
+LOG: ------ msm: size: 524287 5848 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 5870 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5871 ms
+LOG: -- prove_stage2 Step4: compute Ck 10683 ms
+LOG: -- prove_stage2 TOTAL 40738 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 28169 MB, Mem: 5413 MB
+LOG: ProveStage1 and 2: 4194304 42944 ms
+LOG: 	 Round: 0, Time: 42782 ms
+REPORT_op: groth16prove, size: 4194304, time: 42782 ms, np: 8
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24713 MB, Mem: 1958 MB
+LOG:  -- Generating QAP of size: 8388608 302 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 26185 MB, Mem: 3430 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 96353 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 31383 MB, Mem: 8837 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 276 ms
+LOG: ------ msm: size: 262143 3219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 17 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3514 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 3518 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 199 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 124 us
+LOG: -- prove_stage1 TOTAL 3518 ms
+LOG: ------ msm: size: 1048576 11104 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11151 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11156 ms
+LOG: -- prove_stage2 Step1: compute A 11156 ms
+LOG: ------ msm_g2: size: 1048576 34651 ms
+LOG: -- prove_stage2 Step2: compute B2 34729 ms
+LOG: ------ msm: size: 1048576 11105 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11151 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 8 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11160 ms
+LOG: -- prove_stage2 Step3: compute B1 11160 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 586 ms
+LOG: ------ msm: size: 786431 8470 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 8470 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 191 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 9056 ms
+LOG: ------ msm: size: 1048575 11101 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 11143 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 7 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11151 ms
+LOG: -- prove_stage2 Step4: compute Ck 20214 ms
+LOG: -- prove_stage2 TOTAL 77261 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 31209 MB, Mem: 8914 MB
+LOG: ProveStage1 and 2: 8388608 81139 ms
+LOG: 	 Round: 0, Time: 80984 ms
+REPORT_op: groth16prove, size: 8388608, time: 80984 ms, np: 8
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24809 MB, Mem: 2513 MB
+LOG:  -- Generating QAP of size: 16777216 605 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 27881 MB, Mem: 5585 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 182481 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 37727 MB, Mem: 16190 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 596 ms
+LOG: ------ msm: size: 524287 5844 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 5844 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 29 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6472 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 6474 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 116 us
+LOG: -- prove_stage1 TOTAL 6474 ms
+LOG: ------ msm: size: 2097152 21064 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21154 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 673 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21155 ms
+LOG: -- prove_stage2 Step1: compute A 21155 ms
+LOG: ------ msm_g2: size: 2097152 65326 ms
+LOG: -- prove_stage2 Step2: compute B2 65474 ms
+LOG: ------ msm: size: 2097152 20976 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21062 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 28 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21091 ms
+LOG: -- prove_stage2 Step3: compute B1 21091 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 1172 ms
+LOG: ------ msm: size: 1572863 15999 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 15999 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 78 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 17252 ms
+LOG: ------ msm: size: 2097151 20998 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 21087 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 23 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21111 ms
+LOG: -- prove_stage2 Step4: compute Ck 38370 ms
+LOG: -- prove_stage2 TOTAL 146091 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 37865 MB, Mem: 17267 MB
+LOG: ProveStage1 and 2: 16777216 152924 ms
+LOG: 	 Round: 0, Time: 152791 ms
+REPORT_op: groth16prove, size: 16777216, time: 152791 ms, np: 8
+LOG: size: 33554432 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 24937 MB, Mem: 4338 MB
+LOG:  -- Generating QAP of size: 33554432 1214 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 31081 MB, Mem: 10483 MB
+LOG: Diskey::gen size: 16, part_len: 2
+LOG:  -- Set up ProverKey of size: 33554432 358077 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 50655 MB, Mem: 30382 MB
+LOG: -- prove_stage1 Step1: prep. size: 8388607 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 8388607 1220 ms
+LOG: ------ msm: size: 1048575 11107 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 11107 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 50 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 12380 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 8388607 12384 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 199 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 126 us
+LOG: -- prove_stage1 TOTAL 12384 ms
+LOG: ------ msm: size: 4194304 40054 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40230 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 671 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40231 ms
+LOG: -- prove_stage2 Step1: compute A 40231 ms
+LOG: ------ msm_g2: size: 4194304 125745 ms
+LOG: -- prove_stage2 Step2: compute B2 126172 ms
+LOG: ------ msm: size: 4194304 40060 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40229 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 770 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40230 ms
+LOG: -- prove_stage2 Step3: compute B1 40230 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 25165823 2364 ms
+LOG: ------ msm: size: 3145727 30585 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 30585 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 8 180 us
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 32950 ms
+LOG: ------ msm: size: 4194303 40104 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 40275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 691 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40276 ms
+LOG: -- prove_stage2 Step4: compute Ck 73239 ms
+LOG: -- prove_stage2 TOTAL 279874 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 50655 MB, Mem: 31280 MB
+LOG: ProveStage1 and 2: 33554432 292618 ms
+LOG: 	 Round: 0, Time: 292526 ms
+REPORT_op: groth16prove, size: 33554432, time: 292526 ms, np: 8
+TIMEOUT for op: fft size: 33554432
+LOG: WaitForBarrier of Main 1363801 ms
+ACC COMPLETED
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 16 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  34 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 49269 MB, Mem: 160 MB
+LOG:  -- Generating QAP of size: 1048576 21 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 49466 MB, Mem: 359 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 7647 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 50466 MB, Mem: 1765 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 4 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 23 ms
+LOG: ------ msm: size: 16383 275 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 16383 275 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 302 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 302 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 202 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 196 us
+LOG: -- prove_stage1 TOTAL 303 ms
+LOG: ------ msm: size: 65536 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 936 ms
+LOG: -- prove_stage2 Step1: compute A 936 ms
+LOG: ------ msm_g2: size: 65536 2925 ms
+LOG: -- prove_stage2 Step2: compute B2 2930 ms
+LOG: ------ msm: size: 65536 931 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 934 ms
+LOG: -- prove_stage2 Step3: compute B1 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 33 ms
+LOG: ------ msm: size: 49151 740 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 49151 740 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 5 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 780 ms
+LOG: ------ msm: size: 65535 931 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65535 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 934 ms
+LOG: -- prove_stage2 Step4: compute Ck 1715 ms
+LOG: -- prove_stage2 TOTAL 6518 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 50501 MB, Mem: 2214 MB
+LOG: ProveStage1 and 2: 1048576 7201 ms
+LOG: 	 Round: 0, Time: 7014 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 50077 MB, Mem: 1793 MB
+LOG:  -- Generating QAP of size: 1048576 19 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 50077 MB, Mem: 1797 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 7622 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 50741 MB, Mem: 2505 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 17 ms
+LOG: ------ msm: size: 16383 275 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 2 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 296 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 296 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 204 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 209 us
+LOG: -- prove_stage1 TOTAL 297 ms
+LOG: ------ msm: size: 65536 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 934 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 336 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 934 ms
+LOG: -- prove_stage2 Step1: compute A 935 ms
+LOG: ------ msm_g2: size: 65536 2926 ms
+LOG: -- prove_stage2 Step2: compute B2 2932 ms
+LOG: ------ msm: size: 65536 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 934 ms
+LOG: -- prove_stage2 Step3: compute B1 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 29 ms
+LOG: ------ msm: size: 49151 740 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 49151 740 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 6 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 776 ms
+LOG: ------ msm: size: 65535 931 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65535 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 934 ms
+LOG: -- prove_stage2 Step4: compute Ck 1712 ms
+LOG: -- prove_stage2 TOTAL 6515 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 50741 MB, Mem: 2609 MB
+LOG: ProveStage1 and 2: 1048576 7189 ms
+LOG: 	 Round: 1, Time: 7002 ms
+REPORT_op: groth16prove, size: 1048576, time: 7002 ms, np: 16
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 50014 MB, Mem: 1887 MB
+LOG:  -- Generating QAP of size: 2097152 36 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 50014 MB, Mem: 1888 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 14065 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 52021 MB, Mem: 4030 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 35 ms
+LOG: ------ msm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 4 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 549 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 549 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 202 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 185 us
+LOG: -- prove_stage1 TOTAL 550 ms
+LOG: ------ msm: size: 131072 1703 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1708 ms
+LOG: -- prove_stage2 Step1: compute A 1709 ms
+LOG: ------ msm_g2: size: 131072 5321 ms
+LOG: -- prove_stage2 Step2: compute B2 5329 ms
+LOG: ------ msm: size: 131072 1700 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1701 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1704 ms
+LOG: -- prove_stage2 Step3: compute B1 1705 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 54 ms
+LOG: ------ msm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 9 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1382 ms
+LOG: ------ msm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1702 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1704 ms
+LOG: -- prove_stage2 Step4: compute Ck 3088 ms
+LOG: -- prove_stage2 TOTAL 11832 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 52021 MB, Mem: 4068 MB
+LOG: ProveStage1 and 2: 2097152 12761 ms
+LOG: 	 Round: 0, Time: 12585 ms
+REPORT_op: groth16prove, size: 2097152, time: 12585 ms, np: 16
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 49811 MB, Mem: 1861 MB
+LOG:  -- Generating QAP of size: 4194304 74 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 50175 MB, Mem: 2223 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 25933 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 52990 MB, Mem: 5574 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 66 ms
+LOG: ------ msm: size: 65535 931 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 931 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 9 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1007 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 1011 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 195 us
+LOG: -- prove_stage1 TOTAL 1011 ms
+LOG: ------ msm: size: 262144 3217 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3228 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 383 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3228 ms
+LOG: -- prove_stage2 Step1: compute A 3229 ms
+LOG: ------ msm_g2: size: 262144 10045 ms
+LOG: -- prove_stage2 Step2: compute B2 10079 ms
+LOG: ------ msm: size: 262144 3215 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3217 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 6 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3224 ms
+LOG: -- prove_stage2 Step3: compute B1 3224 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 116 ms
+LOG: ------ msm: size: 196607 2492 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2492 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 17 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2626 ms
+LOG: ------ msm: size: 262143 3217 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3230 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 6 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3237 ms
+LOG: -- prove_stage2 Step4: compute Ck 5870 ms
+LOG: -- prove_stage2 TOTAL 22404 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 53296 MB, Mem: 6178 MB
+LOG: ProveStage1 and 2: 4194304 23798 ms
+LOG: 	 Round: 0, Time: 23620 ms
+REPORT_op: groth16prove, size: 4194304, time: 23620 ms, np: 16
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 49678 MB, Mem: 2562 MB
+LOG:  -- Generating QAP of size: 8388608 154 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 50974 MB, Mem: 3856 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 49816 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 56350 MB, Mem: 9366 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 141 ms
+LOG: ------ msm: size: 131071 1700 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1700 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 14 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1856 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 1862 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 203 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 16 us
+LOG: -- prove_stage1 Step5: synchronize 205 us
+LOG: -- prove_stage1 TOTAL 1862 ms
+LOG: ------ msm: size: 524288 5834 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5859 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 14 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5874 ms
+LOG: -- prove_stage2 Step1: compute A 5874 ms
+LOG: ------ msm_g2: size: 524288 18219 ms
+LOG: -- prove_stage2 Step2: compute B2 18298 ms
+LOG: ------ msm: size: 524288 5832 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5856 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 13 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5869 ms
+LOG: -- prove_stage2 Step3: compute B1 5869 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 273 ms
+LOG: ------ msm: size: 393215 4527 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4527 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 40 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 4840 ms
+LOG: ------ msm: size: 524287 5831 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 5854 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 19 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5873 ms
+LOG: -- prove_stage2 Step4: compute Ck 10722 ms
+LOG: -- prove_stage2 TOTAL 40765 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 56508 MB, Mem: 10683 MB
+LOG: ProveStage1 and 2: 8388608 43007 ms
+LOG: 	 Round: 0, Time: 42841 ms
+REPORT_op: groth16prove, size: 8388608, time: 42841 ms, np: 16
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 49678 MB, Mem: 3855 MB
+LOG:  -- Generating QAP of size: 16777216 311 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 52750 MB, Mem: 6927 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 96706 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 62935 MB, Mem: 17581 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 300 ms
+LOG: ------ msm: size: 262143 3214 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3214 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 27 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3542 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 3551 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 197 us
+LOG: -- prove_stage1 TOTAL 3552 ms
+LOG: ------ msm: size: 1048576 11096 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11149 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 21 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11170 ms
+LOG: -- prove_stage2 Step1: compute A 11170 ms
+LOG: ------ msm_g2: size: 1048576 34580 ms
+LOG: -- prove_stage2 Step2: compute B2 34740 ms
+LOG: ------ msm: size: 1048576 11091 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11146 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 26 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11173 ms
+LOG: -- prove_stage2 Step3: compute B1 11173 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 541 ms
+LOG: ------ msm: size: 786431 8476 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 8476 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 63 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 9082 ms
+LOG: ------ msm: size: 1048575 11093 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 11140 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 34 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11174 ms
+LOG: -- prove_stage2 Step4: compute Ck 20269 ms
+LOG: -- prove_stage2 TOTAL 77353 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 62791 MB, Mem: 17771 MB
+LOG: ProveStage1 and 2: 16777216 81280 ms
+LOG: 	 Round: 0, Time: 81140 ms
+REPORT_op: groth16prove, size: 16777216, time: 81140 ms, np: 16
+LOG: size: 33554432 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 49862 MB, Mem: 4843 MB
+LOG:  -- Generating QAP of size: 33554432 622 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 56006 MB, Mem: 10987 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 33554432 182619 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 75827 MB, Mem: 32475 MB
+LOG: -- prove_stage1 Step1: prep. size: 8388607 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 8388607 633 ms
+LOG: ------ msm: size: 524287 5838 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 5838 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 56 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6529 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 8388607 6536 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 211 us
+LOG: -- prove_stage1 TOTAL 6537 ms
+LOG: ------ msm: size: 2097152 20985 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21091 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 31 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21122 ms
+LOG: -- prove_stage2 Step1: compute A 21122 ms
+LOG: ------ msm_g2: size: 2097152 65248 ms
+LOG: -- prove_stage2 Step2: compute B2 65717 ms
+LOG: ------ msm: size: 2097152 20960 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21069 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 61 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21130 ms
+LOG: -- prove_stage2 Step3: compute B1 21131 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 25165823 1079 ms
+LOG: ------ msm: size: 1572863 15980 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 15980 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 192 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 17253 ms
+LOG: ------ msm: size: 2097151 20965 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 21073 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 55 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21129 ms
+LOG: -- prove_stage2 Step4: compute Ck 38397 ms
+LOG: -- prove_stage2 TOTAL 146368 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 75887 MB, Mem: 33827 MB
+LOG: ProveStage1 and 2: 33554432 153280 ms
+LOG: 	 Round: 0, Time: 153200 ms
+REPORT_op: groth16prove, size: 33554432, time: 153200 ms, np: 16
+LOG: size: 67108864 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 50030 MB, Mem: 7971 MB
+LOG:  -- Generating QAP of size: 67108864 1248 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 62318 MB, Mem: 20259 MB
+LOG: Diskey::gen size: 32, part_len: 2
+LOG:  -- Set up ProverKey of size: 67108864 358820 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 101683 MB, Mem: 60582 MB
+LOG: -- prove_stage1 Step1: prep. size: 16777215 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 16777215 1302 ms
+LOG: ------ msm: size: 1048575 11098 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 11098 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 98 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 12499 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 16777215 12510 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 17 us
+LOG: -- prove_stage1 Step5: synchronize 183 us
+LOG: -- prove_stage1 TOTAL 12510 ms
+LOG: ------ msm: size: 4194304 39805 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40010 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 115 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40126 ms
+LOG: -- prove_stage2 Step1: compute A 40126 ms
+LOG: ------ msm_g2: size: 4194304 125768 ms
+LOG: -- prove_stage2 Step2: compute B2 126613 ms
+LOG: ------ msm: size: 4194304 39770 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 39967 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 184 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40152 ms
+LOG: -- prove_stage2 Step3: compute B1 40152 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 50331647 2157 ms
+LOG: ------ msm: size: 3145727 30336 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 30336 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 16 361 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 32856 ms
+LOG: ------ msm: size: 4194303 39763 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 39969 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 140 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 40109 ms
+LOG: -- prove_stage2 Step4: compute Ck 72994 ms
+LOG: -- prove_stage2 TOTAL 279887 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 101683 MB, Mem: 61545 MB
+LOG: ProveStage1 and 2: 67108864 292768 ms
+LOG: 	 Round: 0, Time: 292789 ms
+REPORT_op: groth16prove, size: 67108864, time: 292789 ms, np: 16
+TIMEOUT for op: fft size: 67108864
+LOG: WaitForBarrier of Main 1369042 ms
+ACC COMPLETED
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 32 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  36 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99053 MB, Mem: 421 MB
+LOG:  -- Generating QAP of size: 1048576 12 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 99254 MB, Mem: 631 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 4199 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 100257 MB, Mem: 2363 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 6 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 15 ms
+LOG: ------ msm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 2 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 167 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 168 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 11 us
+LOG: -- prove_stage1 Step5: synchronize 345 us
+LOG: -- prove_stage1 TOTAL 168 ms
+LOG: ------ msm: size: 32768 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 511 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 534 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 511 ms
+LOG: -- prove_stage2 Step1: compute A 512 ms
+LOG: ------ msm_g2: size: 32768 1610 ms
+LOG: -- prove_stage2 Step2: compute B2 1616 ms
+LOG: ------ msm: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 618 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 510 ms
+LOG: -- prove_stage2 Step3: compute B1 511 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 22 ms
+LOG: ------ msm: size: 24575 405 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 24575 405 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 430 ms
+LOG: ------ msm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 547 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 511 ms
+LOG: -- prove_stage2 Step4: compute Ck 943 ms
+LOG: -- prove_stage2 TOTAL 3583 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 100356 MB, Mem: 2656 MB
+LOG: ProveStage1 and 2: 1048576 4171 ms
+LOG: 	 Round: 0, Time: 3965 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99482 MB, Mem: 1792 MB
+LOG:  -- Generating QAP of size: 1048576 14 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 99584 MB, Mem: 1910 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 4177 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 100594 MB, Mem: 3042 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 16 ms
+LOG: ------ msm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 2 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 169 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 169 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 344 us
+LOG: -- prove_stage1 TOTAL 170 ms
+LOG: ------ msm: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 512 ms
+LOG: -- prove_stage2 Step1: compute A 512 ms
+LOG: ------ msm_g2: size: 32768 1604 ms
+LOG: -- prove_stage2 Step2: compute B2 1609 ms
+LOG: ------ msm: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 512 ms
+LOG: -- prove_stage2 Step3: compute B1 512 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 19 ms
+LOG: ------ msm: size: 24575 406 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 24575 406 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 429 ms
+LOG: ------ msm: size: 32767 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32767 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 510 ms
+LOG: -- prove_stage2 Step4: compute Ck 942 ms
+LOG: -- prove_stage2 TOTAL 3576 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 100594 MB, Mem: 3087 MB
+LOG: ProveStage1 and 2: 1048576 4166 ms
+LOG: 	 Round: 1, Time: 3961 ms
+REPORT_op: groth16prove, size: 1048576, time: 3961 ms, np: 32
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99476 MB, Mem: 1972 MB
+LOG:  -- Generating QAP of size: 2097152 25 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 99680 MB, Mem: 2178 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 7674 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 101818 MB, Mem: 4397 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 27 ms
+LOG: ------ msm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 307 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 307 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 388 us
+LOG: -- prove_stage1 TOTAL 308 ms
+LOG: ------ msm: size: 65536 934 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 935 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 939 ms
+LOG: -- prove_stage2 Step1: compute A 939 ms
+LOG: ------ msm_g2: size: 65536 2925 ms
+LOG: -- prove_stage2 Step2: compute B2 2935 ms
+LOG: ------ msm: size: 65536 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 936 ms
+LOG: -- prove_stage2 Step3: compute B1 937 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 33 ms
+LOG: ------ msm: size: 49151 741 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 49151 741 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 8 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 783 ms
+LOG: ------ msm: size: 65535 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65535 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 936 ms
+LOG: -- prove_stage2 Step4: compute Ck 1721 ms
+LOG: -- prove_stage2 TOTAL 6534 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 101818 MB, Mem: 4941 MB
+LOG: ProveStage1 and 2: 2097152 7260 ms
+LOG: 	 Round: 0, Time: 7062 ms
+REPORT_op: groth16prove, size: 2097152, time: 7062 ms, np: 32
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99545 MB, Mem: 2672 MB
+LOG:  -- Generating QAP of size: 4194304 43 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 99953 MB, Mem: 3077 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 14187 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 104506 MB, Mem: 8015 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 44 ms
+LOG: ------ msm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 4 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 559 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 560 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 21 us
+LOG: -- prove_stage1 Step5: synchronize 375 us
+LOG: -- prove_stage1 TOTAL 560 ms
+LOG: ------ msm: size: 131072 1702 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1703 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 8 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1711 ms
+LOG: -- prove_stage2 Step1: compute A 1712 ms
+LOG: ------ msm_g2: size: 131072 5347 ms
+LOG: -- prove_stage2 Step2: compute B2 5412 ms
+LOG: ------ msm: size: 131072 1701 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1702 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 10 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1713 ms
+LOG: -- prove_stage2 Step3: compute B1 1713 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 62 ms
+LOG: ------ msm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 10 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1392 ms
+LOG: ------ msm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1702 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 7 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1709 ms
+LOG: -- prove_stage2 Step4: compute Ck 3103 ms
+LOG: -- prove_stage2 TOTAL 11941 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 104506 MB, Mem: 8152 MB
+LOG: ProveStage1 and 2: 4194304 12928 ms
+LOG: 	 Round: 0, Time: 12728 ms
+REPORT_op: groth16prove, size: 4194304, time: 12728 ms, np: 32
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99959 MB, Mem: 3610 MB
+LOG:  -- Generating QAP of size: 8388608 77 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 100752 MB, Mem: 4399 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 26464 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 106431 MB, Mem: 11299 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 77 ms
+LOG: ------ msm: size: 65535 933 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 7 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1019 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 1023 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 377 us
+LOG: -- prove_stage1 TOTAL 1023 ms
+LOG: ------ msm: size: 262144 3218 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3229 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3232 ms
+LOG: -- prove_stage2 Step1: compute A 3232 ms
+LOG: ------ msm_g2: size: 262144 10102 ms
+LOG: -- prove_stage2 Step2: compute B2 10124 ms
+LOG: ------ msm: size: 262144 3216 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3219 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 16 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3235 ms
+LOG: -- prove_stage2 Step3: compute B1 3236 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 134 ms
+LOG: ------ msm: size: 196607 2497 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2497 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 14 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2646 ms
+LOG: ------ msm: size: 262143 3222 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3236 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3241 ms
+LOG: -- prove_stage2 Step4: compute Ck 5899 ms
+LOG: -- prove_stage2 TOTAL 22492 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 107034 MB, Mem: 12525 MB
+LOG: ProveStage1 and 2: 8388608 23931 ms
+LOG: 	 Round: 0, Time: 23754 ms
+REPORT_op: groth16prove, size: 8388608, time: 23754 ms, np: 32
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99279 MB, Mem: 4773 MB
+LOG:  -- Generating QAP of size: 16777216 159 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 102351 MB, Mem: 7843 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 51042 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 113215 MB, Mem: 19084 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 158 ms
+LOG: ------ msm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 15 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1875 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 1878 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 356 us
+LOG: -- prove_stage1 TOTAL 1879 ms
+LOG: ------ msm: size: 524288 5837 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5864 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 27 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5891 ms
+LOG: -- prove_stage2 Step1: compute A 5891 ms
+LOG: ------ msm_g2: size: 524288 18233 ms
+LOG: -- prove_stage2 Step2: compute B2 18385 ms
+LOG: ------ msm: size: 524288 5836 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5862 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 19 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5882 ms
+LOG: -- prove_stage2 Step3: compute B1 5883 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 297 ms
+LOG: ------ msm: size: 393215 4530 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4530 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 57 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 4885 ms
+LOG: ------ msm: size: 524287 5834 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 5859 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 21 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5881 ms
+LOG: -- prove_stage2 Step4: compute Ck 10778 ms
+LOG: -- prove_stage2 TOTAL 40938 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 113347 MB, Mem: 21373 MB
+LOG: ProveStage1 and 2: 16777216 43230 ms
+LOG: 	 Round: 0, Time: 43075 ms
+REPORT_op: groth16prove, size: 16777216, time: 43075 ms, np: 32
+LOG: size: 33554432 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99279 MB, Mem: 7307 MB
+LOG:  -- Generating QAP of size: 33554432 317 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 105424 MB, Mem: 13451 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 33554432 99936 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 126384 MB, Mem: 35582 MB
+LOG: -- prove_stage1 Step1: prep. size: 8388607 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 8388607 316 ms
+LOG: ------ msm: size: 262143 3218 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3218 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 30 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3565 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 8388607 3579 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 203 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 351 us
+LOG: -- prove_stage1 TOTAL 3580 ms
+LOG: ------ msm: size: 1048576 11104 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11165 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 24 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11189 ms
+LOG: -- prove_stage2 Step1: compute A 11189 ms
+LOG: ------ msm_g2: size: 1048576 34586 ms
+LOG: -- prove_stage2 Step2: compute B2 34940 ms
+LOG: ------ msm: size: 1048576 11106 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11169 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 28 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11197 ms
+LOG: -- prove_stage2 Step3: compute B1 11198 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 25165823 603 ms
+LOG: ------ msm: size: 786431 8482 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 8483 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 113 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 9200 ms
+LOG: ------ msm: size: 1048575 11217 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 11266 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 947 us
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11267 ms
+LOG: -- prove_stage2 Step4: compute Ck 20488 ms
+LOG: -- prove_stage2 TOTAL 77817 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 125424 MB, Mem: 35215 MB
+LOG: ProveStage1 and 2: 33554432 81807 ms
+LOG: 	 Round: 0, Time: 81697 ms
+REPORT_op: groth16prove, size: 33554432, time: 81697 ms, np: 32
+LOG: size: 67108864 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99567 MB, Mem: 9358 MB
+LOG:  -- Generating QAP of size: 67108864 629 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 111856 MB, Mem: 21646 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 67108864 188100 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 151052 MB, Mem: 64337 MB
+LOG: -- prove_stage1 Step1: prep. size: 16777215 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 16777215 711 ms
+LOG: ------ msm: size: 524287 5837 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 5837 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 63 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6611 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 16777215 6623 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 16 us
+LOG: -- prove_stage1 Step5: synchronize 344 us
+LOG: -- prove_stage1 TOTAL 6623 ms
+LOG: ------ msm: size: 2097152 20964 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21073 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 120 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21193 ms
+LOG: -- prove_stage2 Step1: compute A 21193 ms
+LOG: ------ msm_g2: size: 2097152 65238 ms
+LOG: -- prove_stage2 Step2: compute B2 67174 ms
+LOG: ------ msm: size: 2097152 20963 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21077 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 114 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21192 ms
+LOG: -- prove_stage2 Step3: compute B1 21192 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 50331647 1235 ms
+LOG: ------ msm: size: 1572863 16002 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 16002 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 248 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 17488 ms
+LOG: ------ msm: size: 2097151 20980 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 21099 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 63 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21162 ms
+LOG: -- prove_stage2 Step4: compute Ck 38676 ms
+LOG: -- prove_stage2 TOTAL 148237 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 151515 MB, Mem: 67404 MB
+LOG: ProveStage1 and 2: 67108864 155266 ms
+LOG: 	 Round: 0, Time: 155262 ms
+REPORT_op: groth16prove, size: 67108864, time: 155262 ms, np: 32
+LOG: size: 134217728 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 99802 MB, Mem: 15691 MB
+LOG:  -- Generating QAP of size: 134217728 1256 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 124379 MB, Mem: 40268 MB
+LOG: Diskey::gen size: 64, part_len: 2
+LOG:  -- Set up ProverKey of size: 134217728 368787 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 202764 MB, Mem: 120424 MB
+LOG: -- prove_stage1 Step1: prep. size: 33554431 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 33554431 1424 ms
+LOG: ------ msm: size: 1048575 11116 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 11116 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 129 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 12671 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 33554431 12687 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 353 us
+LOG: -- prove_stage1 TOTAL 12688 ms
+LOG: ------ msm: size: 4194304 39919 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40140 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1676 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 41816 ms
+LOG: -- prove_stage2 Step1: compute A 41817 ms
+LOG: ------ msm_g2: size: 4194304 125723 ms
+LOG: -- prove_stage2 Step2: compute B2 130258 ms
+LOG: ------ msm: size: 4194304 39844 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40055 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1790 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 41845 ms
+LOG: -- prove_stage2 Step3: compute B1 41845 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 100663295 2495 ms
+LOG: ------ msm: size: 3145727 30414 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 30414 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 32 1727 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 34638 ms
+LOG: ------ msm: size: 4194303 39849 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 40068 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1737 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 41806 ms
+LOG: -- prove_stage2 Step4: compute Ck 76497 ms
+LOG: -- prove_stage2 TOTAL 290418 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 202764 MB, Mem: 122544 MB
+LOG: ProveStage1 and 2: 134217728 303509 ms
+LOG: 	 Round: 0, Time: 303707 ms
+REPORT_op: groth16prove, size: 134217728, time: 303707 ms, np: 32
+TIMEOUT for op: fft size: 134217728
+LOG: WaitForBarrier of Main 1406174 ms
+ACC COMPLETED
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 64 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  28 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 200158 MB, Mem: 959 MB
+LOG:  -- Generating QAP of size: 1048576 12 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 200370 MB, Mem: 1212 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 2545 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 201410 MB, Mem: 2971 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 3 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 14 ms
+LOG: ------ msm: size: 4095 88 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 4095 88 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 2 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 105 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 106 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 838 us
+LOG: -- prove_stage1 TOTAL 107 ms
+LOG: ------ msm: size: 16384 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 277 ms
+LOG: -- prove_stage2 Step1: compute A 278 ms
+LOG: ------ msm_g2: size: 16384 870 ms
+LOG: -- prove_stage2 Step2: compute B2 876 ms
+LOG: ------ msm: size: 16384 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 277 ms
+LOG: -- prove_stage2 Step3: compute B1 278 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 13 ms
+LOG: ------ msm: size: 12287 219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 12287 219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 2 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 236 ms
+LOG: ------ msm: size: 16383 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 277 ms
+LOG: -- prove_stage2 Step4: compute Ck 516 ms
+LOG: -- prove_stage2 TOTAL 1949 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 201666 MB, Mem: 3402 MB
+LOG: ProveStage1 and 2: 1048576 3063 ms
+LOG: 	 Round: 0, Time: 2567 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201352 MB, Mem: 3153 MB
+LOG:  -- Generating QAP of size: 1048576 13 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 201352 MB, Mem: 3205 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 2688 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 201934 MB, Mem: 3902 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 12 ms
+LOG: ------ msm: size: 4095 88 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 4095 88 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 2 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 103 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 104 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 718 us
+LOG: -- prove_stage1 TOTAL 105 ms
+LOG: ------ msm: size: 16384 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 278 ms
+LOG: -- prove_stage2 Step1: compute A 279 ms
+LOG: ------ msm_g2: size: 16384 870 ms
+LOG: -- prove_stage2 Step2: compute B2 875 ms
+LOG: ------ msm: size: 16384 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 278 ms
+LOG: -- prove_stage2 Step3: compute B1 279 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 13 ms
+LOG: ------ msm: size: 12287 219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 12287 219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 236 ms
+LOG: ------ msm: size: 16383 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 278 ms
+LOG: -- prove_stage2 Step4: compute Ck 517 ms
+LOG: -- prove_stage2 TOTAL 1952 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 202003 MB, Mem: 4006 MB
+LOG: ProveStage1 and 2: 1048576 2989 ms
+LOG: 	 Round: 1, Time: 2541 ms
+REPORT_op: groth16prove, size: 1048576, time: 2541 ms, np: 64
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201220 MB, Mem: 3258 MB
+LOG:  -- Generating QAP of size: 2097152 18 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 201220 MB, Mem: 3279 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 4455 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 203236 MB, Mem: 5779 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 0 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 18 ms
+LOG: ------ msm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 172 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 172 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 17 us
+LOG: -- prove_stage1 Step5: synchronize 735 us
+LOG: -- prove_stage1 TOTAL 173 ms
+LOG: ------ msm: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 513 ms
+LOG: -- prove_stage2 Step1: compute A 514 ms
+LOG: ------ msm_g2: size: 32768 1609 ms
+LOG: -- prove_stage2 Step2: compute B2 1613 ms
+LOG: ------ msm: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 511 ms
+LOG: -- prove_stage2 Step3: compute B1 512 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 21 ms
+LOG: ------ msm: size: 24575 405 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 24575 405 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 7 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 435 ms
+LOG: ------ msm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32767 511 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 513 ms
+LOG: -- prove_stage2 Step4: compute Ck 950 ms
+LOG: -- prove_stage2 TOTAL 3591 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 203422 MB, Mem: 6263 MB
+LOG: ProveStage1 and 2: 2097152 4761 ms
+LOG: 	 Round: 0, Time: 4296 ms
+REPORT_op: groth16prove, size: 2097152, time: 4296 ms, np: 64
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201910 MB, Mem: 4762 MB
+LOG:  -- Generating QAP of size: 4194304 26 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 201917 MB, Mem: 4773 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 7961 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 206027 MB, Mem: 9106 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 0 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 28 ms
+LOG: ------ msm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 4 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 309 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 310 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 12 us
+LOG: -- prove_stage1 Step5: synchronize 731 us
+LOG: -- prove_stage1 TOTAL 311 ms
+LOG: ------ msm: size: 65536 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 934 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 940 ms
+LOG: -- prove_stage2 Step1: compute A 940 ms
+LOG: ------ msm_g2: size: 65536 2926 ms
+LOG: -- prove_stage2 Step2: compute B2 2945 ms
+LOG: ------ msm: size: 65536 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 934 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 940 ms
+LOG: -- prove_stage2 Step3: compute B1 940 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 38 ms
+LOG: ------ msm: size: 49151 742 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 49151 742 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 9 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 790 ms
+LOG: ------ msm: size: 65535 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65535 935 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 939 ms
+LOG: -- prove_stage2 Step4: compute Ck 1732 ms
+LOG: -- prove_stage2 TOTAL 6559 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 206027 MB, Mem: 10310 MB
+LOG: ProveStage1 and 2: 4194304 7857 ms
+LOG: 	 Round: 0, Time: 7375 ms
+REPORT_op: groth16prove, size: 4194304, time: 7375 ms, np: 64
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201466 MB, Mem: 5760 MB
+LOG:  -- Generating QAP of size: 8388608 48 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 202430 MB, Mem: 6716 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 14449 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 211577 MB, Mem: 16689 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 0 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 52 ms
+LOG: ------ msm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 510 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 5 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 568 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 569 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 16 us
+LOG: -- prove_stage1 Step5: synchronize 749 us
+LOG: -- prove_stage1 TOTAL 570 ms
+LOG: ------ msm: size: 131072 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1706 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 7 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1713 ms
+LOG: -- prove_stage2 Step1: compute A 1714 ms
+LOG: ------ msm_g2: size: 131072 5323 ms
+LOG: -- prove_stage2 Step2: compute B2 5358 ms
+LOG: ------ msm: size: 131072 1702 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1708 ms
+LOG: -- prove_stage2 Step3: compute B1 1709 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 67 ms
+LOG: ------ msm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 17 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1405 ms
+LOG: ------ msm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1703 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1709 ms
+LOG: -- prove_stage2 Step4: compute Ck 3116 ms
+LOG: -- prove_stage2 TOTAL 11900 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 211577 MB, Mem: 16982 MB
+LOG: ProveStage1 and 2: 8388608 13467 ms
+LOG: 	 Round: 0, Time: 13004 ms
+REPORT_op: groth16prove, size: 8388608, time: 13004 ms, np: 64
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 202455 MB, Mem: 7869 MB
+LOG:  -- Generating QAP of size: 16777216 82 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 204195 MB, Mem: 9603 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 26717 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 215587 MB, Mem: 23522 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 0 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 86 ms
+LOG: ------ msm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 934 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 7 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1027 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 1033 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 769 us
+LOG: -- prove_stage1 TOTAL 1034 ms
+LOG: ------ msm: size: 262144 3220 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3234 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 7 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3241 ms
+LOG: -- prove_stage2 Step1: compute A 3242 ms
+LOG: ------ msm_g2: size: 262144 10064 ms
+LOG: -- prove_stage2 Step2: compute B2 10180 ms
+LOG: ------ msm: size: 262144 3220 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3224 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3230 ms
+LOG: -- prove_stage2 Step3: compute B1 3231 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 138 ms
+LOG: ------ msm: size: 196607 2498 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2498 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 21 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2658 ms
+LOG: ------ msm: size: 262143 3219 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3234 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 16 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3251 ms
+LOG: -- prove_stage2 Step4: compute Ck 5929 ms
+LOG: -- prove_stage2 TOTAL 22583 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 216749 MB, Mem: 26052 MB
+LOG: ProveStage1 and 2: 16777216 24631 ms
+LOG: 	 Round: 0, Time: 24167 ms
+REPORT_op: groth16prove, size: 16777216, time: 24167 ms, np: 64
+LOG: size: 33554432 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201130 MB, Mem: 10441 MB
+LOG:  -- Generating QAP of size: 33554432 165 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 207274 MB, Mem: 16577 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 33554432 50951 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 229035 MB, Mem: 39289 MB
+LOG: -- prove_stage1 Step1: prep. size: 8388607 0 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 8388607 169 ms
+LOG: ------ msm: size: 131071 1704 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1704 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 26 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1900 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 8388607 1906 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 684 us
+LOG: -- prove_stage1 TOTAL 1907 ms
+LOG: ------ msm: size: 524288 5847 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5878 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 11 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5890 ms
+LOG: -- prove_stage2 Step1: compute A 5891 ms
+LOG: ------ msm_g2: size: 524288 18227 ms
+LOG: -- prove_stage2 Step2: compute B2 18394 ms
+LOG: ------ msm: size: 524288 5846 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5874 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 11 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5886 ms
+LOG: -- prove_stage2 Step3: compute B1 5887 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 25165823 313 ms
+LOG: ------ msm: size: 393215 4537 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4537 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 47 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 4898 ms
+LOG: ------ msm: size: 524287 5839 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 5866 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 25 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5892 ms
+LOG: -- prove_stage2 Step4: compute Ck 10811 ms
+LOG: -- prove_stage2 TOTAL 40985 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 229171 MB, Mem: 43793 MB
+LOG: ProveStage1 and 2: 33554432 43857 ms
+LOG: 	 Round: 0, Time: 43465 ms
+REPORT_op: groth16prove, size: 33554432, time: 43465 ms, np: 64
+LOG: size: 67108864 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201130 MB, Mem: 15760 MB
+LOG:  -- Generating QAP of size: 67108864 326 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 213419 MB, Mem: 28049 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 67108864 100136 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 255157 MB, Mem: 72414 MB
+LOG: -- prove_stage1 Step1: prep. size: 16777215 0 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 16777215 333 ms
+LOG: ------ msm: size: 262143 3224 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3224 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 13 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3571 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 16777215 3593 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 199 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 738 us
+LOG: -- prove_stage1 TOTAL 3594 ms
+LOG: ------ msm: size: 1048576 11116 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11188 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 20 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11209 ms
+LOG: -- prove_stage2 Step1: compute A 11209 ms
+LOG: ------ msm_g2: size: 1048576 34606 ms
+LOG: -- prove_stage2 Step2: compute B2 34912 ms
+LOG: ------ msm: size: 1048576 11112 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11183 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 33 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11217 ms
+LOG: -- prove_stage2 Step3: compute B1 11218 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 50331647 630 ms
+LOG: ------ msm: size: 786431 8477 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 8477 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 129 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 9238 ms
+LOG: ------ msm: size: 1048575 11116 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 11170 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 47 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11218 ms
+LOG: -- prove_stage2 Step4: compute Ck 20495 ms
+LOG: -- prove_stage2 TOTAL 77836 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 253084 MB, Mem: 71567 MB
+LOG: ProveStage1 and 2: 67108864 82365 ms
+LOG: 	 Round: 0, Time: 82080 ms
+REPORT_op: groth16prove, size: 67108864, time: 82080 ms, np: 64
+LOG: size: 134217728 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 201370 MB, Mem: 19853 MB
+LOG:  -- Generating QAP of size: 134217728 645 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 225947 MB, Mem: 44430 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 134217728 188882 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 304637 MB, Mem: 130606 MB
+LOG: -- prove_stage1 Step1: prep. size: 33554431 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 33554431 754 ms
+LOG: ------ msm: size: 524287 5842 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 5842 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 57 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6654 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 33554431 6674 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 198 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 674 us
+LOG: -- prove_stage1 TOTAL 6675 ms
+LOG: ------ msm: size: 2097152 21002 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21129 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 81 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21210 ms
+LOG: -- prove_stage2 Step1: compute A 21211 ms
+LOG: ------ msm_g2: size: 2097152 65469 ms
+LOG: -- prove_stage2 Step2: compute B2 67146 ms
+LOG: ------ msm: size: 2097152 21031 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21156 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 95 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21251 ms
+LOG: -- prove_stage2 Step3: compute B1 21252 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 100663295 1375 ms
+LOG: ------ msm: size: 1572863 16019 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 16019 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 234 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 17630 ms
+LOG: ------ msm: size: 2097151 21001 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 21138 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 123 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21261 ms
+LOG: -- prove_stage2 Step4: compute Ck 38944 ms
+LOG: -- prove_stage2 TOTAL 148555 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 305596 MB, Mem: 136289 MB
+LOG: ProveStage1 and 2: 134217728 155978 ms
+LOG: 	 Round: 0, Time: 155782 ms
+REPORT_op: groth16prove, size: 134217728, time: 155782 ms, np: 64
+LOG: size: 268435456 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 202170 MB, Mem: 32863 MB
+LOG:  -- Generating QAP of size: 268435456 1290 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 251323 MB, Mem: 82016 MB
+LOG: Diskey::gen size: 128, part_len: 2
+LOG:  -- Set up ProverKey of size: 268435456 367258 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 408061 MB, Mem: 242313 MB
+LOG: -- prove_stage1 Step1: prep. size: 67108863 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 67108863 1489 ms
+LOG: ------ msm: size: 1048575 11124 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 11124 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 100 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 12714 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 67108863 12746 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 775 us
+LOG: -- prove_stage1 TOTAL 12747 ms
+LOG: ------ msm: size: 4194304 40031 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40280 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1757 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 42038 ms
+LOG: -- prove_stage2 Step1: compute A 42039 ms
+LOG: ------ msm_g2: size: 4194304 126288 ms
+LOG: -- prove_stage2 Step2: compute B2 130139 ms
+LOG: ------ msm: size: 4194304 40016 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 40263 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1752 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 42015 ms
+LOG: -- prove_stage2 Step3: compute B1 42016 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 201326591 2585 ms
+LOG: ------ msm: size: 3145727 30539 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 30539 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 64 1726 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 34852 ms
+LOG: ------ msm: size: 4194303 40012 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 40270 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1901 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 42172 ms
+LOG: -- prove_stage2 Step4: compute Ck 77128 ms
+LOG: -- prove_stage2 TOTAL 291324 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 408061 MB, Mem: 246052 MB
+LOG: ProveStage1 and 2: 268435456 304928 ms
+LOG: 	 Round: 0, Time: 305091 ms
+REPORT_op: groth16prove, size: 268435456, time: 305091 ms, np: 64
+TIMEOUT for op: fft size: 268435456
+LOG: WaitForBarrier of Main 1419187 ms
+ACC COMPLETED
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 128 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  52 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 408534 MB, Mem: 2887 MB
+LOG:  -- Generating QAP of size: 1048576 22 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 408759 MB, Mem: 3171 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 2898 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 409748 MB, Mem: 4902 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 4 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 1017 ms
+LOG: ------ msm: size: 2047 50 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 2047 50 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1071 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 1073 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 193 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 18 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 1075 ms
+LOG: ------ msm: size: 8192 149 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 152 ms
+LOG: -- prove_stage2 Step1: compute A 154 ms
+LOG: ------ msm_g2: size: 8192 474 ms
+LOG: -- prove_stage2 Step2: compute B2 479 ms
+LOG: ------ msm: size: 8192 149 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 153 ms
+LOG: -- prove_stage2 Step3: compute B1 157 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 10 ms
+LOG: ------ msm: size: 6143 119 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 6143 119 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 4 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 134 ms
+LOG: ------ msm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 153 ms
+LOG: -- prove_stage2 Step4: compute Ck 291 ms
+LOG: -- prove_stage2 TOTAL 1083 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 410852 MB, Mem: 5732 MB
+LOG: ProveStage1 and 2: 1048576 5048 ms
+LOG: 	 Round: 0, Time: 3588 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 410620 MB, Mem: 5660 MB
+LOG:  -- Generating QAP of size: 1048576 23 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 410620 MB, Mem: 5774 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 2960 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 411079 MB, Mem: 6330 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 15 ms
+LOG: ------ msm: size: 2047 50 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 2047 50 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 4 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 73 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 74 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 77 ms
+LOG: ------ msm: size: 8192 149 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 153 ms
+LOG: -- prove_stage2 Step1: compute A 154 ms
+LOG: ------ msm_g2: size: 8192 474 ms
+LOG: -- prove_stage2 Step2: compute B2 478 ms
+LOG: ------ msm: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 153 ms
+LOG: -- prove_stage2 Step3: compute B1 154 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 10 ms
+LOG: ------ msm: size: 6143 119 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 6143 119 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 15 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 145 ms
+LOG: ------ msm: size: 8191 149 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 152 ms
+LOG: -- prove_stage2 Step4: compute Ck 302 ms
+LOG: -- prove_stage2 TOTAL 1091 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 411093 MB, Mem: 6439 MB
+LOG: ProveStage1 and 2: 1048576 4135 ms
+LOG: 	 Round: 1, Time: 2636 ms
+REPORT_op: groth16prove, size: 1048576, time: 2636 ms, np: 128
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 410510 MB, Mem: 5992 MB
+LOG:  -- Generating QAP of size: 2097152 27 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 410511 MB, Mem: 6090 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 3723 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 412413 MB, Mem: 8261 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 21 ms
+LOG: ------ msm: size: 4095 88 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 4095 88 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 3 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 114 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 115 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 200 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 117 ms
+LOG: ------ msm: size: 16384 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 279 ms
+LOG: -- prove_stage2 Step1: compute A 280 ms
+LOG: ------ msm_g2: size: 16384 869 ms
+LOG: -- prove_stage2 Step2: compute B2 879 ms
+LOG: ------ msm: size: 16384 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 280 ms
+LOG: -- prove_stage2 Step3: compute B1 281 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 16 ms
+LOG: ------ msm: size: 12287 219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 12287 219 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 35 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 272 ms
+LOG: ------ msm: size: 16383 275 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 280 ms
+LOG: -- prove_stage2 Step4: compute Ck 557 ms
+LOG: -- prove_stage2 TOTAL 2000 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 412545 MB, Mem: 8469 MB
+LOG: ProveStage1 and 2: 2097152 4960 ms
+LOG: 	 Round: 0, Time: 3574 ms
+REPORT_op: groth16prove, size: 2097152, time: 3574 ms, np: 128
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 410806 MB, Mem: 6793 MB
+LOG:  -- Generating QAP of size: 4194304 31 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 410969 MB, Mem: 6998 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 5537 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 415235 MB, Mem: 12199 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 29 ms
+LOG: ------ msm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 4 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 184 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 186 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 188 ms
+LOG: ------ msm: size: 32768 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 510 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 3 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 514 ms
+LOG: -- prove_stage2 Step1: compute A 516 ms
+LOG: ------ msm_g2: size: 32768 1601 ms
+LOG: -- prove_stage2 Step2: compute B2 1613 ms
+LOG: ------ msm: size: 32768 508 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 515 ms
+LOG: -- prove_stage2 Step3: compute B1 517 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 28 ms
+LOG: ------ msm: size: 24575 405 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 24575 405 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 23 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 457 ms
+LOG: ------ msm: size: 32767 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32767 509 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 514 ms
+LOG: -- prove_stage2 Step4: compute Ck 975 ms
+LOG: -- prove_stage2 TOTAL 3622 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 415244 MB, Mem: 12696 MB
+LOG: ProveStage1 and 2: 4194304 6762 ms
+LOG: 	 Round: 0, Time: 5281 ms
+REPORT_op: groth16prove, size: 4194304, time: 5281 ms, np: 128
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 411454 MB, Mem: 8946 MB
+LOG:  -- Generating QAP of size: 8388608 46 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 412192 MB, Mem: 9703 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 8972 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 420933 MB, Mem: 18830 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 41 ms
+LOG: ------ msm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 16383 276 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 10 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 328 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 330 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 194 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 332 ms
+LOG: ------ msm: size: 65536 933 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 934 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 15 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 950 ms
+LOG: -- prove_stage2 Step1: compute A 952 ms
+LOG: ------ msm_g2: size: 65536 2924 ms
+LOG: -- prove_stage2 Step2: compute B2 2963 ms
+LOG: ------ msm: size: 65536 932 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 934 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 16 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 950 ms
+LOG: -- prove_stage2 Step3: compute B1 952 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 49 ms
+LOG: ------ msm: size: 49151 741 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 49151 741 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 72 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 864 ms
+LOG: ------ msm: size: 65535 935 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65535 937 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 14 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 951 ms
+LOG: -- prove_stage2 Step4: compute Ck 1820 ms
+LOG: -- prove_stage2 TOTAL 6689 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 420933 MB, Mem: 21070 MB
+LOG: ProveStage1 and 2: 8388608 10015 ms
+LOG: 	 Round: 0, Time: 8535 ms
+REPORT_op: groth16prove, size: 8388608, time: 8535 ms, np: 128
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 411799 MB, Mem: 11963 MB
+LOG:  -- Generating QAP of size: 16777216 65 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 413449 MB, Mem: 13608 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 15545 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 431748 MB, Mem: 33565 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 66 ms
+LOG: ------ msm: size: 32767 509 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 509 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 11 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 588 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 589 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 203 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 591 ms
+LOG: ------ msm: size: 131072 1701 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 26 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1730 ms
+LOG: -- prove_stage2 Step1: compute A 1732 ms
+LOG: ------ msm_g2: size: 131072 5318 ms
+LOG: -- prove_stage2 Step2: compute B2 5381 ms
+LOG: ------ msm: size: 131072 1700 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 17 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1721 ms
+LOG: -- prove_stage2 Step3: compute B1 1723 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 99 ms
+LOG: ------ msm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1319 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 57 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1477 ms
+LOG: ------ msm: size: 131071 1700 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1704 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 18 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1723 ms
+LOG: -- prove_stage2 Step4: compute Ck 3204 ms
+LOG: -- prove_stage2 TOTAL 12041 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 431748 MB, Mem: 34196 MB
+LOG: ProveStage1 and 2: 16777216 15557 ms
+LOG: 	 Round: 0, Time: 14170 ms
+REPORT_op: groth16prove, size: 16777216, time: 14170 ms, np: 128
+LOG: size: 33554432 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 413474 MB, Mem: 15942 MB
+LOG:  -- Generating QAP of size: 33554432 118 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 416569 MB, Mem: 19026 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 33554432 28206 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 439355 MB, Mem: 46930 MB
+LOG: -- prove_stage1 Step1: prep. size: 8388607 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 8388607 114 ms
+LOG: ------ msm: size: 65535 932 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 932 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 26 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1073 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 8388607 1082 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 208 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 16 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 1085 ms
+LOG: ------ msm: size: 262144 3219 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3236 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 11 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3247 ms
+LOG: -- prove_stage2 Step1: compute A 3249 ms
+LOG: ------ msm_g2: size: 262144 10051 ms
+LOG: -- prove_stage2 Step2: compute B2 10149 ms
+LOG: ------ msm: size: 262144 3219 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3225 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 19 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3245 ms
+LOG: -- prove_stage2 Step3: compute B1 3247 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 25165823 186 ms
+LOG: ------ msm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2495 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 62 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2744 ms
+LOG: ------ msm: size: 262143 3222 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3242 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 20 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3263 ms
+LOG: -- prove_stage2 Step4: compute Ck 6041 ms
+LOG: -- prove_stage2 TOTAL 22687 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 441705 MB, Mem: 51979 MB
+LOG: ProveStage1 and 2: 33554432 26669 ms
+LOG: 	 Round: 0, Time: 25290 ms
+REPORT_op: groth16prove, size: 33554432, time: 25290 ms, np: 128
+LOG: size: 67108864 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 410465 MB, Mem: 20757 MB
+LOG:  -- Generating QAP of size: 67108864 181 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 422753 MB, Mem: 33030 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 67108864 53519 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 466211 MB, Mem: 78412 MB
+LOG: -- prove_stage1 Step1: prep. size: 16777215 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 16777215 232 ms
+LOG: ------ msm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1701 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 91 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2025 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 16777215 2034 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 206 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 16 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 2036 ms
+LOG: ------ msm: size: 524288 5842 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5887 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 47 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5934 ms
+LOG: -- prove_stage2 Step1: compute A 5936 ms
+LOG: ------ msm_g2: size: 524288 18251 ms
+LOG: -- prove_stage2 Step2: compute B2 18560 ms
+LOG: ------ msm: size: 524288 5839 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 5877 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 77 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5955 ms
+LOG: -- prove_stage2 Step3: compute B1 5957 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 50331647 419 ms
+LOG: ------ msm: size: 393215 4531 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4531 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 343 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 5295 ms
+LOG: ------ msm: size: 524287 5835 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 5871 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 50 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 5922 ms
+LOG: -- prove_stage2 Step4: compute Ck 11256 ms
+LOG: -- prove_stage2 TOTAL 41711 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 466610 MB, Mem: 87830 MB
+LOG: ProveStage1 and 2: 67108864 46621 ms
+LOG: 	 Round: 0, Time: 45344 ms
+REPORT_op: groth16prove, size: 67108864, time: 45344 ms, np: 128
+LOG: size: 134217728 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 410465 MB, Mem: 31700 MB
+LOG:  -- Generating QAP of size: 134217728 352 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 435043 MB, Mem: 56278 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 134217728 102889 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 519171 MB, Mem: 146017 MB
+LOG: -- prove_stage1 Step1: prep. size: 33554431 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 33554431 514 ms
+LOG: ------ msm: size: 262143 3220 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3220 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 47 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3782 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 33554431 3824 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 3826 ms
+LOG: ------ msm: size: 1048576 11114 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11221 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 35 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11257 ms
+LOG: -- prove_stage2 Step1: compute A 11258 ms
+LOG: ------ msm_g2: size: 1048576 34939 ms
+LOG: -- prove_stage2 Step2: compute B2 35306 ms
+LOG: ------ msm: size: 1048576 11118 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 11220 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 44 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11264 ms
+LOG: -- prove_stage2 Step3: compute B1 11266 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 100663295 918 ms
+LOG: ------ msm: size: 786431 8518 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 8518 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 442 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 9879 ms
+LOG: ------ msm: size: 1048575 11113 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 11190 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 73 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 11264 ms
+LOG: -- prove_stage2 Step4: compute Ck 21220 ms
+LOG: -- prove_stage2 TOTAL 79051 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 514325 MB, Mem: 143856 MB
+LOG: ProveStage1 and 2: 134217728 85569 ms
+LOG: 	 Round: 0, Time: 84430 ms
+REPORT_op: groth16prove, size: 134217728, time: 84430 ms, np: 128
+LOG: size: 268435456 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 410897 MB, Mem: 40429 MB
+LOG:  -- Generating QAP of size: 268435456 687 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 460051 MB, Mem: 89583 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 268435456 191479 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 617839 MB, Mem: 262541 MB
+LOG: -- prove_stage1 Step1: prep. size: 67108863 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 67108863 966 ms
+LOG: ------ msm: size: 524287 5842 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 5842 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 115 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6924 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 67108863 6961 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 197 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 17 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 6963 ms
+LOG: ------ msm: size: 2097152 21288 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21454 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 191 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21645 ms
+LOG: -- prove_stage2 Step1: compute A 21647 ms
+LOG: ------ msm_g2: size: 2097152 67817 ms
+LOG: -- prove_stage2 Step2: compute B2 68568 ms
+LOG: ------ msm: size: 2097152 21340 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 21507 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 93 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21600 ms
+LOG: -- prove_stage2 Step3: compute B1 21601 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 201326591 1832 ms
+LOG: ------ msm: size: 1572863 16241 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 16241 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 473 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 18547 ms
+LOG: ------ msm: size: 2097151 21351 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 21525 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 158 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 21683 ms
+LOG: -- prove_stage2 Step4: compute Ck 40335 ms
+LOG: -- prove_stage2 TOTAL 152152 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 619381 MB, Mem: 274511 MB
+LOG: ProveStage1 and 2: 268435456 161830 ms
+LOG: 	 Round: 0, Time: 160777 ms
+REPORT_op: groth16prove, size: 268435456, time: 160777 ms, np: 128
+LOG: size: 536870912 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 412529 MB, Mem: 67659 MB
+LOG:  -- Generating QAP of size: 536870912 1361 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 510835 MB, Mem: 165965 MB
+LOG: Diskey::gen size: 256, part_len: 2
+LOG:  -- Set up ProverKey of size: 536870912 371774 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 824687 MB, Mem: 486709 MB
+LOG: -- prove_stage1 Step1: prep. size: 134217727 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 134217727 1904 ms
+LOG: ------ msm: size: 1048575 11114 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 11114 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 563 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 13582 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 134217727 13645 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 203 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 15 us
+LOG: -- prove_stage1 Step5: synchronize 1 ms
+LOG: -- prove_stage1 TOTAL 13647 ms
+LOG: ------ msm: size: 4194304 43131 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 43458 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 389 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 43847 ms
+LOG: -- prove_stage2 Step1: compute A 43849 ms
+LOG: ------ msm_g2: size: 4194304 130238 ms
+LOG: -- prove_stage2 Step2: compute B2 131412 ms
+LOG: ------ msm: size: 4194304 43358 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 43694 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 43844 ms
+LOG: -- prove_stage2 Step3: compute B1 43845 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 402653183 3693 ms
+LOG: ------ msm: size: 3145727 33053 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 33053 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 128 1007 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 37753 ms
+LOG: ------ msm: size: 4194303 43173 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 43514 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 359 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 43874 ms
+LOG: -- prove_stage2 Step4: compute Ck 81830 ms
+LOG: -- prove_stage2 TOTAL 300938 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 824687 MB, Mem: 494735 MB
+LOG: ProveStage1 and 2: 536870912 317243 ms
+LOG: 	 Round: 0, Time: 316743 ms
+REPORT_op: groth16prove, size: 536870912, time: 316743 ms, np: 128
+TIMEOUT for op: fft size: 536870912
+LOG: WaitForBarrier of Main 1494251 ms
+ACC COMPLETED
+===== DATA for groth16prove: log_min_size: 20 -> log_max_size: 30, NODES: 256 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  295 ms
+LOG: size: 1048576 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1559834 MB, Mem: 15903 MB
+LOG:  -- Generating QAP of size: 1048576 303 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1560093 MB, Mem: 16486 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 14382 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1560996 MB, Mem: 22846 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 6 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 1122 ms
+LOG: ------ msm: size: 1023 35 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1023 35 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 55 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1217 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 1221 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 16 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 1226 ms
+LOG: ------ msm: size: 4096 111 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4096 111 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 107 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 218 ms
+LOG: -- prove_stage2 Step1: compute A 221 ms
+LOG: ------ msm_g2: size: 4096 318 ms
+LOG: -- prove_stage2 Step2: compute B2 427 ms
+LOG: ------ msm: size: 4096 92 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4096 92 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 89 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 181 ms
+LOG: -- prove_stage2 Step3: compute B1 192 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 35 ms
+LOG: ------ msm: size: 3071 84 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3071 84 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 85 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 214 ms
+LOG: ------ msm: size: 4095 111 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4095 112 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 118 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 230 ms
+LOG: -- prove_stage2 Step4: compute Ck 449 ms
+LOG: -- prove_stage2 TOTAL 1290 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1566000 MB, Mem: 26927 MB
+LOG: ProveStage1 and 2: 1048576 20385 ms
+LOG: 	 Round: 0, Time: 11581 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1565799 MB, Mem: 27811 MB
+LOG:  -- Generating QAP of size: 1048576 111 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1565799 MB, Mem: 28466 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 1048576 15500 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1565940 MB, Mem: 29084 MB
+LOG: -- prove_stage1 Step1: prep. size: 262143 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 262143 95 ms
+LOG: ------ msm: size: 1023 31 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1023 31 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 58 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 192 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 262143 200 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 196 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 17 us
+LOG: -- prove_stage1 Step5: synchronize 12 ms
+LOG: -- prove_stage1 TOTAL 213 ms
+LOG: ------ msm: size: 4096 113 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4096 113 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 78 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 191 ms
+LOG: -- prove_stage2 Step1: compute A 195 ms
+LOG: ------ msm_g2: size: 4096 319 ms
+LOG: -- prove_stage2 Step2: compute B2 424 ms
+LOG: ------ msm: size: 4096 89 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4096 90 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 94 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 184 ms
+LOG: -- prove_stage2 Step3: compute B1 193 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 786431 30 ms
+LOG: ------ msm: size: 3071 105 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3071 105 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 63 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 207 ms
+LOG: ------ msm: size: 4095 120 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4095 120 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 113 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 234 ms
+LOG: -- prove_stage2 Step4: compute Ck 448 ms
+LOG: -- prove_stage2 TOTAL 1261 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1566056 MB, Mem: 29584 MB
+LOG: ProveStage1 and 2: 1048576 19563 ms
+LOG: 	 Round: 1, Time: 10616 ms
+REPORT_op: groth16prove, size: 1048576, time: 10616 ms, np: 256
+LOG: size: 2097152 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1565778 MB, Mem: 29488 MB
+LOG:  -- Generating QAP of size: 2097152 103 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1565778 MB, Mem: 29732 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 2097152 16272 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1567262 MB, Mem: 31154 MB
+LOG: -- prove_stage1 Step1: prep. size: 524287 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 524287 96 ms
+LOG: ------ msm: size: 2047 83 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 2047 83 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 43 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 228 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 524287 229 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 227 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 19 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 234 ms
+LOG: ------ msm: size: 8192 227 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8192 227 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 55 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 282 ms
+LOG: -- prove_stage2 Step1: compute A 286 ms
+LOG: ------ msm_g2: size: 8192 599 ms
+LOG: -- prove_stage2 Step2: compute B2 640 ms
+LOG: ------ msm: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8192 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 72 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 223 ms
+LOG: -- prove_stage2 Step3: compute B1 228 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1572863 33 ms
+LOG: ------ msm: size: 6143 119 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 6143 119 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 113 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 266 ms
+LOG: ------ msm: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 8191 150 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 113 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 264 ms
+LOG: -- prove_stage2 Step4: compute Ck 537 ms
+LOG: -- prove_stage2 TOTAL 1693 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1567411 MB, Mem: 31572 MB
+LOG: ProveStage1 and 2: 2097152 20009 ms
+LOG: 	 Round: 0, Time: 11048 ms
+REPORT_op: groth16prove, size: 2097152, time: 11048 ms, np: 256
+LOG: size: 4194304 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1566123 MB, Mem: 30475 MB
+LOG:  -- Generating QAP of size: 4194304 119 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1566155 MB, Mem: 30673 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 4194304 17611 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1570098 MB, Mem: 35004 MB
+LOG: -- prove_stage1 Step1: prep. size: 1048575 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 1048575 102 ms
+LOG: ------ msm: size: 4095 92 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 4095 92 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 87 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 282 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 1048575 287 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 226 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 19 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 292 ms
+LOG: ------ msm: size: 16384 307 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 307 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 156 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 464 ms
+LOG: -- prove_stage2 Step1: compute A 467 ms
+LOG: ------ msm_g2: size: 16384 922 ms
+LOG: -- prove_stage2 Step2: compute B2 1214 ms
+LOG: ------ msm: size: 16384 359 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16384 360 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 42 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 402 ms
+LOG: -- prove_stage2 Step3: compute B1 406 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 3145727 49 ms
+LOG: ------ msm: size: 12287 270 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 12287 270 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 277 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 597 ms
+LOG: ------ msm: size: 16383 305 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 16383 306 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 98 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 404 ms
+LOG: -- prove_stage2 Step4: compute Ck 1011 ms
+LOG: -- prove_stage2 TOTAL 3099 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1570180 MB, Mem: 35435 MB
+LOG: ProveStage1 and 2: 4194304 21361 ms
+LOG: 	 Round: 0, Time: 12549 ms
+REPORT_op: groth16prove, size: 4194304, time: 12549 ms, np: 256
+LOG: size: 8388608 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1567823 MB, Mem: 33316 MB
+LOG:  -- Generating QAP of size: 8388608 128 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1567889 MB, Mem: 33526 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 8388608 19760 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1576002 MB, Mem: 43438 MB
+LOG: -- prove_stage1 Step1: prep. size: 2097151 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 2097151 121 ms
+LOG: ------ msm: size: 8191 190 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 8191 190 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 202 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 514 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 2097151 518 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 14 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 523 ms
+LOG: ------ msm: size: 32768 553 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 554 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 174 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 729 ms
+LOG: -- prove_stage2 Step1: compute A 733 ms
+LOG: ------ msm_g2: size: 32768 1706 ms
+LOG: -- prove_stage2 Step2: compute B2 1976 ms
+LOG: ------ msm: size: 32768 531 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32768 532 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 151 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 684 ms
+LOG: -- prove_stage2 Step3: compute B1 688 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 6291455 61 ms
+LOG: ------ msm: size: 24575 443 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 24575 443 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 425 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 931 ms
+LOG: ------ msm: size: 32767 605 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 32767 607 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 119 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 727 ms
+LOG: -- prove_stage2 Step4: compute Ck 1667 ms
+LOG: -- prove_stage2 TOTAL 5065 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1576071 MB, Mem: 43686 MB
+LOG: ProveStage1 and 2: 8388608 23498 ms
+LOG: 	 Round: 0, Time: 14755 ms
+REPORT_op: groth16prove, size: 8388608, time: 14755 ms, np: 256
+LOG: size: 16777216 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1568873 MB, Mem: 36712 MB
+LOG:  -- Generating QAP of size: 16777216 137 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1569946 MB, Mem: 37899 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 16777216 23157 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1587230 MB, Mem: 55537 MB
+LOG: -- prove_stage1 Step1: prep. size: 4194303 2 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 4194303 129 ms
+LOG: ------ msm: size: 16383 289 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 16383 289 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 100 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 520 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 4194303 523 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 13 us
+LOG: -- prove_stage1 Step5: synchronize 5 ms
+LOG: -- prove_stage1 TOTAL 529 ms
+LOG: ------ msm: size: 65536 991 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 993 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 303 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1296 ms
+LOG: -- prove_stage2 Step1: compute A 1301 ms
+LOG: ------ msm_g2: size: 65536 3091 ms
+LOG: -- prove_stage2 Step2: compute B2 3828 ms
+LOG: ------ msm: size: 65536 952 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65536 955 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 391 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1347 ms
+LOG: -- prove_stage2 Step3: compute B1 1352 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 12582911 100 ms
+LOG: ------ msm: size: 49151 861 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 49151 861 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 291 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1253 ms
+LOG: ------ msm: size: 65535 1116 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 65535 1120 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 176 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 1297 ms
+LOG: -- prove_stage2 Step4: compute Ck 2559 ms
+LOG: -- prove_stage2 TOTAL 9043 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1587230 MB, Mem: 59116 MB
+LOG: ProveStage1 and 2: 16777216 27725 ms
+LOG: 	 Round: 0, Time: 18690 ms
+REPORT_op: groth16prove, size: 16777216, time: 18690 ms, np: 256
+LOG: size: 33554432 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1568942 MB, Mem: 40984 MB
+LOG:  -- Generating QAP of size: 33554432 182 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1572131 MB, Mem: 44275 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 33554432 29416 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1608735 MB, Mem: 83929 MB
+LOG: -- prove_stage1 Step1: prep. size: 8388607 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 8388607 154 ms
+LOG: ------ msm: size: 32767 553 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 32767 553 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 186 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 894 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 8388607 898 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 195 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 17 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 903 ms
+LOG: ------ msm: size: 131072 1845 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1852 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 400 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 2253 ms
+LOG: -- prove_stage2 Step1: compute A 2258 ms
+LOG: ------ msm_g2: size: 131072 5595 ms
+LOG: -- prove_stage2 Step2: compute B2 6843 ms
+LOG: ------ msm: size: 131072 1761 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131072 1769 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 639 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 2408 ms
+LOG: -- prove_stage2 Step3: compute B1 2414 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 25165823 236 ms
+LOG: ------ msm: size: 98303 1673 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 98303 1673 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 168 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2079 ms
+LOG: ------ msm: size: 131071 1801 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 131071 1807 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 532 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 2339 ms
+LOG: -- prove_stage2 Step4: compute Ck 4428 ms
+LOG: -- prove_stage2 TOTAL 15945 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1608735 MB, Mem: 85532 MB
+LOG: ProveStage1 and 2: 33554432 34588 ms
+LOG: 	 Round: 0, Time: 25729 ms
+REPORT_op: groth16prove, size: 33554432, time: 25729 ms, np: 256
+LOG: size: 67108864 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1572156 MB, Mem: 49097 MB
+LOG:  -- Generating QAP of size: 67108864 241 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1578812 MB, Mem: 55825 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 67108864 42165 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1624383 MB, Mem: 113156 MB
+LOG: -- prove_stage1 Step1: prep. size: 16777215 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 16777215 298 ms
+LOG: ------ msm: size: 65535 1012 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 65535 1012 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 435 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 1746 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 16777215 1774 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 198 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 24 us
+LOG: -- prove_stage1 Step5: synchronize 6 ms
+LOG: -- prove_stage1 TOTAL 1781 ms
+LOG: ------ msm: size: 262144 3439 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3468 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 727 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 4195 ms
+LOG: -- prove_stage2 Step1: compute A 4200 ms
+LOG: ------ msm_g2: size: 262144 10703 ms
+LOG: -- prove_stage2 Step2: compute B2 12733 ms
+LOG: ------ msm: size: 262144 3364 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262144 3380 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 555 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 3936 ms
+LOG: -- prove_stage2 Step3: compute B1 3943 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 50331647 430 ms
+LOG: ------ msm: size: 196607 2799 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 196607 2799 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 690 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 3920 ms
+LOG: ------ msm: size: 262143 3642 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 262143 3690 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 490 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 4180 ms
+LOG: -- prove_stage2 Step4: compute Ck 8202 ms
+LOG: -- prove_stage2 TOTAL 29079 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1629118 MB, Mem: 124598 MB
+LOG: ProveStage1 and 2: 67108864 48632 ms
+LOG: 	 Round: 0, Time: 40082 ms
+REPORT_op: groth16prove, size: 67108864, time: 40082 ms, np: 256
+LOG: size: 134217728 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1566675 MB, Mem: 62262 MB
+LOG:  -- Generating QAP of size: 134217728 436 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1591251 MB, Mem: 86859 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 134217728 69906 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1678183 MB, Mem: 180221 MB
+LOG: -- prove_stage1 Step1: prep. size: 33554431 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 33554431 391 ms
+LOG: ------ msm: size: 131071 1904 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 131071 1904 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 369 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 2666 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 33554431 2699 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 198 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 18 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 2704 ms
+LOG: ------ msm: size: 524288 6173 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 6237 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1359 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 7596 ms
+LOG: -- prove_stage2 Step1: compute A 7601 ms
+LOG: ------ msm_g2: size: 524288 20452 ms
+LOG: -- prove_stage2 Step2: compute B2 22091 ms
+LOG: ------ msm: size: 524288 7398 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524288 7470 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 48 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 7519 ms
+LOG: -- prove_stage2 Step3: compute B1 7530 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 100663295 837 ms
+LOG: ------ msm: size: 393215 4886 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 393215 4886 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 1273 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 6997 ms
+LOG: ------ msm: size: 524287 6407 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 524287 6479 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 836 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 7316 ms
+LOG: -- prove_stage2 Step4: compute Ck 14433 ms
+LOG: -- prove_stage2 TOTAL 51656 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1679082 MB, Mem: 200957 MB
+LOG: ProveStage1 and 2: 134217728 72093 ms
+LOG: 	 Round: 0, Time: 63634 ms
+REPORT_op: groth16prove, size: 134217728, time: 63634 ms, np: 256
+LOG: size: 268435456 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1566675 MB, Mem: 88617 MB
+LOG:  -- Generating QAP of size: 268435456 755 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1615831 MB, Mem: 137809 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 268435456 126374 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1783679 MB, Mem: 325059 MB
+LOG: -- prove_stage1 Step1: prep. size: 67108863 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 67108863 673 ms
+LOG: ------ msm: size: 262143 3476 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 262143 3476 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 557 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 4707 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 67108863 4844 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 241 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 20 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 4849 ms
+LOG: ------ msm: size: 1048576 13542 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 13709 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 617 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 14327 ms
+LOG: -- prove_stage2 Step1: compute A 14331 ms
+LOG: ------ msm_g2: size: 1048576 38942 ms
+LOG: -- prove_stage2 Step2: compute B2 41405 ms
+LOG: ------ msm: size: 1048576 12189 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048576 12354 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2223 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 14578 ms
+LOG: -- prove_stage2 Step3: compute B1 14585 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 201326591 1592 ms
+LOG: ------ msm: size: 786431 9521 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 786431 9521 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 2021 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 13137 ms
+LOG: ------ msm: size: 1048575 12002 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 1048575 12123 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2360 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 14484 ms
+LOG: -- prove_stage2 Step4: compute Ck 27882 ms
+LOG: -- prove_stage2 TOTAL 98203 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1774395 MB, Mem: 322929 MB
+LOG: ProveStage1 and 2: 268435456 120714 ms
+LOG: 	 Round: 0, Time: 112428 ms
+REPORT_op: groth16prove, size: 268435456, time: 112428 ms, np: 256
+LOG: size: 536870912 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1567539 MB, Mem: 116092 MB
+LOG:  -- Generating QAP of size: 536870912 1424 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1665847 MB, Mem: 214417 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 536870912 222945 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 1980960 MB, Mem: 574416 MB
+LOG: -- prove_stage1 Step1: prep. size: 134217727 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 134217727 1428 ms
+LOG: ------ msm: size: 524287 6420 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 524287 6420 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 1499 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 9349 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 134217727 9476 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 200 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 19 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 9482 ms
+LOG: ------ msm: size: 2097152 25789 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 26124 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2220 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 28344 ms
+LOG: -- prove_stage2 Step1: compute A 28349 ms
+LOG: ------ msm_g2: size: 2097152 74254 ms
+LOG: -- prove_stage2 Step2: compute B2 80508 ms
+LOG: ------ msm: size: 2097152 25262 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097152 25527 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 2185 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 27713 ms
+LOG: -- prove_stage2 Step3: compute B1 27717 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 402653183 3297 ms
+LOG: ------ msm: size: 1572863 18185 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1572863 18185 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 3184 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 24668 ms
+LOG: ------ msm: size: 2097151 25011 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 2097151 25286 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 1466 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 26753 ms
+LOG: -- prove_stage2 Step4: compute Ck 51722 ms
+LOG: -- prove_stage2 TOTAL 188298 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 1984491 MB, Mem: 601898 MB
+LOG: ProveStage1 and 2: 536870912 215154 ms
+LOG: 	 Round: 0, Time: 207741 ms
+REPORT_op: groth16prove, size: 536870912, time: 207741 ms, np: 256
+LOG: size: 1073741824 -----
+LOG: -- BEFORE GenQAP: TOTAL: VirtMem: 1570787 MB, Mem: 188204 MB
+LOG:  -- Generating QAP of size: 1073741824 2479 ms
+LOG: -- BEFORE Gen ProverKey: TOTAL: VirtMem: 1767399 MB, Mem: 384825 MB
+LOG: Diskey::gen size: 512, part_len: 2
+LOG:  -- Set up ProverKey of size: 1073741824 421784 ms
+LOG: -- BEFORE Prove: TOTAL: VirtMem: 2394656 MB, Mem: 1044188 MB
+LOG: -- prove_stage1 Step1: prep. size: 268435455 1 us
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 268435455 2994 ms
+LOG: ------ msm: size: 1048575 12629 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 1048575 12629 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 1670 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 17294 ms
+LOG: -- prove_stage1 Step2: vmsm. size: 268435455 17521 ms
+LOG: -- prove_stage1 Step3: add del_k*r_i. 199 us
+LOG: -- prove_stage1 Step4: take i/o size: 2 17 us
+LOG: -- prove_stage1 Step5: synchronize 4 ms
+LOG: -- prove_stage1 TOTAL 17526 ms
+LOG: ------ msm: size: 4194304 47976 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 48581 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 5373 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 53955 ms
+LOG: -- prove_stage2 Step1: compute A 53958 ms
+LOG: ------ msm_g2: size: 4194304 143252 ms
+LOG: -- prove_stage2 Step2: compute B2 150534 ms
+LOG: ------ msm: size: 4194304 46712 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194304 47188 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 8461 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 55650 ms
+LOG: -- prove_stage2 Step3: compute B1 55656 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step1: sublist size: 805306367 7769 ms
+LOG: ------ msm: size: 3145727 38679 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step2: local vmsm: size: 3145727 38679 ms
+LOG: ---- dis_vmsm_g1_seg_fast Step3 assemble results: np: 256 2326 ms
+LOG: ---- dis_vmsm_g1_seg_fast TOTAL 48775 ms
+LOG: ------ msm: size: 4194303 50472 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 1: compute local: size: 4194303 51054 ms
+LOG: ---- dis_vmsm_g1_seg_slow Step 2: assemble result 4063 ms
+LOG: ---- dis_vmsm_g1_seg_slow TOTAL 55117 ms
+LOG: -- prove_stage2 Step4: compute Ck 104506 ms
+LOG: -- prove_stage2 TOTAL 364655 ms
+DisProver verification passed!
+LOG: -- ProveStage1and2: TOTAL: VirtMem: 2394566 MB, Mem: 1065881 MB
+LOG: ProveStage1 and 2: 1073741824 399143 ms
+LOG: 	 Round: 0, Time: 393195 ms
+REPORT_op: groth16prove, size: 1073741824, time: 393195 ms, np: 256
+TIMEOUT for op: fft size: 1073741824
+LOG: WaitForBarrier of Main 2165382 ms
+ACC COMPLETED

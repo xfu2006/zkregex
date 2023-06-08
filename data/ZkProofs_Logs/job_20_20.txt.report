@@ -1,0 +1,993 @@
+======================  Job: job_20_20.txt  ======================
+ Group_ID: 20, Subset_ID: 20 217 ms
+ENTERING one-time setup: TOTAL: VirtMem: 1962857 MB, Mem: 23230 MB
+-- preprocess Step1: broadcast config files 1903 ms
+---Java Main Preprpocessing Details---
+ OUTPUT: LOG1: 
+========== Batch Preproess: job_file: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/acc/batchscripts/jobs/job_20_20.txt
+ save data to: /tmp2/batchprove
+ num_worker: 25, server_id: 0, n_servers: 4
+ StartTimer: 2023-04-16T21:57:09.575Z
+============
+DEBUG USE 101: load dfa_file: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/anti_virus_input/clamav_full/sigs.dat
+Build the Trie ...
+Build Trie Time: 70275 ms
+Build the Fail Edges...
+Build FailEdge Time: 63084 ms
+LOG1: build DFA ...states: 19027891 339728 ms
+LOG1: replicate DFA 0 ms
+LOG1: Job Details: server_id: 0, n_servers: 4, begin_idx: 0, end_idx: 14, files_to_process.len: 14, all files: 53
+ group_size_nibbles: 2096640
+LOG1: PERF_USE_GetFileList 2 ms
+LOG1: ==============Worker Thread 0 starts at: 2023-04-16T22:02:49.362Z==============
+LOG1: ==============Worker Thread 1 starts at: 2023-04-16T22:02:49.362Z==============
+LOG1: ==============Worker Thread 2 starts at: 2023-04-16T22:02:49.362Z==============
+LOG1: ==============Worker Thread 5 starts at: 2023-04-16T22:02:49.368Z==============
+LOG1: ==============Worker Thread 3 starts at: 2023-04-16T22:02:49.368Z==============
+LOG1: ==============Worker Thread 7 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 6 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 9 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 8 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 4 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 15 starts at: 2023-04-16T22:02:49.373Z==============
+LOG1: ==============Worker Thread 15 stops at: 2023-04-16T22:02:49.373Z==============
+LOG1: ==============Worker Thread 12 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 14 starts at: 2023-04-16T22:02:49.372Z==============
+LOG1: ==============Worker Thread 13 starts at: 2023-04-16T22:02:49.372Z==============
+LOG1: ==============Worker Thread 11 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 10 starts at: 2023-04-16T22:02:49.369Z==============
+LOG1: ==============Worker Thread 14 stops at: 2023-04-16T22:03:00.606Z==============
+LOG1: ==============Worker Thread 19 starts at: 2023-04-16T22:03:00.587Z==============
+LOG1: ==============Worker Thread 18 starts at: 2023-04-16T22:03:00.587Z==============
+LOG1: ==============Worker Thread 17 starts at: 2023-04-16T22:02:49.375Z==============
+LOG1: ==============Worker Thread 16 starts at: 2023-04-16T22:02:49.375Z==============
+LOG1: ==============Worker Thread 17 stops at: 2023-04-16T22:03:03.166Z==============
+LOG1: ==============Worker Thread 20 starts at: 2023-04-16T22:03:03.166Z==============
+LOG1: ==============Worker Thread 18 stops at: 2023-04-16T22:03:03.036Z==============
+LOG1: ==============Worker Thread 19 stops at: 2023-04-16T22:03:03.036Z==============
+LOG1: ==============Worker Thread 20 stops at: 2023-04-16T22:03:03.167Z==============
+LOG1: ==============Worker Thread 16 stops at: 2023-04-16T22:03:03.167Z==============
+LOG1: ==============Worker Thread 21 starts at: 2023-04-16T22:03:03.192Z==============
+LOG1: ==============Worker Thread 21 stops at: 2023-04-16T22:03:03.255Z==============
+LOG1: ==============Worker Thread 22 starts at: 2023-04-16T22:03:03.255Z==============
+LOG1: ==============Worker Thread 23 starts at: 2023-04-16T22:03:03.263Z==============
+LOG1: ==============Worker Thread 24 starts at: 2023-04-16T22:03:03.256Z==============
+LOG1: ==============Worker Thread 23 stops at: 2023-04-16T22:03:03.311Z==============
+LOG1: ==============Worker Thread 22 stops at: 2023-04-16T22:03:03.311Z==============
+LOG1: ==============Worker Thread 24 stops at: 2023-04-16T22:03:03.312Z==============
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50 50826 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0 65704 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45 65703 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38 68480 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0 70737 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41 63048 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50 9668 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37 74302 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39 78224 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1 78240 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44 71610 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45 19022 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38 16254 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0 21012 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0 63086 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37 61202 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41 63052 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1 59101 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39 61657 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44 100679 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1 187135 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2 187139 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2 4629 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1 4667 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38 171104 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50 183693 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0 171302 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45 173368 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39 120591 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37 124999 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44 77008 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41 123198 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0 260545 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1 123198 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0 126721 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0 3587 ms
+LOG1: -- PERF_USE_Read and Pad: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0 265934 ms
+LOG1: -- PERF_USE_CreateAligned: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0 3897 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2 78064 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1 79095 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0 18615 ms
+LOG1: -- PERF_USE_DigitizeTransitions: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0 18336 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39, file size: 1000000 bytes , padded to 2096640 nibbles:  44302 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45, file size: 1000000 bytes , padded to 2096640 nibbles:  47699 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0, file size: 1000000 bytes , padded to 2096640 nibbles:  48874 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1, file size: 1000000 bytes , padded to 2096640 nibbles:  46692 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44, file size: 1000000 bytes , padded to 2096640 nibbles:  46951 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0, file size: 1000000 bytes , padded to 2096640 nibbles:  25161 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50, file size: 1000000 bytes , padded to 2096640 nibbles:  49932 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37, file size: 1000000 bytes , padded to 2096640 nibbles:  47464 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0, file size: 1000000 bytes , padded to 2096640 nibbles:  47438 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41, file size: 1000000 bytes , padded to 2096640 nibbles:  47592 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38, file size: 1000000 bytes , padded to 2096640 nibbles:  52340 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1, file size: 1000000 bytes , padded to 2096640 nibbles:  37759 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2, file size: 1000000 bytes , padded to 2096640 nibbles:  39385 ms
+LOG1: -- PERF_USE_ComputeHash: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0, file size: 1000000 bytes , padded to 2096640 nibbles:  21689 ms
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39 5943 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_39
+LOG1: ==============Worker Thread 9 stops at: 2023-04-16T22:08:00.094Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45 5706 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_45
+LOG1: ==============Worker Thread 12 stops at: 2023-04-16T22:08:00.876Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0 6598 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/JP.so_partx71_0
+LOG1: ==============Worker Thread 2 stops at: 2023-04-16T22:08:02.856Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1 7291 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/JP.so_partx71_1
+LOG1: ==============Worker Thread 3 stops at: 2023-04-16T22:08:03.893Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0 6784 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0
+LOG1: ==============Worker Thread 0 stops at: 2023-04-16T22:08:04.058Z==============
+LOG1: Thread 0 completed at: 2023-04-16T22:08:04.059Z
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50 6826 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_50
+LOG1: ==============Worker Thread 13 stops at: 2023-04-16T22:08:04.115Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38 6584 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_38
+LOG1: ==============Worker Thread 8 stops at: 2023-04-16T22:08:04.140Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41 6641 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_41
+LOG1: ==============Worker Thread 10 stops at: 2023-04-16T22:08:04.141Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44 7290 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_44
+LOG1: ==============Worker Thread 11 stops at: 2023-04-16T22:08:04.148Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37 6917 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/anthoscli_partx71_37
+LOG1: ==============Worker Thread 7 stops at: 2023-04-16T22:08:04.260Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0 6926 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/_openssl.abi3.so_partx71_0
+LOG1: ==============Worker Thread 4 stops at: 2023-04-16T22:08:04.283Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1 6747 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/_openssl.abi3.so_partx71_1
+LOG1: ==============Worker Thread 5 stops at: 2023-04-16T22:08:04.775Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2 6753 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/_openssl.abi3.so_partx71_2
+LOG1: ==============Worker Thread 6 stops at: 2023-04-16T22:08:05.342Z==============
+LOG1: -- PERF_USE_WriteFiles: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0 6433 ms
+LOG1: -- SUCCESS_Preprocess: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0
+LOG1: ==============Worker Thread 1 stops at: 2023-04-16T22:08:05.655Z==============
+LOG1: Thread 1 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 2 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 3 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 4 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 5 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 6 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 7 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 8 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 9 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 10 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 11 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 12 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 13 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 14 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 15 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 16 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 17 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 18 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 19 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 20 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 21 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 22 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 23 completed at: 2023-04-16T22:08:05.656Z
+LOG1: Thread 24 completed at: 2023-04-16T22:08:05.656Z
+LOG1: PERF_USE_ProcessAllFiles 316295 ms
+
+ERR: 
+
+-- preprocess Step1: broadcast config files 683927 ms
+PERF_USE_PreprocessTransitions 693793 ms
+AFTER PreprocessTransitions.: TOTAL: VirtMem: 1962857 MB, Mem: 29617 MB
+preprocess_gcd: me: 0, /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat ...
+-- -- process_gcd Step 1: generate set for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat, set_size: 106543 2178 ms
+-- -- process_gcd Step 2: gen P for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat, poly_size: 4193536 149355 ms
+-- -- process_gcd Step 3: gen P_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat, poly_size: 106543 2458 ms
+-- -- process_gcd Step 4: write P_D for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat, poly_size: 4193535 350 ms
+-- -- process_gcd Step 5: gen GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat, poly_size: 4086993 88502 ms
+-- -- process_gcd Step 6: gen PD_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat, poly_size: 106542 21916 ms
+-- -- process_gcd Step 7: gen Bizout identity for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat. a:106543, b:106542, s: 106541, t: 106542 35683 ms
+-- -- process_gcd Step 8. write ALL files  for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat 5684 ms
+-- PROCESS_GCD TOTAL for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/states.dat 306132 ms
+preprocess_gcd: me: 0, /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat ...
+-- -- process_gcd Step 1: generate set for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat, set_size: 699190 557 ms
+-- -- process_gcd Step 2: gen P for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat, poly_size: 4193280 142004 ms
+-- -- process_gcd Step 3: gen P_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat, poly_size: 699190 21546 ms
+-- -- process_gcd Step 4: write P_D for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat, poly_size: 4193279 327 ms
+-- -- process_gcd Step 5: gen GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat, poly_size: 3494090 93191 ms
+-- -- process_gcd Step 6: gen PD_GCD for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat, poly_size: 699189 38319 ms
+-- -- process_gcd Step 7: gen Bizout identity for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat. a:699190, b:699189, s: 699188, t: 699189 293408 ms
+-- -- process_gcd Step 8. write ALL files  for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat 6563 ms
+-- PROCESS_GCD TOTAL for /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0/trans.dat 595920 ms
+-- -- process_gcd Step 9. tar the dir: /tmp2/batchprove/_home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0 4 us
+PERF_BATCH_GCD: me: 0, #jobs: 1 910888 ms
+PERF_USE_Batch_GCD 919959 ms
+gen_dis_qap: filesize: 2096640
+-- GenQAP Step 1: LoadWitness 8647 ms
+-- GenQAP Step 1: LoadWitness: TOTAL: VirtMem: 1973577 MB, Mem: 39064 MB
+Transfer Poly Evidence:  46 ms
+Transfer Poly Evidence: : TOTAL: VirtMem: 1973577 MB, Mem: 39648 MB
+RunJsnark 49975 ms
+RunJsnark: TOTAL: VirtMem: 1973577 MB, Mem: 41903 MB
+ParseLocalR1CS Constraints: 524288:  11212 ms
+ParseLocalR1CS: TOTAL: VirtMem: 2056007 MB, Mem: 124593 MB
+Local->DisR1CS: 134217728:  8706 ms
+Local->DisR1CS: TOTAL: VirtMem: 2056007 MB, Mem: 124836 MB
+Build DisVars of Len: 186725389:  9349 ms
+Build DisVars: TOTAL: VirtMem: 2066321 MB, Mem: 135167 MB
+Check DisR1CS SAT:  10451 ms
+Check DisR1CS SAT: : TOTAL: VirtMem: 2068771 MB, Mem: 139781 MB
+-- GenQAP Step 2: GenDisR1CS: size: 134217728,  92088 ms
+-- GenQAP Step 2: GenDisR1CS: TOTAL: VirtMem: 2064252 MB, Mem: 136396 MB
+-- GenQAP Step 3: GenQAP: vars: 186725389 21063 ms
+-- GenQAP Step 3: GenQAP: TOTAL: VirtMem: 2090713 MB, Mem: 163418 MB
+-- GenQAP Step 4: GenDisKey for SigmaProtos size: 186725389 57082 ms
+-- GenQAP Step 4: GenDisKey for SigmaProtos: TOTAL: VirtMem: 2198728 MB, Mem: 291272 MB
+PERF_USE_GenQAP 190972 ms
+PERF_USE_GenSigmaKey 16687 ms
+PERF_USE_GenSubsetPoly 12034 ms
+PERF_USE_OnetimeSetup 1842064 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0->101 10543 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 8104 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 368 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2569 ms
+ProveStep5: PERF_USE_GenDpSetCommit 642 ms
+ProveStep5: PERF_USE_EvalCirc2 414 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16205 ms
+ProveStep7: PERF_USE_Groth16Stage2 21570 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 61 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48330 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 805734 6007 ms
+PERF_USE_WritePrf 241 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-0-rescue-b1527a5456aab241a74a8a3dc31395c0_partx71_0  104377 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0->101 105073 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 8527 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 441 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2266 ms
+ProveStep5: PERF_USE_GenDpSetCommit 868 ms
+ProveStep5: PERF_USE_EvalCirc2 637 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16452 ms
+ProveStep7: PERF_USE_Groth16Stage2 21699 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48453 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 805734 5786 ms
+PERF_USE_WritePrf 206 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_vmlinuz-3.10.0-1160.76.1.el7.x86_64_partx71_0  105264 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0->101 105919 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 7741 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 420 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 5 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2178 ms
+ProveStep5: PERF_USE_GenDpSetCommit 487 ms
+ProveStep5: PERF_USE_EvalCirc2 756 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16475 ms
+ProveStep7: PERF_USE_Groth16Stage2 21113 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 16 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48051 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 124382 1134 ms
+PERF_USE_WritePrf 238 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_0  98475 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1->101 99201 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1
+===================================
+ProveStep1: PERF_USE_GenWitness1 8012 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 380 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2109 ms
+ProveStep5: PERF_USE_GenDpSetCommit 354 ms
+ProveStep5: PERF_USE_EvalCirc2 509 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16630 ms
+ProveStep7: PERF_USE_Groth16Stage2 21531 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48227 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 251465 1873 ms
+PERF_USE_WritePrf 233 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_JP.so_partx71_1  99738 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0->101 100497 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 8304 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 457 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 1986 ms
+ProveStep5: PERF_USE_GenDpSetCommit 304 ms
+ProveStep5: PERF_USE_EvalCirc2 728 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16632 ms
+ProveStep7: PERF_USE_Groth16Stage2 21395 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48198 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 256520 1792 ms
+PERF_USE_WritePrf 190 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_0  99917 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1->101 100672 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1
+===================================
+ProveStep1: PERF_USE_GenWitness1 7921 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 451 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2071 ms
+ProveStep5: PERF_USE_GenDpSetCommit 383 ms
+ProveStep5: PERF_USE_EvalCirc2 406 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16785 ms
+ProveStep7: PERF_USE_Groth16Stage2 21233 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 16 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48104 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 294289 3083 ms
+PERF_USE_WritePrf 243 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_1  100595 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2->101 101306 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2
+===================================
+ProveStep1: PERF_USE_GenWitness1 8014 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 358 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2286 ms
+ProveStep5: PERF_USE_GenDpSetCommit 397 ms
+ProveStep5: PERF_USE_EvalCirc2 566 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16486 ms
+ProveStep7: PERF_USE_Groth16Stage2 21388 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48090 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 486642 3207 ms
+PERF_USE_WritePrf 194 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs__openssl.abi3.so_partx71_2  100962 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37->101 101691 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37
+===================================
+ProveStep1: PERF_USE_GenWitness1 7963 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 388 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2067 ms
+ProveStep5: PERF_USE_GenDpSetCommit 298 ms
+ProveStep5: PERF_USE_EvalCirc2 606 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16594 ms
+ProveStep7: PERF_USE_Groth16Stage2 21233 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48455 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 219537 1822 ms
+PERF_USE_WritePrf 281 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_37  99545 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38->101 100221 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38
+===================================
+ProveStep1: PERF_USE_GenWitness1 7882 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 292 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2224 ms
+ProveStep5: PERF_USE_GenDpSetCommit 517 ms
+ProveStep5: PERF_USE_EvalCirc2 474 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16818 ms
+ProveStep7: PERF_USE_Groth16Stage2 21457 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48258 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 198708 2289 ms
+PERF_USE_WritePrf 263 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_38  100319 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39->101 101051 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39
+===================================
+ProveStep1: PERF_USE_GenWitness1 8008 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 370 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2229 ms
+ProveStep5: PERF_USE_GenDpSetCommit 503 ms
+ProveStep5: PERF_USE_EvalCirc2 571 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16602 ms
+ProveStep7: PERF_USE_Groth16Stage2 21071 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47340 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 165723 1758 ms
+PERF_USE_WritePrf 205 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_39  98576 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41->101 99322 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41
+===================================
+ProveStep1: PERF_USE_GenWitness1 8398 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 318 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2246 ms
+ProveStep5: PERF_USE_GenDpSetCommit 309 ms
+ProveStep5: PERF_USE_EvalCirc2 499 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16514 ms
+ProveStep7: PERF_USE_Groth16Stage2 21042 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47567 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 178432 1792 ms
+PERF_USE_WritePrf 232 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_41  98810 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44->101 99525 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44
+===================================
+ProveStep1: PERF_USE_GenWitness1 7822 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 297 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2178 ms
+ProveStep5: PERF_USE_GenDpSetCommit 335 ms
+ProveStep5: PERF_USE_EvalCirc2 459 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16624 ms
+ProveStep7: PERF_USE_Groth16Stage2 20996 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48828 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 156641 1776 ms
+PERF_USE_WritePrf 174 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_44  99429 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45->101 100144 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45
+===================================
+ProveStep1: PERF_USE_GenWitness1 7900 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 352 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2171 ms
+ProveStep5: PERF_USE_GenDpSetCommit 737 ms
+ProveStep5: PERF_USE_EvalCirc2 561 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16671 ms
+ProveStep7: PERF_USE_Groth16Stage2 20822 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47488 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 134323 2084 ms
+PERF_USE_WritePrf 174 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_45  98892 ms
+COPY folder: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50->101 99649 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50
+===================================
+ProveStep1: PERF_USE_GenWitness1 7678 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 301 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2217 ms
+ProveStep5: PERF_USE_GenDpSetCommit 222 ms
+ProveStep5: PERF_USE_EvalCirc2 428 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16579 ms
+ProveStep7: PERF_USE_Groth16Stage2 20929 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 46634 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 33327 222 ms
+PERF_USE_WritePrf 205 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_50  95338 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_51
+===================================
+ProveStep1: PERF_USE_GenWitness1 8419 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 357 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2114 ms
+ProveStep5: PERF_USE_GenDpSetCommit 223 ms
+ProveStep5: PERF_USE_EvalCirc2 764 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16421 ms
+ProveStep7: PERF_USE_Groth16Stage2 21003 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 46812 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 34776 220 ms
+PERF_USE_WritePrf 218 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_51
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_51  96458 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_57
+===================================
+ProveStep1: PERF_USE_GenWitness1 8854 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 287 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2242 ms
+ProveStep5: PERF_USE_GenDpSetCommit 381 ms
+ProveStep5: PERF_USE_EvalCirc2 446 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16596 ms
+ProveStep7: PERF_USE_Groth16Stage2 21399 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 16 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48951 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 330943 3156 ms
+PERF_USE_WritePrf 178 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_57
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_57  102445 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_59
+===================================
+ProveStep1: PERF_USE_GenWitness1 8942 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 488 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2043 ms
+ProveStep5: PERF_USE_GenDpSetCommit 380 ms
+ProveStep5: PERF_USE_EvalCirc2 675 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16373 ms
+ProveStep7: PERF_USE_Groth16Stage2 21107 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48418 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 285425 3382 ms
+PERF_USE_WritePrf 182 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_59
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_59  101915 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_61
+===================================
+ProveStep1: PERF_USE_GenWitness1 8654 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 420 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2267 ms
+ProveStep5: PERF_USE_GenDpSetCommit 509 ms
+ProveStep5: PERF_USE_EvalCirc2 550 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16564 ms
+ProveStep7: PERF_USE_Groth16Stage2 21262 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48176 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 194184 1807 ms
+PERF_USE_WritePrf 167 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_61
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_61  100365 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_70
+===================================
+ProveStep1: PERF_USE_GenWitness1 8300 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 284 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 3 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2154 ms
+ProveStep5: PERF_USE_GenDpSetCommit 429 ms
+ProveStep5: PERF_USE_EvalCirc2 674 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16372 ms
+ProveStep7: PERF_USE_Groth16Stage2 21170 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47354 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 45388 245 ms
+PERF_USE_WritePrf 219 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_70
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_70  97093 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_71
+===================================
+ProveStep1: PERF_USE_GenWitness1 8549 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 461 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2282 ms
+ProveStep5: PERF_USE_GenDpSetCommit 1057 ms
+ProveStep5: PERF_USE_EvalCirc2 692 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16638 ms
+ProveStep7: PERF_USE_Groth16Stage2 20904 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 46639 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 21975 213 ms
+PERF_USE_WritePrf 209 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_71
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_anthoscli_partx71_71  97546 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_cc1_partx71_5
+===================================
+ProveStep1: PERF_USE_GenWitness1 8719 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 353 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2183 ms
+ProveStep5: PERF_USE_GenDpSetCommit 399 ms
+ProveStep5: PERF_USE_EvalCirc2 625 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16746 ms
+ProveStep7: PERF_USE_Groth16Stage2 21443 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47552 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 325677 3077 ms
+PERF_USE_WritePrf 211 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_cc1_partx71_5
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_cc1_partx71_5  101216 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_cc1plus_partx71_6
+===================================
+ProveStep1: PERF_USE_GenWitness1 8644 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 339 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2212 ms
+ProveStep5: PERF_USE_GenDpSetCommit 579 ms
+ProveStep5: PERF_USE_EvalCirc2 393 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16680 ms
+ProveStep7: PERF_USE_Groth16Stage2 21635 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48157 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 327944 3152 ms
+PERF_USE_WritePrf 194 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_cc1plus_partx71_6
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_cc1plus_partx71_6  101921 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_doxygen_partx71_1
+===================================
+ProveStep1: PERF_USE_GenWitness1 8811 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 359 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2213 ms
+ProveStep5: PERF_USE_GenDpSetCommit 379 ms
+ProveStep5: PERF_USE_EvalCirc2 388 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16738 ms
+ProveStep7: PERF_USE_Groth16Stage2 21414 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 49633 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 302803 3299 ms
+PERF_USE_WritePrf 176 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_doxygen_partx71_1
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_doxygen_partx71_1  103352 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_eapol_test_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 8804 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 395 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2149 ms
+ProveStep5: PERF_USE_GenDpSetCommit 380 ms
+ProveStep5: PERF_USE_EvalCirc2 580 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16587 ms
+ProveStep7: PERF_USE_Groth16Stage2 21330 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48886 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 304035 3121 ms
+PERF_USE_WritePrf 224 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_eapol_test_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_eapol_test_partx71_0  102343 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_f951_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 8371 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 417 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2151 ms
+ProveStep5: PERF_USE_GenDpSetCommit 361 ms
+ProveStep5: PERF_USE_EvalCirc2 682 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16512 ms
+ProveStep7: PERF_USE_Groth16Stage2 21415 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48218 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 322028 3323 ms
+PERF_USE_WritePrf 236 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_f951_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_f951_partx71_0  101610 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_f951_partx71_6
+===================================
+ProveStep1: PERF_USE_GenWitness1 8795 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 347 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2202 ms
+ProveStep5: PERF_USE_GenDpSetCommit 376 ms
+ProveStep5: PERF_USE_EvalCirc2 480 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16650 ms
+ProveStep7: PERF_USE_Groth16Stage2 21594 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48315 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 324486 3202 ms
+PERF_USE_WritePrf 210 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_f951_partx71_6
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_f951_partx71_6  102117 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_0
+===================================
+ProveStep1: PERF_USE_GenWitness1 8835 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 551 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 1943 ms
+ProveStep5: PERF_USE_GenDpSetCommit 425 ms
+ProveStep5: PERF_USE_EvalCirc2 410 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16751 ms
+ProveStep7: PERF_USE_Groth16Stage2 21281 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48060 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 344092 3231 ms
+PERF_USE_WritePrf 219 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_0
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_0  101600 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_2
+===================================
+ProveStep1: PERF_USE_GenWitness1 8990 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 431 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 3 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2079 ms
+ProveStep5: PERF_USE_GenDpSetCommit 362 ms
+ProveStep5: PERF_USE_EvalCirc2 432 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16773 ms
+ProveStep7: PERF_USE_Groth16Stage2 21281 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 15 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48636 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 320128 3674 ms
+PERF_USE_WritePrf 170 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_2
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_2  102768 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_5
+===================================
+ProveStep1: PERF_USE_GenWitness1 8594 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 325 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2200 ms
+ProveStep5: PERF_USE_GenDpSetCommit 508 ms
+ProveStep5: PERF_USE_EvalCirc2 548 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16548 ms
+ProveStep7: PERF_USE_Groth16Stage2 21030 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48387 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 164702 1814 ms
+PERF_USE_WritePrf 267 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_5
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_gdb_partx71_5  100086 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_git-imap-send
+===================================
+ProveStep1: PERF_USE_GenWitness1 8600 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 396 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2056 ms
+ProveStep5: PERF_USE_GenDpSetCommit 363 ms
+ProveStep5: PERF_USE_EvalCirc2 416 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16763 ms
+ProveStep7: PERF_USE_Groth16Stage2 21174 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48717 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 345626 3564 ms
+PERF_USE_WritePrf 183 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_git-imap-send
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_git-imap-send  102191 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_2
+===================================
+ProveStep1: PERF_USE_GenWitness1 8710 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 423 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2046 ms
+ProveStep5: PERF_USE_GenDpSetCommit 309 ms
+ProveStep5: PERF_USE_EvalCirc2 470 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16660 ms
+ProveStep7: PERF_USE_Groth16Stage2 21208 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 16 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47864 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 232746 1841 ms
+PERF_USE_WritePrf 244 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_2
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_2  99653 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_4
+===================================
+ProveStep1: PERF_USE_GenWitness1 8638 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 383 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2382 ms
+ProveStep5: PERF_USE_GenDpSetCommit 512 ms
+ProveStep5: PERF_USE_EvalCirc2 599 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16504 ms
+ProveStep7: PERF_USE_Groth16Stage2 21563 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47542 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 248101 2064 ms
+PERF_USE_WritePrf 212 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_4
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_4  100319 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_5
+===================================
+ProveStep1: PERF_USE_GenWitness1 8649 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 422 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2070 ms
+ProveStep5: PERF_USE_GenDpSetCommit 373 ms
+ProveStep5: PERF_USE_EvalCirc2 397 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16783 ms
+ProveStep7: PERF_USE_Groth16Stage2 21141 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48129 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 283935 3076 ms
+PERF_USE_WritePrf 213 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_5
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_guest_agent_partx71_5  101156 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_3
+===================================
+ProveStep1: PERF_USE_GenWitness1 8757 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 318 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2174 ms
+ProveStep5: PERF_USE_GenDpSetCommit 299 ms
+ProveStep5: PERF_USE_EvalCirc2 695 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16493 ms
+ProveStep7: PERF_USE_Groth16Stage2 21650 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47414 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 229467 1849 ms
+PERF_USE_WritePrf 194 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_3
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_3  99755 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_4
+===================================
+ProveStep1: PERF_USE_GenWitness1 8975 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 340 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2277 ms
+ProveStep5: PERF_USE_GenDpSetCommit 512 ms
+ProveStep5: PERF_USE_EvalCirc2 516 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16651 ms
+ProveStep7: PERF_USE_Groth16Stage2 21208 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 18 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47864 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 248346 1766 ms
+PERF_USE_WritePrf 231 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_4
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_4  100232 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_5
+===================================
+ProveStep1: PERF_USE_GenWitness1 8787 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 309 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 2 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2210 ms
+ProveStep5: PERF_USE_GenDpSetCommit 378 ms
+ProveStep5: PERF_USE_EvalCirc2 409 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16835 ms
+ProveStep7: PERF_USE_Groth16Stage2 21300 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 48246 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 278388 3118 ms
+PERF_USE_WritePrf 228 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_5
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_5  101729 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_6
+===================================
+ProveStep1: PERF_USE_GenWitness1 8677 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 366 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2150 ms
+ProveStep5: PERF_USE_GenDpSetCommit 529 ms
+ProveStep5: PERF_USE_EvalCirc2 400 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16759 ms
+ProveStep7: PERF_USE_Groth16Stage2 21578 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47708 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 207579 1777 ms
+PERF_USE_WritePrf 264 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_6
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_6  100066 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_9
+===================================
+ProveStep1: PERF_USE_GenWitness1 8854 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 396 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2136 ms
+ProveStep5: PERF_USE_GenDpSetCommit 373 ms
+ProveStep5: PERF_USE_EvalCirc2 419 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16739 ms
+ProveStep7: PERF_USE_Groth16Stage2 21494 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 17 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47884 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 308809 3073 ms
+PERF_USE_WritePrf 193 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_9
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_metadata_script_runner_partx71_9  101481 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_osconfig_agent_partx71_3
+===================================
+ProveStep1: PERF_USE_GenWitness1 8851 ms
+ProveStep2: PERF_USE_EvalCirc1 Vars:186725389, LocalVars: 729345 486 ms
+ProveStep3: PERF_USE_WitnessToQAP. b_skip_h: true 1 ms
+ProveStep4: PERF_USE_Groth1. Constraints: 134217728 2166 ms
+ProveStep5: PERF_USE_GenDpSetCommit 310 ms
+ProveStep5: PERF_USE_EvalCirc2 638 ms
+ProveStep6: PERF_USE_GenWitness2: num_cons: 134217728 16369 ms
+ProveStep7: PERF_USE_Groth16Stage2 21261 ms
+ProveStep8: PERF_USE_Build_Subset_Prf1 14 ms
+ProveStep9: PERF_USE_Build_Suset_Prf2 Degree: 46276572 47461 ms
+ProveStep10: PERF_USE_Build_ZkKZG Degree: 236638 2023 ms
+PERF_USE_WritePrf 294 us
+===================================
+END_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_osconfig_agent_partx71_3
+===================================
+PERF_USE_Proof_File _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_osconfig_agent_partx71_3  99664 ms
+===================================
+START_PROVE: _home_zkregex_Desktop_ProofCarryExec_Code_zkregex_DATA_elfs_google_osconfig_agent_partx71_5
+===================================

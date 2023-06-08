@@ -1,0 +1,4 @@
+This directory usually should be empty. Use it when cross-reference
+of java modules cause compiling issue.
+----
+use collect.jar to copy over all jars.

@@ -1,0 +1,375 @@
+------ SINGLE NODE aggregate ------------. NO MPI
+------ SINGLE NODE aggregate ------------. NO MPI
+LOG: zk_verify 36 ms
+PASSED verification for pair: 0
+LOG: zk_verify 35 ms
+PASSED verification for pair: 1
+LOG: zk_verify 36 ms
+PASSED verification for pair: 2
+LOG: zk_verify 35 ms
+PASSED verification for pair: 3
+LOG: zk_verify 36 ms
+PASSED verification for pair: 4
+LOG: zk_verify 35 ms
+PASSED verification for pair: 5
+LOG: zk_verify 35 ms
+PASSED verification for pair: 6
+LOG: zk_verify 35 ms
+PASSED verification for pair: 7
+LOG: zk_verify 35 ms
+PASSED verification for pair: 8
+LOG: zk_verify 36 ms
+PASSED verification for pair: 9
+LOG: zk_verify 35 ms
+PASSED verification for pair: 10
+LOG: zk_verify 35 ms
+PASSED verification for pair: 11
+LOG: zk_verify 35 ms
+PASSED verification for pair: 12
+LOG: zk_verify 35 ms
+PASSED verification for pair: 13
+LOG: zk_verify 35 ms
+PASSED verification for pair: 14
+LOG: zk_verify 36 ms
+PASSED verification for pair: 15
+LOG: zk_verify 36 ms
+PASSED verification for pair: 16
+LOG: zk_verify 35 ms
+PASSED verification for pair: 17
+LOG: zk_verify 36 ms
+PASSED verification for pair: 18
+LOG: zk_verify 36 ms
+PASSED verification for pair: 19
+LOG: zk_verify 35 ms
+PASSED verification for pair: 20
+LOG: zk_verify 35 ms
+PASSED verification for pair: 21
+LOG: zk_verify 35 ms
+PASSED verification for pair: 22
+LOG: zk_verify 35 ms
+PASSED verification for pair: 23
+LOG: zk_verify 35 ms
+PASSED verification for pair: 24
+LOG: zk_verify 35 ms
+PASSED verification for pair: 25
+LOG: zk_verify 35 ms
+PASSED verification for pair: 26
+LOG: zk_verify 36 ms
+PASSED verification for pair: 27
+LOG: zk_verify 35 ms
+PASSED verification for pair: 28
+LOG: zk_verify 35 ms
+PASSED verification for pair: 29
+LOG: zk_verify 35 ms
+PASSED verification for pair: 30
+LOG: zk_verify 36 ms
+PASSED verification for pair: 31
+LOG: zk_verify 35 ms
+PASSED verification for pair: 32
+LOG: zk_verify 36 ms
+PASSED verification for pair: 33
+LOG: zk_verify 35 ms
+PASSED verification for pair: 34
+LOG: zk_verify 35 ms
+PASSED verification for pair: 35
+LOG: zk_verify 36 ms
+PASSED verification for pair: 36
+LOG: zk_verify 35 ms
+PASSED verification for pair: 37
+LOG: zk_verify 36 ms
+PASSED verification for pair: 38
+LOG: zk_verify 35 ms
+PASSED verification for pair: 39
+LOG: zk_verify 36 ms
+PASSED verification for pair: 40
+LOG: zk_verify 35 ms
+PASSED verification for pair: 41
+LOG: zk_verify 36 ms
+PASSED verification for pair: 42
+LOG: zk_verify 35 ms
+PASSED verification for pair: 43
+LOG: zk_verify 35 ms
+PASSED verification for pair: 44
+LOG: zk_verify 36 ms
+PASSED verification for pair: 45
+LOG: zk_verify 35 ms
+PASSED verification for pair: 46
+LOG: zk_verify 35 ms
+PASSED verification for pair: 47
+LOG: zk_verify 35 ms
+PASSED verification for pair: 48
+LOG: zk_verify 35 ms
+PASSED verification for pair: 49
+LOG: zk_verify 36 ms
+PASSED verification for pair: 50
+LOG: zk_verify 35 ms
+PASSED verification for pair: 51
+LOG: zk_verify 35 ms
+PASSED verification for pair: 52
+LOG: zk_verify 35 ms
+PASSED verification for pair: 53
+LOG: zk_verify 35 ms
+PASSED verification for pair: 54
+LOG: zk_verify 36 ms
+PASSED verification for pair: 55
+LOG: zk_verify 35 ms
+PASSED verification for pair: 56
+LOG: zk_verify 36 ms
+PASSED verification for pair: 57
+LOG: zk_verify 35 ms
+PASSED verification for pair: 58
+LOG: zk_verify 35 ms
+PASSED verification for pair: 59
+LOG: zk_verify 35 ms
+PASSED verification for pair: 60
+LOG: zk_verify 35 ms
+PASSED verification for pair: 61
+LOG: zk_verify 35 ms
+PASSED verification for pair: 62
+LOG: zk_verify 36 ms
+PASSED verification for pair: 63
+LOG: zk_verify 36 ms
+PASSED verification for pair: 64
+LOG: zk_verify 35 ms
+PASSED verification for pair: 65
+LOG: zk_verify 35 ms
+PASSED verification for pair: 66
+LOG: zk_verify 36 ms
+PASSED verification for pair: 67
+LOG: zk_verify 35 ms
+PASSED verification for pair: 68
+LOG: zk_verify 36 ms
+PASSED verification for pair: 69
+LOG: zk_verify 36 ms
+PASSED verification for pair: 70
+LOG: zk_verify 36 ms
+PASSED verification for pair: 71
+LOG: zk_verify 36 ms
+PASSED verification for pair: 72
+LOG: zk_verify 35 ms
+PASSED verification for pair: 73
+LOG: zk_verify 36 ms
+PASSED verification for pair: 74
+LOG: zk_verify 35 ms
+PASSED verification for pair: 75
+LOG: zk_verify 36 ms
+PASSED verification for pair: 76
+LOG: zk_verify 35 ms
+PASSED verification for pair: 77
+LOG: zk_verify 36 ms
+PASSED verification for pair: 78
+LOG: zk_verify 36 ms
+PASSED verification for pair: 79
+LOG: zk_verify 36 ms
+PASSED verification for pair: 80
+LOG: zk_verify 35 ms
+PASSED verification for pair: 81
+LOG: zk_verify 35 ms
+PASSED verification for pair: 82
+LOG: zk_verify 35 ms
+PASSED verification for pair: 83
+LOG: zk_verify 35 ms
+PASSED verification for pair: 84
+LOG: zk_verify 35 ms
+PASSED verification for pair: 85
+LOG: zk_verify 35 ms
+PASSED verification for pair: 86
+LOG: zk_verify 35 ms
+PASSED verification for pair: 87
+LOG: zk_verify 35 ms
+PASSED verification for pair: 88
+LOG: zk_verify 35 ms
+PASSED verification for pair: 89
+LOG: zk_verify 35 ms
+PASSED verification for pair: 90
+LOG: zk_verify 36 ms
+PASSED verification for pair: 91
+LOG: zk_verify 35 ms
+PASSED verification for pair: 92
+LOG: zk_verify 35 ms
+PASSED verification for pair: 93
+LOG: zk_verify 36 ms
+PASSED verification for pair: 94
+LOG: zk_verify 35 ms
+PASSED verification for pair: 95
+LOG: zk_verify 35 ms
+PASSED verification for pair: 96
+LOG: zk_verify 36 ms
+PASSED verification for pair: 97
+LOG: zk_verify 35 ms
+PASSED verification for pair: 98
+LOG: zk_verify 36 ms
+PASSED verification for pair: 99
+LOG: zk_verify 35 ms
+PASSED verification for pair: 100
+LOG: zk_verify 35 ms
+PASSED verification for pair: 101
+LOG: zk_verify 35 ms
+PASSED verification for pair: 102
+LOG: zk_verify 35 ms
+PASSED verification for pair: 103
+LOG: zk_verify 35 ms
+PASSED verification for pair: 104
+LOG: zk_verify 35 ms
+PASSED verification for pair: 105
+LOG: zk_verify 35 ms
+PASSED verification for pair: 106
+LOG: zk_verify 35 ms
+PASSED verification for pair: 107
+LOG: zk_verify 36 ms
+PASSED verification for pair: 108
+LOG: zk_verify 35 ms
+PASSED verification for pair: 109
+LOG: zk_verify 36 ms
+PASSED verification for pair: 110
+LOG: zk_verify 36 ms
+PASSED verification for pair: 111
+LOG: zk_verify 36 ms
+PASSED verification for pair: 112
+LOG: zk_verify 36 ms
+PASSED verification for pair: 113
+LOG: zk_verify 36 ms
+PASSED verification for pair: 114
+LOG: zk_verify 36 ms
+PASSED verification for pair: 115
+LOG: zk_verify 36 ms
+PASSED verification for pair: 116
+LOG: zk_verify 36 ms
+PASSED verification for pair: 117
+LOG: zk_verify 36 ms
+PASSED verification for pair: 118
+LOG: zk_verify 36 ms
+PASSED verification for pair: 119
+LOG: zk_verify 36 ms
+PASSED verification for pair: 120
+LOG: zk_verify 35 ms
+PASSED verification for pair: 121
+LOG: zk_verify 35 ms
+PASSED verification for pair: 122
+LOG: zk_verify 35 ms
+PASSED verification for pair: 123
+LOG: zk_verify 35 ms
+PASSED verification for pair: 124
+LOG: zk_verify 36 ms
+PASSED verification for pair: 125
+LOG: zk_verify 35 ms
+PASSED verification for pair: 126
+LOG: zk_verify 36 ms
+PASSED verification for pair: 127
+LOG: zk_verify 36 ms
+PASSED verification for pair: 128
+LOG: zk_verify 36 ms
+PASSED verification for pair: 129
+LOG: zk_verify 37 ms
+PASSED verification for pair: 130
+LOG: zk_verify 35 ms
+PASSED verification for pair: 131
+LOG: zk_verify 36 ms
+PASSED verification for pair: 132
+LOG: zk_verify 36 ms
+PASSED verification for pair: 133
+LOG: zk_verify 36 ms
+PASSED verification for pair: 134
+LOG: zk_verify 35 ms
+PASSED verification for pair: 135
+LOG: zk_verify 35 ms
+PASSED verification for pair: 136
+LOG: zk_verify 36 ms
+PASSED verification for pair: 137
+LOG: zk_verify 36 ms
+PASSED verification for pair: 138
+LOG: zk_verify 36 ms
+PASSED verification for pair: 139
+LOG: zk_verify 36 ms
+PASSED verification for pair: 140
+LOG: zk_verify 36 ms
+PASSED verification for pair: 141
+LOG: zk_verify 35 ms
+PASSED verification for pair: 142
+LOG: zk_verify 36 ms
+PASSED verification for pair: 143
+LOG: zk_verify 36 ms
+PASSED verification for pair: 144
+LOG: zk_verify 36 ms
+PASSED verification for pair: 145
+LOG: zk_verify 36 ms
+PASSED verification for pair: 146
+LOG: zk_verify 35 ms
+PASSED verification for pair: 147
+LOG: zk_verify 36 ms
+PASSED verification for pair: 148
+LOG: zk_verify 35 ms
+PASSED verification for pair: 149
+LOG: zk_verify 35 ms
+PASSED verification for pair: 150
+LOG: zk_verify 36 ms
+PASSED verification for pair: 151
+LOG: zk_verify 35 ms
+PASSED verification for pair: 152
+LOG: zk_verify 36 ms
+PASSED verification for pair: 153
+LOG: zk_verify 36 ms
+PASSED verification for pair: 154
+LOG: zk_verify 36 ms
+PASSED verification for pair: 155
+LOG: zk_verify 36 ms
+PASSED verification for pair: 156
+LOG: zk_verify 36 ms
+PASSED verification for pair: 157
+LOG: zk_verify 35 ms
+PASSED verification for pair: 158
+LOG: zk_verify 36 ms
+PASSED verification for pair: 159
+LOG: zk_verify 36 ms
+PASSED verification for pair: 160
+LOG: zk_verify 36 ms
+PASSED verification for pair: 161
+LOG: zk_verify 36 ms
+PASSED verification for pair: 162
+LOG: zk_verify 36 ms
+PASSED verification for pair: 163
+LOG: zk_verify 35 ms
+PASSED verification for pair: 164
+LOG: zk_verify 36 ms
+PASSED verification for pair: 165
+LOG: zk_verify 35 ms
+PASSED verification for pair: 166
+LOG: zk_verify 35 ms
+PASSED verification for pair: 167
+LOG: zk_verify 36 ms
+PASSED verification for pair: 168
+LOG: zk_verify 35 ms
+PASSED verification for pair: 169
+LOG: zk_verify 36 ms
+PASSED verification for pair: 170
+LOG: zk_verify 35 ms
+PASSED verification for pair: 171
+LOG: zk_verify 35 ms
+PASSED verification for pair: 172
+LOG: zk_verify 36 ms
+PASSED verification for pair: 173
+LOG: zk_verify 36 ms
+PASSED verification for pair: 174
+LOG: zk_verify 36 ms
+PASSED verification for pair: 175
+LOG: zk_verify 35 ms
+PASSED verification for pair: 176
+LOG: zk_verify 35 ms
+PASSED verification for pair: 177
+LOG: zk_verify 35 ms
+PASSED verification for pair: 178
+LOG: zk_verify 36 ms
+PASSED verification for pair: 179
+LOG: zk_verify 36 ms
+PASSED verification for pair: 180
+LOG: zk_verify 35 ms
+PASSED verification for pair: 181
+LOG: zk_verify 36 ms
+PASSED verification for pair: 182
+LOG: zk_verify 36 ms
+PASSED verification for pair: 183
+LOG: zk_verify 36 ms
+PASSED verification for pair: 184
+LOG: zk_verify 36 ms
+PASSED verification for pair: 185
+./scripts/agg.sh: line 2:  4215 Terminated              /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/acc/target/release/acc aggregate BLS12-381 /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/anti_virus_output/clamav_full /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/acc/batchscripts/javamain.params.txt /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/acc/batchscripts/results /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/anti_virus_input/clamav_full/sigs.dat 256

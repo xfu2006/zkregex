@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libpcre16.so.0.2.0 365464 19 0 34 0 17499781

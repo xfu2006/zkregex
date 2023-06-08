@@ -1,0 +1,55 @@
+                 MCA btl: tcp (MCA v2.1.0, API v3.1.0, Component v4.0.3)
+             MCA btl tcp: ---------------------------------------------------
+             MCA btl tcp: parameter "btl_tcp_links" (current value: "1", data source: default, level: 4 tuner/basic, type: unsigned_int)
+             MCA btl tcp: parameter "btl_tcp_if_include" (current value: "", data source: default, level: 1 user/basic, type: string)
+                          Comma-delimited list of devices and/or CIDR notation of networks to use for MPI communication (e.g., "eth0,192.168.0.0/16").  Mutually exclusive with btl_tcp_if_exclude.
+             MCA btl tcp: parameter "btl_tcp_if_exclude" (current value: "127.0.0.1/8,sppp", data source: default, level: 1 user/basic, type: string)
+                          Comma-delimited list of devices and/or CIDR notation of networks to NOT use for MPI communication -- all devices not matching these specifications will be used (e.g., "eth0,192.168.0.0/16").  If set to a non-default value, it is mutually exclusive with btl_tcp_if_include.
+             MCA btl tcp: parameter "btl_tcp_free_list_num" (current value: "8", data source: default, level: 5 tuner/detail, type: int)
+             MCA btl tcp: parameter "btl_tcp_free_list_max" (current value: "-1", data source: default, level: 5 tuner/detail, type: int)
+             MCA btl tcp: parameter "btl_tcp_free_list_inc" (current value: "32", data source: default, level: 5 tuner/detail, type: int)
+             MCA btl tcp: parameter "btl_tcp_sndbuf" (current value: "0", data source: default, level: 4 tuner/basic, type: int)
+                          The size of the send buffer socket option for each connection.  Modern TCP stacks generally are smarter than a fixed size and in some situations setting a buffer size explicitly can actually lower performance.  0 means the tcp btl will not try to set a send buffer size.
+             MCA btl tcp: parameter "btl_tcp_rcvbuf" (current value: "0", data source: default, level: 4 tuner/basic, type: int)
+                          The size of the receive buffer socket option for each connection.  Modern TCP stacks generally are smarter than a fixed size and in some situations setting a buffer size explicitly can actually lower performance.  0 means the tcp btl will not try to set a send buffer size.
+             MCA btl tcp: parameter "btl_tcp_endpoint_cache" (current value: "30720", data source: default, level: 4 tuner/basic, type: int)
+                          The size of the internal cache for each TCP connection. This cache is used to reduce the number of syscalls, by replacing them with memcpy. Every read will read the expected data plus the amount of the endpoint_cache
+             MCA btl tcp: parameter "btl_tcp_use_nagle" (current value: "0", data source: default, level: 4 tuner/basic, type: int)
+                          Whether to use Nagle's algorithm or not (using Nagle's algorithm may increase short message latency)
+             MCA btl tcp: parameter "btl_tcp_port_min_v4" (current value: "1024", data source: default, level: 2 user/detail, type: int)
+                          The minimum port where the TCP BTL will try to bind (default 1024)
+             MCA btl tcp: parameter "btl_tcp_port_range_v4" (current value: "64511", data source: default, level: 2 user/detail, type: int)
+                          The number of ports where the TCP BTL will try to bind (default 64511). This parameter together with the port min, define a range of ports where Open MPI will open sockets.
+             MCA btl tcp: parameter "btl_tcp_progress_thread" (current value: "0", data source: default, level: 1 user/basic, type: int)
+             MCA btl tcp: parameter "btl_tcp_warn_all_unfound_interfaces" (current value: "false", data source: default, level: 2 user/detail, type: bool)
+                          Issue a warning for all unfound interfaces included in if_exclude
+                          Valid values: 0: f|false|disabled|no|n, 1: t|true|enabled|yes|y
+             MCA btl tcp: parameter "btl_tcp_exclusivity" (current value: "100", data source: default, level: 7 dev/basic, type: unsigned_int)
+                          BTL exclusivity (must be >= 0)
+             MCA btl tcp: parameter "btl_tcp_flags" (current value: "send,put,inplace,need-ack,need-csum,hetero-rdma", data source: default, level: 5 tuner/detail, type: unsigned_int)
+                          BTL bit flags (general flags: send, put, get, in-place, hetero-rdma, atomics, fetching-atomics)
+                          Valid values: Comma-delimited list of:  0x1:"send", 0x2:"put", 0x4:"get", 0x8:"inplace", 0x4000:"signaled", 0x8000:"atomics", 0x10000:"fetching-atomics", 0x20000:"static", 0x400:"cuda-put", 0x800:"cuda-get", 0x1000:"cuda-async-send", 0x2000:"cuda-async-recv", 0x200:"failover", 0x10:"need-ack", 0x20:"need-csum", 0x100:"hetero-rdma", 0x80000:"rdma-flush"
+             MCA btl tcp: informational "btl_tcp_atomic_flags" (current value: "", data source: default, level: 5 tuner/detail, type: unsigned_int)
+                          BTL atomic support flags
+                          Valid values: Comma-delimited list of:  0x1:"add", 0x200:"and", 0x400:"or", 0x800:"xor", 0x1000:"land", 0x2000:"lor", 0x4000:"lxor", 0x10000:"swap", 0x100000:"min", 0x200000:"max", 0x10000000:"compare-and-swap", 0x20000000:"global"
+             MCA btl tcp: parameter "btl_tcp_rndv_eager_limit" (current value: "65536", data source: default, level: 4 tuner/basic, type: size_t)
+                          Size (in bytes, including header) of "phase 1" fragment sent for all large messages (must be >= 0 and <= eager_limit)
+             MCA btl tcp: parameter "btl_tcp_eager_limit" (current value: "65536", data source: default, level: 4 tuner/basic, type: size_t)
+                          Maximum size (in bytes, including header) of "short" messages (must be >= 1).
+             MCA btl tcp: parameter "btl_tcp_put_limit" (current value: "18446744073709551615", data source: default, level: 4 tuner/basic, type: size_t)
+                          Maximum size (in bytes) for btl put
+             MCA btl tcp: parameter "btl_tcp_put_alignment" (current value: "0", data source: default, level: 6 tuner/all, type: size_t)
+                          Alignment required for btl put
+             MCA btl tcp: parameter "btl_tcp_max_send_size" (current value: "131072", data source: default, level: 4 tuner/basic, type: size_t)
+                          Maximum size (in bytes) of a single "phase 2" fragment of a long message when using the pipeline protocol (must be >= 1)
+             MCA btl tcp: parameter "btl_tcp_rdma_pipeline_send_length" (current value: "131072", data source: default, level: 4 tuner/basic, type: size_t)
+                          Length of the "phase 2" portion of a large message (in bytes) when using the pipeline protocol.  This part of the message will be split into fragments of size max_send_size and sent using send/receive semantics (must be >= 0; only relevant when the PUT flag is set)
+             MCA btl tcp: parameter "btl_tcp_rdma_pipeline_frag_size" (current value: "2147482624", data source: default, level: 4 tuner/basic, type: size_t)
+                          Maximum size (in bytes) of a single "phase 3" fragment from a long message when using the pipeline protocol.  These fragments will be sent using RDMA semantics (must be >= 1; only relevant when the PUT flag is set)
+             MCA btl tcp: parameter "btl_tcp_min_rdma_pipeline_size" (current value: "196608", data source: default, level: 4 tuner/basic, type: size_t)
+                          Messages smaller than this size (in bytes) will not use the RDMA pipeline protocol.  Instead, they will be split into fragments of max_send_size and sent using send/receive semantics (must be >=0, and is automatically adjusted up to at least (eager_limit+btl_rdma_pipeline_send_length); only relevant when the PUT flag is set)
+             MCA btl tcp: parameter "btl_tcp_latency" (current value: "0", data source: default, level: 5 tuner/detail, type: unsigned_int)
+                          Approximate latency of interconnect (0 = auto-detect value at run-time [not supported in all BTL modules], >= 1 = latency in microseconds)
+             MCA btl tcp: parameter "btl_tcp_bandwidth" (current value: "0", data source: default, level: 5 tuner/detail, type: unsigned_int)
+                          Approximate maximum bandwidth of interconnect (0 = auto-detect value at run-time [not supported in all BTL modules], >= 1 = bandwidth in Mbps)
+             MCA btl tcp: parameter "btl_tcp_disable_family" (current value: "0", data source: default, level: 2 user/detail, type: int)

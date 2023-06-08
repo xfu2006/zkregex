@@ -1,0 +1,395 @@
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 4 ========
+---- size: 65536 -----
+	 Round: 0, Time: 524 ms
+	 Round: 1, Time: 489 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 489 ms, np: 4
+---- size: 131072 -----
+	 Round: 0, Time: 922 ms
+	 Round: 1, Time: 913 ms
+REPORT_op: div, size: 131072, time: 917 ms, np: 4
+---- size: 262144 -----
+	 Round: 0, Time: 1776 ms
+	 Round: 1, Time: 1759 ms
+REPORT_op: div, size: 262144, time: 1767 ms, np: 4
+---- size: 524288 -----
+	 Round: 0, Time: 3487 ms
+	 Round: 1, Time: 3491 ms
+REPORT_op: div, size: 524288, time: 3489 ms, np: 4
+---- size: 1048576 -----
+	 Round: 0, Time: 7011 ms
+	 Round: 1, Time: 6989 ms
+REPORT_op: div, size: 1048576, time: 7000 ms, np: 4
+---- size: 2097152 -----
+	 Round: 0, Time: 14897 ms
+	 Round: 1, Time: 14901 ms
+REPORT_op: div, size: 2097152, time: 14899 ms, np: 4
+---- size: 4194304 -----
+	 Round: 0, Time: 31331 ms
+	 Round: 1, Time: 31353 ms
+REPORT_op: div, size: 4194304, time: 31342 ms, np: 4
+---- size: 8388608 -----
+	 Round: 0, Time: 67367 ms
+	 Round: 1, Time: 67138 ms
+REPORT_op: div, size: 8388608, time: 67252 ms, np: 4
+---- size: 16777216 -----
+	 Round: 0, Time: 142054 ms
+	 Round: 1, Time: 142553 ms
+REPORT_op: div, size: 16777216, time: 142303 ms, np: 4
+---- size: 33554432 -----
+	 Round: 0, Time: 292887 ms
+	 Round: 1, Time: 291768 ms
+REPORT_op: div, size: 33554432, time: 292327 ms, np: 4
+TIMEOUT for op: fft size: 33554432
+LOG: WaitForBarrier of Main 1125399 ms
+ACC COMPLETED
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 8 ========
+---- size: 65536 -----
+	 Round: 0, Time: 387 ms
+	 Round: 1, Time: 354 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 354 ms, np: 8
+---- size: 131072 -----
+	 Round: 0, Time: 603 ms
+	 Round: 1, Time: 599 ms
+REPORT_op: div, size: 131072, time: 601 ms, np: 8
+---- size: 262144 -----
+	 Round: 0, Time: 1067 ms
+	 Round: 1, Time: 1064 ms
+REPORT_op: div, size: 262144, time: 1065 ms, np: 8
+---- size: 524288 -----
+	 Round: 0, Time: 1991 ms
+	 Round: 1, Time: 1983 ms
+REPORT_op: div, size: 524288, time: 1987 ms, np: 8
+---- size: 1048576 -----
+	 Round: 0, Time: 3821 ms
+	 Round: 1, Time: 3812 ms
+REPORT_op: div, size: 1048576, time: 3816 ms, np: 8
+---- size: 2097152 -----
+	 Round: 0, Time: 7544 ms
+	 Round: 1, Time: 7554 ms
+REPORT_op: div, size: 2097152, time: 7549 ms, np: 8
+---- size: 4194304 -----
+	 Round: 0, Time: 15436 ms
+	 Round: 1, Time: 15424 ms
+REPORT_op: div, size: 4194304, time: 15430 ms, np: 8
+---- size: 8388608 -----
+	 Round: 0, Time: 32090 ms
+	 Round: 1, Time: 32023 ms
+REPORT_op: div, size: 8388608, time: 32056 ms, np: 8
+---- size: 16777216 -----
+	 Round: 0, Time: 65980 ms
+	 Round: 1, Time: 66021 ms
+REPORT_op: div, size: 16777216, time: 66000 ms, np: 8
+---- size: 33554432 -----
+	 Round: 0, Time: 139100 ms
+	 Round: 1, Time: 139159 ms
+REPORT_op: div, size: 33554432, time: 139129 ms, np: 8
+---- size: 67108864 -----
+	 Round: 0, Time: 290121 ms
+	 Round: 1, Time: 289870 ms
+REPORT_op: div, size: 67108864, time: 289995 ms, np: 8
+TIMEOUT for op: fft size: 67108864
+LOG: WaitForBarrier of Main 1117662 ms
+ACC COMPLETED
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 16 ========
+---- size: 65536 -----
+	 Round: 0, Time: 316 ms
+	 Round: 1, Time: 286 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 286 ms, np: 16
+---- size: 131072 -----
+	 Round: 0, Time: 408 ms
+	 Round: 1, Time: 407 ms
+REPORT_op: div, size: 131072, time: 407 ms, np: 16
+---- size: 262144 -----
+	 Round: 0, Time: 687 ms
+	 Round: 1, Time: 677 ms
+REPORT_op: div, size: 262144, time: 682 ms, np: 16
+---- size: 524288 -----
+	 Round: 0, Time: 1215 ms
+	 Round: 1, Time: 1205 ms
+REPORT_op: div, size: 524288, time: 1210 ms, np: 16
+---- size: 1048576 -----
+	 Round: 0, Time: 2222 ms
+	 Round: 1, Time: 2199 ms
+REPORT_op: div, size: 1048576, time: 2210 ms, np: 16
+---- size: 2097152 -----
+	 Round: 0, Time: 4195 ms
+	 Round: 1, Time: 4133 ms
+REPORT_op: div, size: 2097152, time: 4164 ms, np: 16
+---- size: 4194304 -----
+	 Round: 0, Time: 8028 ms
+	 Round: 1, Time: 7982 ms
+REPORT_op: div, size: 4194304, time: 8005 ms, np: 16
+---- size: 8388608 -----
+	 Round: 0, Time: 16062 ms
+	 Round: 1, Time: 16105 ms
+REPORT_op: div, size: 8388608, time: 16083 ms, np: 16
+---- size: 16777216 -----
+	 Round: 0, Time: 33195 ms
+	 Round: 1, Time: 33114 ms
+REPORT_op: div, size: 16777216, time: 33154 ms, np: 16
+---- size: 33554432 -----
+	 Round: 0, Time: 67832 ms
+	 Round: 1, Time: 68064 ms
+REPORT_op: div, size: 33554432, time: 67948 ms, np: 16
+---- size: 67108864 -----
+	 Round: 0, Time: 138690 ms
+	 Round: 1, Time: 138965 ms
+REPORT_op: div, size: 67108864, time: 138827 ms, np: 16
+---- size: 134217728 -----
+	 Round: 0, Time: 290914 ms
+	 Round: 1, Time: 291565 ms
+REPORT_op: div, size: 134217728, time: 291239 ms, np: 16
+TIMEOUT for op: fft size: 134217728
+LOG: WaitForBarrier of Main 1130170 ms
+ACC COMPLETED
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 32 ========
+---- size: 65536 -----
+	 Round: 0, Time: 327 ms
+	 Round: 1, Time: 268 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 268 ms, np: 32
+---- size: 131072 -----
+	 Round: 0, Time: 351 ms
+	 Round: 1, Time: 350 ms
+REPORT_op: div, size: 131072, time: 350 ms, np: 32
+---- size: 262144 -----
+	 Round: 0, Time: 488 ms
+	 Round: 1, Time: 487 ms
+REPORT_op: div, size: 262144, time: 487 ms, np: 32
+---- size: 524288 -----
+	 Round: 0, Time: 746 ms
+	 Round: 1, Time: 736 ms
+REPORT_op: div, size: 524288, time: 741 ms, np: 32
+---- size: 1048576 -----
+	 Round: 0, Time: 1345 ms
+	 Round: 1, Time: 1327 ms
+REPORT_op: div, size: 1048576, time: 1336 ms, np: 32
+---- size: 2097152 -----
+	 Round: 0, Time: 2500 ms
+	 Round: 1, Time: 2472 ms
+REPORT_op: div, size: 2097152, time: 2486 ms, np: 32
+---- size: 4194304 -----
+	 Round: 0, Time: 4640 ms
+	 Round: 1, Time: 4566 ms
+REPORT_op: div, size: 4194304, time: 4603 ms, np: 32
+---- size: 8388608 -----
+	 Round: 0, Time: 8808 ms
+	 Round: 1, Time: 8752 ms
+REPORT_op: div, size: 8388608, time: 8780 ms, np: 32
+---- size: 16777216 -----
+	 Round: 0, Time: 17435 ms
+	 Round: 1, Time: 17518 ms
+REPORT_op: div, size: 16777216, time: 17476 ms, np: 32
+---- size: 33554432 -----
+	 Round: 0, Time: 35687 ms
+	 Round: 1, Time: 35635 ms
+REPORT_op: div, size: 33554432, time: 35661 ms, np: 32
+---- size: 67108864 -----
+	 Round: 0, Time: 72693 ms
+	 Round: 1, Time: 72910 ms
+REPORT_op: div, size: 67108864, time: 72801 ms, np: 32
+---- size: 134217728 -----
+	 Round: 0, Time: 147045 ms
+	 Round: 1, Time: 146856 ms
+REPORT_op: div, size: 134217728, time: 146950 ms, np: 32
+---- size: 268435456 -----
+	 Round: 0, Time: 297505 ms
+	 Round: 1, Time: 296331 ms
+REPORT_op: div, size: 268435456, time: 296918 ms, np: 32
+TIMEOUT for op: fft size: 268435456
+LOG: WaitForBarrier of Main 1179684 ms
+ACC COMPLETED
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 64 ========
+---- size: 65536 -----
+	 Round: 0, Time: 383 ms
+	 Round: 1, Time: 307 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 307 ms, np: 64
+---- size: 131072 -----
+	 Round: 0, Time: 381 ms
+	 Round: 1, Time: 379 ms
+REPORT_op: div, size: 131072, time: 380 ms, np: 64
+---- size: 262144 -----
+	 Round: 0, Time: 493 ms
+	 Round: 1, Time: 493 ms
+REPORT_op: div, size: 262144, time: 493 ms, np: 64
+---- size: 524288 -----
+	 Round: 0, Time: 663 ms
+	 Round: 1, Time: 656 ms
+REPORT_op: div, size: 524288, time: 659 ms, np: 64
+---- size: 1048576 -----
+	 Round: 0, Time: 955 ms
+	 Round: 1, Time: 948 ms
+REPORT_op: div, size: 1048576, time: 951 ms, np: 64
+---- size: 2097152 -----
+	 Round: 0, Time: 1503 ms
+	 Round: 1, Time: 1488 ms
+REPORT_op: div, size: 2097152, time: 1495 ms, np: 64
+---- size: 4194304 -----
+	 Round: 0, Time: 2859 ms
+	 Round: 1, Time: 2831 ms
+REPORT_op: div, size: 4194304, time: 2845 ms, np: 64
+---- size: 8388608 -----
+	 Round: 0, Time: 5400 ms
+	 Round: 1, Time: 5525 ms
+REPORT_op: div, size: 8388608, time: 5462 ms, np: 64
+---- size: 16777216 -----
+	 Round: 0, Time: 10182 ms
+	 Round: 1, Time: 10065 ms
+REPORT_op: div, size: 16777216, time: 10123 ms, np: 64
+---- size: 33554432 -----
+	 Round: 0, Time: 19804 ms
+	 Round: 1, Time: 19767 ms
+REPORT_op: div, size: 33554432, time: 19785 ms, np: 64
+---- size: 67108864 -----
+	 Round: 0, Time: 40591 ms
+	 Round: 1, Time: 40395 ms
+REPORT_op: div, size: 67108864, time: 40493 ms, np: 64
+---- size: 134217728 -----
+	 Round: 0, Time: 81500 ms
+	 Round: 1, Time: 81123 ms
+REPORT_op: div, size: 134217728, time: 81311 ms, np: 64
+---- size: 268435456 -----
+	 Round: 0, Time: 162157 ms
+	 Round: 1, Time: 162595 ms
+REPORT_op: div, size: 268435456, time: 162376 ms, np: 64
+---- size: 536870912 -----
+	 Round: 0, Time: 326405 ms
+	 Round: 1, Time: 324010 ms
+REPORT_op: div, size: 536870912, time: 325207 ms, np: 64
+TIMEOUT for op: fft size: 536870912
+LOG: WaitForBarrier of Main 1306323 ms
+ACC COMPLETED
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 128 ========
+---- size: 65536 -----
+	 Round: 0, Time: 2265 ms
+	 Round: 1, Time: 439 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 439 ms, np: 128
+---- size: 131072 -----
+	 Round: 0, Time: 551 ms
+	 Round: 1, Time: 555 ms
+REPORT_op: div, size: 131072, time: 553 ms, np: 128
+---- size: 262144 -----
+	 Round: 0, Time: 681 ms
+	 Round: 1, Time: 680 ms
+REPORT_op: div, size: 262144, time: 680 ms, np: 128
+---- size: 524288 -----
+	 Round: 0, Time: 852 ms
+	 Round: 1, Time: 857 ms
+REPORT_op: div, size: 524288, time: 854 ms, np: 128
+---- size: 1048576 -----
+	 Round: 0, Time: 1129 ms
+	 Round: 1, Time: 1170 ms
+REPORT_op: div, size: 1048576, time: 1149 ms, np: 128
+---- size: 2097152 -----
+	 Round: 0, Time: 1548 ms
+	 Round: 1, Time: 1550 ms
+REPORT_op: div, size: 2097152, time: 1549 ms, np: 128
+---- size: 4194304 -----
+	 Round: 0, Time: 2285 ms
+	 Round: 1, Time: 2268 ms
+REPORT_op: div, size: 4194304, time: 2276 ms, np: 128
+---- size: 8388608 -----
+	 Round: 0, Time: 6215 ms
+	 Round: 1, Time: 7443 ms
+REPORT_op: div, size: 8388608, time: 6829 ms, np: 128
+---- size: 16777216 -----
+	 Round: 0, Time: 11875 ms
+	 Round: 1, Time: 11403 ms
+REPORT_op: div, size: 16777216, time: 11639 ms, np: 128
+---- size: 33554432 -----
+	 Round: 0, Time: 17018 ms
+	 Round: 1, Time: 16786 ms
+REPORT_op: div, size: 33554432, time: 16902 ms, np: 128
+---- size: 67108864 -----
+	 Round: 0, Time: 29745 ms
+	 Round: 1, Time: 29735 ms
+REPORT_op: div, size: 67108864, time: 29740 ms, np: 128
+---- size: 134217728 -----
+	 Round: 0, Time: 55340 ms
+	 Round: 1, Time: 54775 ms
+REPORT_op: div, size: 134217728, time: 55057 ms, np: 128
+---- size: 268435456 -----
+	 Round: 0, Time: 106683 ms
+	 Round: 1, Time: 106213 ms
+REPORT_op: div, size: 268435456, time: 106448 ms, np: 128
+---- size: 536870912 -----
+	 Round: 0, Time: 204241 ms
+	 Round: 1, Time: 203371 ms
+REPORT_op: div, size: 536870912, time: 203806 ms, np: 128
+---- size: 1073741824 -----
+	 Round: 0, Time: 402319 ms
+	 Round: 1, Time: 398141 ms
+REPORT_op: div, size: 1073741824, time: 400230 ms, np: 128
+TIMEOUT for op: fft size: 1073741824
+LOG: WaitForBarrier of Main 1681575 ms
+ACC COMPLETED
+===== DATA for div: log_min_size: 16 -> log_max_size: 30, NODES: 256 ========
+---- size: 65536 -----
+	 Round: 0, Time: 18726 ms
+	 Round: 1, Time: 975 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: div, size: 65536, time: 975 ms, np: 256
+---- size: 131072 -----
+	 Round: 0, Time: 1353 ms
+	 Round: 1, Time: 1333 ms
+REPORT_op: div, size: 131072, time: 1343 ms, np: 256
+---- size: 262144 -----
+	 Round: 0, Time: 1887 ms
+	 Round: 1, Time: 1656 ms
+REPORT_op: div, size: 262144, time: 1771 ms, np: 256
+---- size: 524288 -----
+	 Round: 0, Time: 2067 ms
+	 Round: 1, Time: 2036 ms
+REPORT_op: div, size: 524288, time: 2051 ms, np: 256
+---- size: 1048576 -----
+	 Round: 0, Time: 2544 ms
+	 Round: 1, Time: 2475 ms
+REPORT_op: div, size: 1048576, time: 2509 ms, np: 256
+---- size: 2097152 -----
+	 Round: 0, Time: 3889 ms
+	 Round: 1, Time: 3658 ms
+REPORT_op: div, size: 2097152, time: 3773 ms, np: 256
+---- size: 4194304 -----
+	 Round: 0, Time: 9564 ms
+	 Round: 1, Time: 12210 ms
+REPORT_op: div, size: 4194304, time: 10887 ms, np: 256
+---- size: 8388608 -----
+	 Round: 0, Time: 21539 ms
+	 Round: 1, Time: 18890 ms
+REPORT_op: div, size: 8388608, time: 20214 ms, np: 256
+---- size: 16777216 -----
+	 Round: 0, Time: 28275 ms
+	 Round: 1, Time: 27645 ms
+REPORT_op: div, size: 16777216, time: 27960 ms, np: 256
+---- size: 33554432 -----
+	 Round: 0, Time: 41787 ms
+	 Round: 1, Time: 42487 ms
+REPORT_op: div, size: 33554432, time: 42137 ms, np: 256
+---- size: 67108864 -----
+	 Round: 0, Time: 55054 ms
+	 Round: 1, Time: 53867 ms
+REPORT_op: div, size: 67108864, time: 54460 ms, np: 256
+---- size: 134217728 -----
+	 Round: 0, Time: 75908 ms
+	 Round: 1, Time: 76085 ms
+REPORT_op: div, size: 134217728, time: 75996 ms, np: 256
+---- size: 268435456 -----
+	 Round: 0, Time: 117700 ms
+	 Round: 1, Time: 117453 ms
+REPORT_op: div, size: 268435456, time: 117576 ms, np: 256
+---- size: 536870912 -----
+	 Round: 0, Time: 200188 ms
+	 Round: 1, Time: 203999 ms
+REPORT_op: div, size: 536870912, time: 202093 ms, np: 256
+---- size: 1073741824 -----
+	 Round: 0, Time: 366546 ms
+	 Round: 1, Time: 362843 ms
+REPORT_op: div, size: 1073741824, time: 364694 ms, np: 256
+TIMEOUT for op: fft size: 1073741824
+LOG: WaitForBarrier of Main 1876938 ms
+ACC COMPLETED

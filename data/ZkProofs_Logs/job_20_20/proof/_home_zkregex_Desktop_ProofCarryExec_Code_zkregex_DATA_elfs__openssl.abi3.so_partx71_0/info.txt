@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/_openssl.abi3.so_partx71_0 1000000 20 0 16 0 17334210

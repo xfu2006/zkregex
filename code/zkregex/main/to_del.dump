@@ -1,0 +1,14 @@
+===== DATA for mul: log_min_size: 22 -> log_max_size: 30, NODES: 4 ========
+---- size: 4194304 -----
+	 Round: 1, Time: 8157 ms
+	 Round: 2, Time: 8036 ms
+REPORT_op: mul, size: 4194304, time: 8096 ms, np: 4
+TIMEOUT for op: fft size: 4194304
+ACC COMPLETED
+===== DATA for mul: log_min_size: 22 -> log_max_size: 30, NODES: 8 ========
+---- size: 4194304 -----
+	 Round: 1, Time: 6574 ms
+	 Round: 2, Time: 6902 ms
+REPORT_op: mul, size: 4194304, time: 6738 ms, np: 8
+TIMEOUT for op: fft size: 4194304
+ACC COMPLETED

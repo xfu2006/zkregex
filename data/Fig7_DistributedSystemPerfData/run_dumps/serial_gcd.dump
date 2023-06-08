@@ -1,0 +1,5 @@
+===== DATA for serial_gcd: log_min_size: 20 -> log_max_size: 20, NODES: 4 ========
+LOG: -- GetNetworkArch:  33 ms
+LOG: size: 1048576 -----
+LOG: 	 Round: 0, Time: 450485 ms
+LOG: SKIP 1st record for discounting TCP connection establish time

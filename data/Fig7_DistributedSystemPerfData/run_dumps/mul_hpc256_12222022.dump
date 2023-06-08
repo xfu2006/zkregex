@@ -1,0 +1,384 @@
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 4 ========
+---- size: 65536 -----
+	 Round: 1, Time: 93 ms
+	 Round: 2, Time: 91 ms
+REPORT_op: mul, size: 65536, time: 92 ms, np: 4
+---- size: 131072 -----
+	 Round: 1, Time: 179 ms
+	 Round: 2, Time: 177 ms
+REPORT_op: mul, size: 131072, time: 178 ms, np: 4
+---- size: 262144 -----
+	 Round: 1, Time: 356 ms
+	 Round: 2, Time: 353 ms
+REPORT_op: mul, size: 262144, time: 354 ms, np: 4
+---- size: 524288 -----
+	 Round: 1, Time: 717 ms
+	 Round: 2, Time: 712 ms
+REPORT_op: mul, size: 524288, time: 714 ms, np: 4
+---- size: 1048576 -----
+	 Round: 1, Time: 1465 ms
+	 Round: 2, Time: 1456 ms
+REPORT_op: mul, size: 1048576, time: 1460 ms, np: 4
+---- size: 2097152 -----
+	 Round: 1, Time: 3303 ms
+	 Round: 2, Time: 3300 ms
+REPORT_op: mul, size: 2097152, time: 3301 ms, np: 4
+---- size: 4194304 -----
+	 Round: 1, Time: 6765 ms
+	 Round: 2, Time: 6772 ms
+REPORT_op: mul, size: 4194304, time: 6768 ms, np: 4
+---- size: 8388608 -----
+	 Round: 1, Time: 14620 ms
+	 Round: 2, Time: 14685 ms
+REPORT_op: mul, size: 8388608, time: 14652 ms, np: 4
+---- size: 16777216 -----
+	 Round: 1, Time: 30167 ms
+	 Round: 2, Time: 29896 ms
+REPORT_op: mul, size: 16777216, time: 30031 ms, np: 4
+---- size: 33554432 -----
+	 Round: 1, Time: 60307 ms
+	 Round: 2, Time: 60503 ms
+REPORT_op: mul, size: 33554432, time: 60405 ms, np: 4
+TIMEOUT for op: fft size: 33554432
+LOG: WaitForBarrier of Main 358176 ms
+ACC COMPLETED
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 8 ========
+---- size: 65536 -----
+	 Round: 1, Time: 53 ms
+	 Round: 2, Time: 53 ms
+REPORT_op: mul, size: 65536, time: 53 ms, np: 8
+---- size: 131072 -----
+	 Round: 1, Time: 98 ms
+	 Round: 2, Time: 98 ms
+REPORT_op: mul, size: 131072, time: 98 ms, np: 8
+---- size: 262144 -----
+	 Round: 1, Time: 191 ms
+	 Round: 2, Time: 194 ms
+REPORT_op: mul, size: 262144, time: 192 ms, np: 8
+---- size: 524288 -----
+	 Round: 1, Time: 379 ms
+	 Round: 2, Time: 376 ms
+REPORT_op: mul, size: 524288, time: 377 ms, np: 8
+---- size: 1048576 -----
+	 Round: 1, Time: 762 ms
+	 Round: 2, Time: 758 ms
+REPORT_op: mul, size: 1048576, time: 760 ms, np: 8
+---- size: 2097152 -----
+	 Round: 1, Time: 1557 ms
+	 Round: 2, Time: 1548 ms
+REPORT_op: mul, size: 2097152, time: 1552 ms, np: 8
+---- size: 4194304 -----
+	 Round: 1, Time: 3279 ms
+	 Round: 2, Time: 3292 ms
+REPORT_op: mul, size: 4194304, time: 3285 ms, np: 8
+---- size: 8388608 -----
+	 Round: 1, Time: 6772 ms
+	 Round: 2, Time: 6864 ms
+REPORT_op: mul, size: 8388608, time: 6818 ms, np: 8
+---- size: 16777216 -----
+	 Round: 1, Time: 13965 ms
+	 Round: 2, Time: 13806 ms
+REPORT_op: mul, size: 16777216, time: 13885 ms, np: 8
+---- size: 33554432 -----
+	 Round: 1, Time: 29787 ms
+	 Round: 2, Time: 29910 ms
+REPORT_op: mul, size: 33554432, time: 29848 ms, np: 8
+---- size: 67108864 -----
+	 Round: 1, Time: 61077 ms
+	 Round: 2, Time: 60455 ms
+REPORT_op: mul, size: 67108864, time: 60766 ms, np: 8
+TIMEOUT for op: fft size: 67108864
+LOG: WaitForBarrier of Main 356495 ms
+ACC COMPLETED
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 16 ========
+---- size: 65536 -----
+	 Round: 1, Time: 26 ms
+	 Round: 2, Time: 26 ms
+REPORT_op: mul, size: 65536, time: 26 ms, np: 16
+---- size: 131072 -----
+	 Round: 1, Time: 48 ms
+	 Round: 2, Time: 47 ms
+REPORT_op: mul, size: 131072, time: 47 ms, np: 16
+---- size: 262144 -----
+	 Round: 1, Time: 115 ms
+	 Round: 2, Time: 113 ms
+REPORT_op: mul, size: 262144, time: 114 ms, np: 16
+---- size: 524288 -----
+	 Round: 1, Time: 213 ms
+	 Round: 2, Time: 214 ms
+REPORT_op: mul, size: 524288, time: 213 ms, np: 16
+---- size: 1048576 -----
+	 Round: 1, Time: 412 ms
+	 Round: 2, Time: 413 ms
+REPORT_op: mul, size: 1048576, time: 412 ms, np: 16
+---- size: 2097152 -----
+	 Round: 1, Time: 814 ms
+	 Round: 2, Time: 803 ms
+REPORT_op: mul, size: 2097152, time: 808 ms, np: 16
+---- size: 4194304 -----
+	 Round: 1, Time: 1625 ms
+	 Round: 2, Time: 1608 ms
+REPORT_op: mul, size: 4194304, time: 1616 ms, np: 16
+---- size: 8388608 -----
+	 Round: 1, Time: 3333 ms
+	 Round: 2, Time: 3355 ms
+REPORT_op: mul, size: 8388608, time: 3344 ms, np: 16
+---- size: 16777216 -----
+	 Round: 1, Time: 6892 ms
+	 Round: 2, Time: 6864 ms
+REPORT_op: mul, size: 16777216, time: 6878 ms, np: 16
+---- size: 33554432 -----
+	 Round: 1, Time: 14122 ms
+	 Round: 2, Time: 14209 ms
+REPORT_op: mul, size: 33554432, time: 14165 ms, np: 16
+---- size: 67108864 -----
+	 Round: 1, Time: 29010 ms
+	 Round: 2, Time: 29177 ms
+REPORT_op: mul, size: 67108864, time: 29093 ms, np: 16
+---- size: 134217728 -----
+	 Round: 1, Time: 62111 ms
+	 Round: 2, Time: 61911 ms
+REPORT_op: mul, size: 134217728, time: 62011 ms, np: 16
+TIMEOUT for op: fft size: 134217728
+LOG: WaitForBarrier of Main 360093 ms
+ACC COMPLETED
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 32 ========
+---- size: 65536 -----
+	 Round: 1, Time: 20 ms
+	 Round: 2, Time: 20 ms
+REPORT_op: mul, size: 65536, time: 20 ms, np: 32
+---- size: 131072 -----
+	 Round: 1, Time: 31 ms
+	 Round: 2, Time: 31 ms
+REPORT_op: mul, size: 131072, time: 31 ms, np: 32
+---- size: 262144 -----
+	 Round: 1, Time: 54 ms
+	 Round: 2, Time: 53 ms
+REPORT_op: mul, size: 262144, time: 53 ms, np: 32
+---- size: 524288 -----
+	 Round: 1, Time: 102 ms
+	 Round: 2, Time: 101 ms
+REPORT_op: mul, size: 524288, time: 101 ms, np: 32
+---- size: 1048576 -----
+	 Round: 1, Time: 253 ms
+	 Round: 2, Time: 253 ms
+REPORT_op: mul, size: 1048576, time: 253 ms, np: 32
+---- size: 2097152 -----
+	 Round: 1, Time: 463 ms
+	 Round: 2, Time: 457 ms
+REPORT_op: mul, size: 2097152, time: 460 ms, np: 32
+---- size: 4194304 -----
+	 Round: 1, Time: 878 ms
+	 Round: 2, Time: 872 ms
+REPORT_op: mul, size: 4194304, time: 875 ms, np: 32
+---- size: 8388608 -----
+	 Round: 1, Time: 1747 ms
+	 Round: 2, Time: 1724 ms
+REPORT_op: mul, size: 8388608, time: 1735 ms, np: 32
+---- size: 16777216 -----
+	 Round: 1, Time: 3590 ms
+	 Round: 2, Time: 3591 ms
+REPORT_op: mul, size: 16777216, time: 3590 ms, np: 32
+---- size: 33554432 -----
+	 Round: 1, Time: 7340 ms
+	 Round: 2, Time: 7325 ms
+REPORT_op: mul, size: 33554432, time: 7332 ms, np: 32
+---- size: 67108864 -----
+	 Round: 1, Time: 15072 ms
+	 Round: 2, Time: 15023 ms
+REPORT_op: mul, size: 67108864, time: 15047 ms, np: 32
+---- size: 134217728 -----
+	 Round: 1, Time: 30143 ms
+	 Round: 2, Time: 30214 ms
+REPORT_op: mul, size: 134217728, time: 30178 ms, np: 32
+---- size: 268435456 -----
+	 Round: 1, Time: 61040 ms
+	 Round: 2, Time: 61098 ms
+REPORT_op: mul, size: 268435456, time: 61069 ms, np: 32
+TIMEOUT for op: fft size: 268435456
+LOG: WaitForBarrier of Main 365761 ms
+ACC COMPLETED
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 64 ========
+---- size: 65536 -----
+	 Round: 1, Time: 25 ms
+	 Round: 2, Time: 24 ms
+REPORT_op: mul, size: 65536, time: 24 ms, np: 64
+---- size: 131072 -----
+	 Round: 1, Time: 32 ms
+	 Round: 2, Time: 33 ms
+REPORT_op: mul, size: 131072, time: 32 ms, np: 64
+---- size: 262144 -----
+	 Round: 1, Time: 48 ms
+	 Round: 2, Time: 47 ms
+REPORT_op: mul, size: 262144, time: 47 ms, np: 64
+---- size: 524288 -----
+	 Round: 1, Time: 69 ms
+	 Round: 2, Time: 65 ms
+REPORT_op: mul, size: 524288, time: 67 ms, np: 64
+---- size: 1048576 -----
+	 Round: 1, Time: 116 ms
+	 Round: 2, Time: 117 ms
+REPORT_op: mul, size: 1048576, time: 116 ms, np: 64
+---- size: 2097152 -----
+	 Round: 1, Time: 218 ms
+	 Round: 2, Time: 216 ms
+REPORT_op: mul, size: 2097152, time: 217 ms, np: 64
+---- size: 4194304 -----
+	 Round: 1, Time: 580 ms
+	 Round: 2, Time: 576 ms
+REPORT_op: mul, size: 4194304, time: 578 ms, np: 64
+---- size: 8388608 -----
+	 Round: 1, Time: 1038 ms
+	 Round: 2, Time: 1021 ms
+REPORT_op: mul, size: 8388608, time: 1029 ms, np: 64
+---- size: 16777216 -----
+	 Round: 1, Time: 2033 ms
+	 Round: 2, Time: 1999 ms
+REPORT_op: mul, size: 16777216, time: 2016 ms, np: 64
+---- size: 33554432 -----
+	 Round: 1, Time: 4169 ms
+	 Round: 2, Time: 4145 ms
+REPORT_op: mul, size: 33554432, time: 4157 ms, np: 64
+---- size: 67108864 -----
+	 Round: 1, Time: 8452 ms
+	 Round: 2, Time: 8364 ms
+REPORT_op: mul, size: 67108864, time: 8408 ms, np: 64
+---- size: 134217728 -----
+	 Round: 1, Time: 16580 ms
+	 Round: 2, Time: 16462 ms
+REPORT_op: mul, size: 134217728, time: 16521 ms, np: 64
+---- size: 268435456 -----
+	 Round: 1, Time: 33290 ms
+	 Round: 2, Time: 33501 ms
+REPORT_op: mul, size: 268435456, time: 33395 ms, np: 64
+---- size: 536870912 -----
+	 Round: 1, Time: 66713 ms
+	 Round: 2, Time: 66345 ms
+REPORT_op: mul, size: 536870912, time: 66529 ms, np: 64
+TIMEOUT for op: fft size: 536870912
+LOG: WaitForBarrier of Main 404587 ms
+ACC COMPLETED
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 128 ========
+---- size: 65536 -----
+	 Round: 1, Time: 45 ms
+	 Round: 2, Time: 46 ms
+REPORT_op: mul, size: 65536, time: 45 ms, np: 128
+---- size: 131072 -----
+	 Round: 1, Time: 47 ms
+	 Round: 2, Time: 45 ms
+REPORT_op: mul, size: 131072, time: 46 ms, np: 128
+---- size: 262144 -----
+	 Round: 1, Time: 49 ms
+	 Round: 2, Time: 51 ms
+REPORT_op: mul, size: 262144, time: 50 ms, np: 128
+---- size: 524288 -----
+	 Round: 1, Time: 68 ms
+	 Round: 2, Time: 68 ms
+REPORT_op: mul, size: 524288, time: 68 ms, np: 128
+---- size: 1048576 -----
+	 Round: 1, Time: 105 ms
+	 Round: 2, Time: 103 ms
+REPORT_op: mul, size: 1048576, time: 104 ms, np: 128
+---- size: 2097152 -----
+	 Round: 1, Time: 153 ms
+	 Round: 2, Time: 153 ms
+REPORT_op: mul, size: 2097152, time: 153 ms, np: 128
+---- size: 4194304 -----
+	 Round: 1, Time: 278 ms
+	 Round: 2, Time: 273 ms
+REPORT_op: mul, size: 4194304, time: 275 ms, np: 128
+---- size: 8388608 -----
+	 Round: 1, Time: 1952 ms
+	 Round: 2, Time: 2035 ms
+REPORT_op: mul, size: 8388608, time: 1993 ms, np: 128
+---- size: 16777216 -----
+	 Round: 1, Time: 1473 ms
+	 Round: 2, Time: 1459 ms
+REPORT_op: mul, size: 16777216, time: 1466 ms, np: 128
+---- size: 33554432 -----
+	 Round: 1, Time: 2649 ms
+	 Round: 2, Time: 2644 ms
+REPORT_op: mul, size: 33554432, time: 2646 ms, np: 128
+---- size: 67108864 -----
+	 Round: 1, Time: 5387 ms
+	 Round: 2, Time: 5400 ms
+REPORT_op: mul, size: 67108864, time: 5393 ms, np: 128
+---- size: 134217728 -----
+	 Round: 1, Time: 10657 ms
+	 Round: 2, Time: 10609 ms
+REPORT_op: mul, size: 134217728, time: 10633 ms, np: 128
+---- size: 268435456 -----
+	 Round: 1, Time: 20863 ms
+	 Round: 2, Time: 20760 ms
+REPORT_op: mul, size: 268435456, time: 20811 ms, np: 128
+---- size: 536870912 -----
+	 Round: 1, Time: 40492 ms
+	 Round: 2, Time: 40222 ms
+REPORT_op: mul, size: 536870912, time: 40357 ms, np: 128
+TIMEOUT for op: fft size: 536870912
+LOG: WaitForBarrier of Main 256153 ms
+ACC COMPLETED
+===== DATA for mul: log_min_size: 16 -> log_max_size: 32, NODES: 256 ========
+---- size: 65536 -----
+	 Round: 1, Time: 145 ms
+	 Round: 2, Time: 147 ms
+REPORT_op: mul, size: 65536, time: 146 ms, np: 256
+---- size: 131072 -----
+	 Round: 1, Time: 139 ms
+	 Round: 2, Time: 353 ms
+REPORT_op: mul, size: 131072, time: 246 ms, np: 256
+---- size: 262144 -----
+	 Round: 1, Time: 144 ms
+	 Round: 2, Time: 139 ms
+REPORT_op: mul, size: 262144, time: 141 ms, np: 256
+---- size: 524288 -----
+	 Round: 1, Time: 158 ms
+	 Round: 2, Time: 157 ms
+REPORT_op: mul, size: 524288, time: 157 ms, np: 256
+---- size: 1048576 -----
+	 Round: 1, Time: 171 ms
+	 Round: 2, Time: 168 ms
+REPORT_op: mul, size: 1048576, time: 169 ms, np: 256
+---- size: 2097152 -----
+	 Round: 1, Time: 932 ms
+	 Round: 2, Time: 482 ms
+REPORT_op: mul, size: 2097152, time: 707 ms, np: 256
+---- size: 4194304 -----
+	 Round: 1, Time: 1817 ms
+	 Round: 2, Time: 2053 ms
+REPORT_op: mul, size: 4194304, time: 1935 ms, np: 256
+---- size: 8388608 -----
+	 Round: 1, Time: 2573 ms
+	 Round: 2, Time: 2935 ms
+REPORT_op: mul, size: 8388608, time: 2754 ms, np: 256
+---- size: 16777216 -----
+	 Round: 1, Time: 4260 ms
+	 Round: 2, Time: 4228 ms
+REPORT_op: mul, size: 16777216, time: 4244 ms, np: 256
+---- size: 33554432 -----
+	 Round: 1, Time: 5879 ms
+	 Round: 2, Time: 6586 ms
+REPORT_op: mul, size: 33554432, time: 6232 ms, np: 256
+---- size: 67108864 -----
+	 Round: 1, Time: 5065 ms
+	 Round: 2, Time: 5315 ms
+REPORT_op: mul, size: 67108864, time: 5190 ms, np: 256
+---- size: 134217728 -----
+	 Round: 1, Time: 9540 ms
+	 Round: 2, Time: 9330 ms
+REPORT_op: mul, size: 134217728, time: 9435 ms, np: 256
+---- size: 268435456 -----
+	 Round: 1, Time: 16914 ms
+	 Round: 2, Time: 17084 ms
+REPORT_op: mul, size: 268435456, time: 16999 ms, np: 256
+---- size: 536870912 -----
+	 Round: 1, Time: 33089 ms
+	 Round: 2, Time: 32418 ms
+REPORT_op: mul, size: 536870912, time: 32753 ms, np: 256
+---- size: 1073741824 -----
+	 Round: 1, Time: 62900 ms
+	 Round: 2, Time: 66593 ms
+REPORT_op: mul, size: 1073741824, time: 64746 ms, np: 256
+TIMEOUT for op: fft size: 1073741824
+LOG: WaitForBarrier of Main 446454 ms
+ACC COMPLETED

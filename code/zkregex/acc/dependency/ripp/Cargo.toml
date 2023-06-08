@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+  "sipp",
+  "dh_commitments",
+  "ip_proofs",
+  "inner_products",
+#  "benches",
+]
+
+[patch.crates-io]
+ark-std = {git = "https://github.com/arkworks-rs/std",rev="05b7a19a99551bdd737eb2ffb1c9eac7be0dd11f"}

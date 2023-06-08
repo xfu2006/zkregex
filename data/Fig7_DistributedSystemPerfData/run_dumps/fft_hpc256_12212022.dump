@@ -1,0 +1,543 @@
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 4 ========
+---- size: 65536 -----
+	 Round: 1, Time: 15 ms
+	 Round: 2, Time: 14 ms
+	 Round: 3, Time: 14 ms
+REPORT_op: fft, size: 65536, time: 14 ms, np: 4
+---- size: 131072 -----
+	 Round: 1, Time: 29 ms
+	 Round: 2, Time: 29 ms
+	 Round: 3, Time: 29 ms
+REPORT_op: fft, size: 131072, time: 29 ms, np: 4
+---- size: 262144 -----
+	 Round: 1, Time: 58 ms
+	 Round: 2, Time: 58 ms
+	 Round: 3, Time: 58 ms
+REPORT_op: fft, size: 262144, time: 58 ms, np: 4
+---- size: 524288 -----
+	 Round: 1, Time: 131 ms
+	 Round: 2, Time: 131 ms
+	 Round: 3, Time: 117 ms
+REPORT_op: fft, size: 524288, time: 126 ms, np: 4
+---- size: 1048576 -----
+	 Round: 1, Time: 267 ms
+	 Round: 2, Time: 268 ms
+	 Round: 3, Time: 265 ms
+REPORT_op: fft, size: 1048576, time: 266 ms, np: 4
+---- size: 2097152 -----
+	 Round: 1, Time: 535 ms
+	 Round: 2, Time: 536 ms
+	 Round: 3, Time: 537 ms
+REPORT_op: fft, size: 2097152, time: 536 ms, np: 4
+---- size: 4194304 -----
+	 Round: 1, Time: 1091 ms
+	 Round: 2, Time: 1092 ms
+	 Round: 3, Time: 1092 ms
+REPORT_op: fft, size: 4194304, time: 1091 ms, np: 4
+---- size: 8388608 -----
+	 Round: 1, Time: 2219 ms
+	 Round: 2, Time: 2219 ms
+	 Round: 3, Time: 2216 ms
+REPORT_op: fft, size: 8388608, time: 2218 ms, np: 4
+---- size: 16777216 -----
+	 Round: 1, Time: 4790 ms
+	 Round: 2, Time: 4786 ms
+	 Round: 3, Time: 4790 ms
+REPORT_op: fft, size: 16777216, time: 4788 ms, np: 4
+---- size: 33554432 -----
+	 Round: 1, Time: 9872 ms
+	 Round: 2, Time: 9762 ms
+	 Round: 3, Time: 9760 ms
+REPORT_op: fft, size: 33554432, time: 9798 ms, np: 4
+---- size: 67108864 -----
+	 Round: 1, Time: 20271 ms
+	 Round: 2, Time: 20107 ms
+	 Round: 3, Time: 20288 ms
+REPORT_op: fft, size: 67108864, time: 20222 ms, np: 4
+---- size: 134217728 -----
+	 Round: 1, Time: 41118 ms
+	 Round: 2, Time: 41129 ms
+	 Round: 3, Time: 41170 ms
+REPORT_op: fft, size: 134217728, time: 41139 ms, np: 4
+TIMEOUT for op: fft size: 134217728
+LOG: WaitForBarrier of Main 330054 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 8 ========
+---- size: 65536 -----
+	 Round: 1, Time: 6 ms
+	 Round: 2, Time: 6 ms
+	 Round: 3, Time: 7 ms
+REPORT_op: fft, size: 65536, time: 6 ms, np: 8
+---- size: 131072 -----
+	 Round: 1, Time: 18 ms
+	 Round: 2, Time: 17 ms
+	 Round: 3, Time: 17 ms
+REPORT_op: fft, size: 131072, time: 17 ms, np: 8
+---- size: 262144 -----
+	 Round: 1, Time: 34 ms
+	 Round: 2, Time: 33 ms
+	 Round: 3, Time: 31 ms
+REPORT_op: fft, size: 262144, time: 32 ms, np: 8
+---- size: 524288 -----
+	 Round: 1, Time: 61 ms
+	 Round: 2, Time: 63 ms
+	 Round: 3, Time: 65 ms
+REPORT_op: fft, size: 524288, time: 63 ms, np: 8
+---- size: 1048576 -----
+	 Round: 1, Time: 130 ms
+	 Round: 2, Time: 129 ms
+	 Round: 3, Time: 130 ms
+REPORT_op: fft, size: 1048576, time: 129 ms, np: 8
+---- size: 2097152 -----
+	 Round: 1, Time: 262 ms
+	 Round: 2, Time: 258 ms
+	 Round: 3, Time: 258 ms
+REPORT_op: fft, size: 2097152, time: 259 ms, np: 8
+---- size: 4194304 -----
+	 Round: 1, Time: 519 ms
+	 Round: 2, Time: 519 ms
+	 Round: 3, Time: 519 ms
+REPORT_op: fft, size: 4194304, time: 519 ms, np: 8
+---- size: 8388608 -----
+	 Round: 1, Time: 1059 ms
+	 Round: 2, Time: 1059 ms
+	 Round: 3, Time: 1058 ms
+REPORT_op: fft, size: 8388608, time: 1058 ms, np: 8
+---- size: 16777216 -----
+	 Round: 1, Time: 2162 ms
+	 Round: 2, Time: 2178 ms
+	 Round: 3, Time: 2193 ms
+REPORT_op: fft, size: 16777216, time: 2177 ms, np: 8
+---- size: 33554432 -----
+	 Round: 1, Time: 4483 ms
+	 Round: 2, Time: 4536 ms
+	 Round: 3, Time: 4539 ms
+REPORT_op: fft, size: 33554432, time: 4519 ms, np: 8
+---- size: 67108864 -----
+	 Round: 1, Time: 9669 ms
+	 Round: 2, Time: 9548 ms
+	 Round: 3, Time: 9523 ms
+REPORT_op: fft, size: 67108864, time: 9580 ms, np: 8
+---- size: 134217728 -----
+	 Round: 1, Time: 19668 ms
+	 Round: 2, Time: 19613 ms
+	 Round: 3, Time: 19644 ms
+REPORT_op: fft, size: 134217728, time: 19641 ms, np: 8
+---- size: 268435456 -----
+	 Round: 1, Time: 39988 ms
+	 Round: 2, Time: 39483 ms
+	 Round: 3, Time: 39537 ms
+REPORT_op: fft, size: 268435456, time: 39669 ms, np: 8
+TIMEOUT for op: fft size: 268435456
+LOG: WaitForBarrier of Main 319243 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 16 ========
+---- size: 65536 -----
+	 Round: 1, Time: 4 ms
+	 Round: 2, Time: 4 ms
+	 Round: 3, Time: 4 ms
+REPORT_op: fft, size: 65536, time: 4 ms, np: 16
+---- size: 131072 -----
+	 Round: 1, Time: 7 ms
+	 Round: 2, Time: 7 ms
+	 Round: 3, Time: 7 ms
+REPORT_op: fft, size: 131072, time: 7 ms, np: 16
+---- size: 262144 -----
+	 Round: 1, Time: 14 ms
+	 Round: 2, Time: 14 ms
+	 Round: 3, Time: 14 ms
+REPORT_op: fft, size: 262144, time: 14 ms, np: 16
+---- size: 524288 -----
+	 Round: 1, Time: 37 ms
+	 Round: 2, Time: 37 ms
+	 Round: 3, Time: 36 ms
+REPORT_op: fft, size: 524288, time: 36 ms, np: 16
+---- size: 1048576 -----
+	 Round: 1, Time: 71 ms
+	 Round: 2, Time: 69 ms
+	 Round: 3, Time: 71 ms
+REPORT_op: fft, size: 1048576, time: 70 ms, np: 16
+---- size: 2097152 -----
+	 Round: 1, Time: 138 ms
+	 Round: 2, Time: 135 ms
+	 Round: 3, Time: 137 ms
+REPORT_op: fft, size: 2097152, time: 136 ms, np: 16
+---- size: 4194304 -----
+	 Round: 1, Time: 268 ms
+	 Round: 2, Time: 267 ms
+	 Round: 3, Time: 272 ms
+REPORT_op: fft, size: 4194304, time: 269 ms, np: 16
+---- size: 8388608 -----
+	 Round: 1, Time: 546 ms
+	 Round: 2, Time: 537 ms
+	 Round: 3, Time: 542 ms
+REPORT_op: fft, size: 8388608, time: 541 ms, np: 16
+---- size: 16777216 -----
+	 Round: 1, Time: 1085 ms
+	 Round: 2, Time: 1095 ms
+	 Round: 3, Time: 1087 ms
+REPORT_op: fft, size: 16777216, time: 1089 ms, np: 16
+---- size: 33554432 -----
+	 Round: 1, Time: 2225 ms
+	 Round: 2, Time: 2221 ms
+	 Round: 3, Time: 2229 ms
+REPORT_op: fft, size: 33554432, time: 2225 ms, np: 16
+---- size: 67108864 -----
+	 Round: 1, Time: 4545 ms
+	 Round: 2, Time: 4573 ms
+	 Round: 3, Time: 4594 ms
+REPORT_op: fft, size: 67108864, time: 4570 ms, np: 16
+---- size: 134217728 -----
+	 Round: 1, Time: 9217 ms
+	 Round: 2, Time: 9247 ms
+	 Round: 3, Time: 9360 ms
+REPORT_op: fft, size: 134217728, time: 9274 ms, np: 16
+---- size: 268435456 -----
+	 Round: 1, Time: 19688 ms
+	 Round: 2, Time: 19675 ms
+	 Round: 3, Time: 19649 ms
+REPORT_op: fft, size: 268435456, time: 19670 ms, np: 16
+---- size: 536870912 -----
+	 Round: 1, Time: 40284 ms
+	 Round: 2, Time: 40171 ms
+	 Round: 3, Time: 40072 ms
+REPORT_op: fft, size: 536870912, time: 40175 ms, np: 16
+TIMEOUT for op: fft size: 536870912
+LOG: WaitForBarrier of Main 321186 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 32 ========
+---- size: 65536 -----
+	 Round: 1, Time: 3 ms
+	 Round: 2, Time: 3 ms
+	 Round: 3, Time: 3 ms
+REPORT_op: fft, size: 65536, time: 3 ms, np: 32
+---- size: 131072 -----
+	 Round: 1, Time: 5 ms
+	 Round: 2, Time: 5 ms
+	 Round: 3, Time: 5 ms
+REPORT_op: fft, size: 131072, time: 5 ms, np: 32
+---- size: 262144 -----
+	 Round: 1, Time: 8 ms
+	 Round: 2, Time: 8 ms
+	 Round: 3, Time: 8 ms
+REPORT_op: fft, size: 262144, time: 8 ms, np: 32
+---- size: 524288 -----
+	 Round: 1, Time: 15 ms
+	 Round: 2, Time: 15 ms
+	 Round: 3, Time: 15 ms
+REPORT_op: fft, size: 524288, time: 15 ms, np: 32
+---- size: 1048576 -----
+	 Round: 1, Time: 30 ms
+	 Round: 2, Time: 30 ms
+	 Round: 3, Time: 30 ms
+REPORT_op: fft, size: 1048576, time: 30 ms, np: 32
+---- size: 2097152 -----
+	 Round: 1, Time: 83 ms
+	 Round: 2, Time: 82 ms
+	 Round: 3, Time: 80 ms
+REPORT_op: fft, size: 2097152, time: 81 ms, np: 32
+---- size: 4194304 -----
+	 Round: 1, Time: 152 ms
+	 Round: 2, Time: 150 ms
+	 Round: 3, Time: 148 ms
+REPORT_op: fft, size: 4194304, time: 150 ms, np: 32
+---- size: 8388608 -----
+	 Round: 1, Time: 288 ms
+	 Round: 2, Time: 284 ms
+	 Round: 3, Time: 285 ms
+REPORT_op: fft, size: 8388608, time: 285 ms, np: 32
+---- size: 16777216 -----
+	 Round: 1, Time: 566 ms
+	 Round: 2, Time: 563 ms
+	 Round: 3, Time: 575 ms
+REPORT_op: fft, size: 16777216, time: 568 ms, np: 32
+---- size: 33554432 -----
+	 Round: 1, Time: 1153 ms
+	 Round: 2, Time: 1158 ms
+	 Round: 3, Time: 1144 ms
+REPORT_op: fft, size: 33554432, time: 1151 ms, np: 32
+---- size: 67108864 -----
+	 Round: 1, Time: 2331 ms
+	 Round: 2, Time: 2329 ms
+	 Round: 3, Time: 2324 ms
+REPORT_op: fft, size: 67108864, time: 2328 ms, np: 32
+---- size: 134217728 -----
+	 Round: 1, Time: 4660 ms
+	 Round: 2, Time: 4717 ms
+	 Round: 3, Time: 4688 ms
+REPORT_op: fft, size: 134217728, time: 4688 ms, np: 32
+---- size: 268435456 -----
+	 Round: 1, Time: 9467 ms
+	 Round: 2, Time: 9548 ms
+	 Round: 3, Time: 9623 ms
+REPORT_op: fft, size: 268435456, time: 9546 ms, np: 32
+---- size: 536870912 -----
+	 Round: 1, Time: 19317 ms
+	 Round: 2, Time: 19386 ms
+	 Round: 3, Time: 19676 ms
+REPORT_op: fft, size: 536870912, time: 19459 ms, np: 32
+---- size: 1073741824 -----
+	 Round: 1, Time: 41852 ms
+	 Round: 2, Time: 42144 ms
+	 Round: 3, Time: 41964 ms
+REPORT_op: fft, size: 1073741824, time: 41986 ms, np: 32
+TIMEOUT for op: fft size: 1073741824
+LOG: WaitForBarrier of Main 330759 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 64 ========
+---- size: 65536 -----
+	 Round: 1, Time: 6 ms
+	 Round: 2, Time: 4 ms
+	 Round: 3, Time: 5 ms
+REPORT_op: fft, size: 65536, time: 5 ms, np: 64
+---- size: 131072 -----
+	 Round: 1, Time: 6 ms
+	 Round: 2, Time: 6 ms
+	 Round: 3, Time: 6 ms
+REPORT_op: fft, size: 131072, time: 6 ms, np: 64
+---- size: 262144 -----
+	 Round: 1, Time: 8 ms
+	 Round: 2, Time: 8 ms
+	 Round: 3, Time: 8 ms
+REPORT_op: fft, size: 262144, time: 8 ms, np: 64
+---- size: 524288 -----
+	 Round: 1, Time: 13 ms
+	 Round: 2, Time: 13 ms
+	 Round: 3, Time: 13 ms
+REPORT_op: fft, size: 524288, time: 13 ms, np: 64
+---- size: 1048576 -----
+	 Round: 1, Time: 23 ms
+	 Round: 2, Time: 23 ms
+	 Round: 3, Time: 23 ms
+REPORT_op: fft, size: 1048576, time: 23 ms, np: 64
+---- size: 2097152 -----
+	 Round: 1, Time: 35 ms
+	 Round: 2, Time: 34 ms
+	 Round: 3, Time: 34 ms
+REPORT_op: fft, size: 2097152, time: 34 ms, np: 64
+---- size: 4194304 -----
+	 Round: 1, Time: 68 ms
+	 Round: 2, Time: 67 ms
+	 Round: 3, Time: 68 ms
+REPORT_op: fft, size: 4194304, time: 67 ms, np: 64
+---- size: 8388608 -----
+	 Round: 1, Time: 191 ms
+	 Round: 2, Time: 191 ms
+	 Round: 3, Time: 190 ms
+REPORT_op: fft, size: 8388608, time: 190 ms, np: 64
+---- size: 16777216 -----
+	 Round: 1, Time: 334 ms
+	 Round: 2, Time: 332 ms
+	 Round: 3, Time: 335 ms
+REPORT_op: fft, size: 16777216, time: 333 ms, np: 64
+---- size: 33554432 -----
+	 Round: 1, Time: 647 ms
+	 Round: 2, Time: 648 ms
+	 Round: 3, Time: 644 ms
+REPORT_op: fft, size: 33554432, time: 646 ms, np: 64
+---- size: 67108864 -----
+	 Round: 1, Time: 1286 ms
+	 Round: 2, Time: 1288 ms
+	 Round: 3, Time: 1286 ms
+REPORT_op: fft, size: 67108864, time: 1286 ms, np: 64
+---- size: 134217728 -----
+	 Round: 1, Time: 2580 ms
+	 Round: 2, Time: 2579 ms
+	 Round: 3, Time: 2565 ms
+REPORT_op: fft, size: 134217728, time: 2574 ms, np: 64
+---- size: 268435456 -----
+	 Round: 1, Time: 5169 ms
+	 Round: 2, Time: 5145 ms
+	 Round: 3, Time: 5119 ms
+REPORT_op: fft, size: 268435456, time: 5144 ms, np: 64
+---- size: 536870912 -----
+	 Round: 1, Time: 10335 ms
+	 Round: 2, Time: 10373 ms
+	 Round: 3, Time: 10337 ms
+REPORT_op: fft, size: 536870912, time: 10348 ms, np: 64
+---- size: 1073741824 -----
+	 Round: 1, Time: 20916 ms
+	 Round: 2, Time: 20648 ms
+	 Round: 3, Time: 20767 ms
+REPORT_op: fft, size: 1073741824, time: 20777 ms, np: 64
+---- size: 2147483648 -----
+	 Round: 1, Time: 41975 ms
+	 Round: 2, Time: 42581 ms
+	 Round: 3, Time: 42600 ms
+REPORT_op: fft, size: 2147483648, time: 42385 ms, np: 64
+TIMEOUT for op: fft size: 2147483648
+LOG: WaitForBarrier of Main 344905 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 128 ========
+---- size: 65536 -----
+	 Round: 1, Time: 13 ms
+	 Round: 2, Time: 10 ms
+	 Round: 3, Time: 11 ms
+REPORT_op: fft, size: 65536, time: 11 ms, np: 128
+---- size: 131072 -----
+	 Round: 1, Time: 10 ms
+	 Round: 2, Time: 10 ms
+	 Round: 3, Time: 8 ms
+REPORT_op: fft, size: 131072, time: 9 ms, np: 128
+---- size: 262144 -----
+	 Round: 1, Time: 12 ms
+	 Round: 2, Time: 9 ms
+	 Round: 3, Time: 10 ms
+REPORT_op: fft, size: 262144, time: 10 ms, np: 128
+---- size: 524288 -----
+	 Round: 1, Time: 13 ms
+	 Round: 2, Time: 11 ms
+	 Round: 3, Time: 15 ms
+REPORT_op: fft, size: 524288, time: 13 ms, np: 128
+---- size: 1048576 -----
+	 Round: 1, Time: 20 ms
+	 Round: 2, Time: 19 ms
+	 Round: 3, Time: 19 ms
+REPORT_op: fft, size: 1048576, time: 19 ms, np: 128
+---- size: 2097152 -----
+	 Round: 1, Time: 29 ms
+	 Round: 2, Time: 26 ms
+	 Round: 3, Time: 26 ms
+REPORT_op: fft, size: 2097152, time: 27 ms, np: 128
+---- size: 4194304 -----
+	 Round: 1, Time: 45 ms
+	 Round: 2, Time: 43 ms
+	 Round: 3, Time: 43 ms
+REPORT_op: fft, size: 4194304, time: 43 ms, np: 128
+---- size: 8388608 -----
+	 Round: 1, Time: 83 ms
+	 Round: 2, Time: 79 ms
+	 Round: 3, Time: 80 ms
+REPORT_op: fft, size: 8388608, time: 80 ms, np: 128
+---- size: 16777216 -----
+	 Round: 1, Time: 578 ms
+	 Round: 2, Time: 391 ms
+	 Round: 3, Time: 641 ms
+REPORT_op: fft, size: 16777216, time: 536 ms, np: 128
+---- size: 33554432 -----
+	 Round: 1, Time: 483 ms
+	 Round: 2, Time: 488 ms
+	 Round: 3, Time: 475 ms
+REPORT_op: fft, size: 33554432, time: 482 ms, np: 128
+---- size: 67108864 -----
+	 Round: 1, Time: 884 ms
+	 Round: 2, Time: 874 ms
+	 Round: 3, Time: 878 ms
+REPORT_op: fft, size: 67108864, time: 878 ms, np: 128
+---- size: 134217728 -----
+	 Round: 1, Time: 1695 ms
+	 Round: 2, Time: 1694 ms
+	 Round: 3, Time: 1704 ms
+REPORT_op: fft, size: 134217728, time: 1697 ms, np: 128
+---- size: 268435456 -----
+	 Round: 1, Time: 3321 ms
+	 Round: 2, Time: 3331 ms
+	 Round: 3, Time: 3321 ms
+REPORT_op: fft, size: 268435456, time: 3324 ms, np: 128
+---- size: 536870912 -----
+	 Round: 1, Time: 6511 ms
+	 Round: 2, Time: 6411 ms
+	 Round: 3, Time: 6454 ms
+REPORT_op: fft, size: 536870912, time: 6458 ms, np: 128
+---- size: 1073741824 -----
+	 Round: 1, Time: 12575 ms
+	 Round: 2, Time: 12400 ms
+	 Round: 3, Time: 12339 ms
+REPORT_op: fft, size: 1073741824, time: 12438 ms, np: 128
+---- size: 2147483648 -----
+	 Round: 1, Time: 24581 ms
+	 Round: 2, Time: 24399 ms
+	 Round: 3, Time: 24364 ms
+REPORT_op: fft, size: 2147483648, time: 24448 ms, np: 128
+TIMEOUT for op: fft size: 2147483648
+LOG: WaitForBarrier of Main 209431 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 256 ========
+---- size: 65536 -----
+	 Round: 1, Time: 34 ms
+	 Round: 2, Time: 31 ms
+	 Round: 3, Time: 29 ms
+REPORT_op: fft, size: 65536, time: 31 ms, np: 256
+---- size: 131072 -----
+	 Round: 1, Time: 31 ms
+	 Round: 2, Time: 34 ms
+	 Round: 3, Time: 30 ms
+REPORT_op: fft, size: 131072, time: 31 ms, np: 256
+---- size: 262144 -----
+	 Round: 1, Time: 31 ms
+	 Round: 2, Time: 32 ms
+	 Round: 3, Time: 32 ms
+REPORT_op: fft, size: 262144, time: 31 ms, np: 256
+---- size: 524288 -----
+	 Round: 1, Time: 33 ms
+	 Round: 2, Time: 31 ms
+	 Round: 3, Time: 32 ms
+REPORT_op: fft, size: 524288, time: 32 ms, np: 256
+---- size: 1048576 -----
+	 Round: 1, Time: 35 ms
+	 Round: 2, Time: 39 ms
+	 Round: 3, Time: 36 ms
+REPORT_op: fft, size: 1048576, time: 36 ms, np: 256
+---- size: 2097152 -----
+	 Round: 1, Time: 41 ms
+	 Round: 2, Time: 40 ms
+	 Round: 3, Time: 47 ms
+REPORT_op: fft, size: 2097152, time: 42 ms, np: 256
+---- size: 4194304 -----
+	 Round: 1, Time: 85 ms
+	 Round: 2, Time: 59 ms
+	 Round: 3, Time: 62 ms
+REPORT_op: fft, size: 4194304, time: 68 ms, np: 256
+---- size: 8388608 -----
+	 Round: 1, Time: 358 ms
+	 Round: 2, Time: 359 ms
+	 Round: 3, Time: 560 ms
+REPORT_op: fft, size: 8388608, time: 425 ms, np: 256
+---- size: 16777216 -----
+	 Round: 1, Time: 900 ms
+	 Round: 2, Time: 806 ms
+	 Round: 3, Time: 807 ms
+REPORT_op: fft, size: 16777216, time: 837 ms, np: 256
+---- size: 33554432 -----
+	 Round: 1, Time: 1423 ms
+	 Round: 2, Time: 1349 ms
+	 Round: 3, Time: 988 ms
+REPORT_op: fft, size: 33554432, time: 1253 ms, np: 256
+---- size: 67108864 -----
+	 Round: 1, Time: 1793 ms
+	 Round: 2, Time: 1930 ms
+	 Round: 3, Time: 1786 ms
+REPORT_op: fft, size: 67108864, time: 1836 ms, np: 256
+---- size: 134217728 -----
+	 Round: 1, Time: 1610 ms
+	 Round: 2, Time: 1679 ms
+	 Round: 3, Time: 1655 ms
+REPORT_op: fft, size: 134217728, time: 1648 ms, np: 256
+---- size: 268435456 -----
+	 Round: 1, Time: 2805 ms
+	 Round: 2, Time: 2833 ms
+	 Round: 3, Time: 2986 ms
+REPORT_op: fft, size: 268435456, time: 2874 ms, np: 256
+---- size: 536870912 -----
+	 Round: 1, Time: 5034 ms
+	 Round: 2, Time: 5118 ms
+	 Round: 3, Time: 5241 ms
+REPORT_op: fft, size: 536870912, time: 5131 ms, np: 256
+---- size: 1073741824 -----
+	 Round: 1, Time: 9847 ms
+	 Round: 2, Time: 9633 ms
+	 Round: 3, Time: 9526 ms
+REPORT_op: fft, size: 1073741824, time: 9668 ms, np: 256
+---- size: 2147483648 -----
+	 Round: 1, Time: 18334 ms
+	 Round: 2, Time: 18988 ms
+	 Round: 3, Time: 19051 ms
+REPORT_op: fft, size: 2147483648, time: 18791 ms, np: 256
+---- size: 4294967296 -----
+	 Round: 1, Time: 35996 ms
+	 Round: 2, Time: 38334 ms
+	 Round: 3, Time: 37301 ms
+REPORT_op: fft, size: 4294967296, time: 37210 ms, np: 256
+TIMEOUT for op: fft size: 4294967296
+LOG: WaitForBarrier of Main 342612 ms
+ACC COMPLETED

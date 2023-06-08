@@ -1,0 +1,7 @@
+javadoc
+circuits/*.LIBSNARK
+circuits/*.SPARTAN
+circuits/*.AURORA
+run_dir/serialize/*
+*.jar
+bin/

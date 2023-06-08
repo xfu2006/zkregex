@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libffi.so.6.0.1 32328 16 0 12 0 17499781

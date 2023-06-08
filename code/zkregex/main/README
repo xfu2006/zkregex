@@ -1,0 +1,3 @@
+Compile and run workflow:
+scripts/compile.sh
+scripts/run.sh

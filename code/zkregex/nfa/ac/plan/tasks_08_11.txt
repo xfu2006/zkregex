@@ -1,0 +1,30 @@
+Tasks
+----
+1. ZaPolyEval.java
+2. ZaDerivative.java 
+----
+OO Polymorphism/Architecture
+Sample: vim src/za_interface/za/circs/zkreg/ZaTraceVerifier.java
+All inherits from ZaCirc
+------
+input (input (public) and witness (secret))
+output 
+--- FUNCTION you HAVE TO implement ---
+getNumInputs()
+getNumWitness()
+getNumOutput()
+//why need them? for automated testing
+//you do NOT necessarily have to return a FIXED number
+//e.g. in ZaPolyEval constructor takes n
+
+build_circuit() ---> given the input/output wires construct the circuilt
+to generate the output wire (basically calling operations like
+Wire.add, mul, ....)
+logical_eval() ---> used for unit testing, using BigInteger numbers
+e..g. sha2 hash circuit 
+
+gen_randInput(seed) 
+E.g., ZaPolyEval class, it has a parameter n
+--> rand input: gnerate an array of n RANDOM BigInteger numbers
+----> 
+Unit test in : vim src/za_interface/za/circs/tests/SimpleTest.java

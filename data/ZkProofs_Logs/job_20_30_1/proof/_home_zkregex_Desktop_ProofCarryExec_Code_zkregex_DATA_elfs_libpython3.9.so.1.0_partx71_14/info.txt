@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libpython3.9.so.1.0_partx71_14 1000000 20 14000000 30 11056868 12748531

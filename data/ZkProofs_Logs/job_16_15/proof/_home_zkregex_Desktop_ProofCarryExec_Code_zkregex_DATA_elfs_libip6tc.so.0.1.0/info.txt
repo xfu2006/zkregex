@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libip6tc.so.0.1.0 32888 16 0 11 0 17499781

@@ -1,0 +1,223 @@
+--------------------------
+Job 0: job_15_10.txt	State:[OK]	 Files: 62
+  Files:  62 , SetUp (sec): 677 , TotalProve (Sec): 2265 , TOTAL (sec): 2942
+  TotalGCD: 98 , AvgProveTime: 36 , AvgGCDTime: 1 , AdjustedProve: 37
+--------------------------
+Job 1: job_15_10_1.txt	State:[OK]	 Files: 181
+  Files:  181 , SetUp (sec): 691 , TotalProve (Sec): 6841 , TOTAL (sec): 7532
+  TotalGCD: 109 , AvgProveTime: 37 , AvgGCDTime: 0 , AdjustedProve: 37
+--------------------------
+Job 2: job_15_10_2.txt	State:[OK]	 Files: 99
+  Files:  99 , SetUp (sec): 582 , TotalProve (Sec): 3695 , TOTAL (sec): 4277
+  TotalGCD: 40 , AvgProveTime: 37 , AvgGCDTime: 0 , AdjustedProve: 37
+--------------------------
+Job 3: job_15_10_3.txt	State:[OK]	 Files: 305
+  Files:  305 , SetUp (sec): 673 , TotalProve (Sec): 11422 , TOTAL (sec): 12095
+  TotalGCD: 61 , AvgProveTime: 37 , AvgGCDTime: 0 , AdjustedProve: 37
+--------------------------
+Job 4: job_15_10_4.txt	State:[OK]	 Files: 215
+  Files:  215 , SetUp (sec): 603 , TotalProve (Sec): 8063 , TOTAL (sec): 8666
+  TotalGCD: 34 , AvgProveTime: 37 , AvgGCDTime: 0 , AdjustedProve: 37
+--------------------------
+Job 5: job_15_15.txt	State:[OK]	 Files: 145
+  Files:  145 , SetUp (sec): 546 , TotalProve (Sec): 7446 , TOTAL (sec): 7992
+  TotalGCD: 32 , AvgProveTime: 51 , AvgGCDTime: 0 , AdjustedProve: 51
+--------------------------
+Job 6: job_15_15_1.txt	State:[OK]	 Files: 99
+  Files:  99 , SetUp (sec): 560 , TotalProve (Sec): 5062 , TOTAL (sec): 5622
+  TotalGCD: 37 , AvgProveTime: 51 , AvgGCDTime: 0 , AdjustedProve: 51
+--------------------------
+Job 7: job_15_20.txt	State:[OK]	 Files: 89
+  Files:  89 , SetUp (sec): 570 , TotalProve (Sec): 4866 , TOTAL (sec): 5436
+  TotalGCD: 42 , AvgProveTime: 54 , AvgGCDTime: 0 , AdjustedProve: 54
+--------------------------
+Job 8: job_15_30.txt	State:[OK]	 Files: 41
+  Files:  41 , SetUp (sec): 577 , TotalProve (Sec): 2426 , TOTAL (sec): 3003
+  TotalGCD: 42 , AvgProveTime: 59 , AvgGCDTime: 1 , AdjustedProve: 60
+--------------------------
+Job 9: job_15_40.txt	State:[OK]	 Files: 9
+  Files:  9 , SetUp (sec): 573 , TotalProve (Sec): 753 , TOTAL (sec): 1326
+  TotalGCD: 52 , AvgProveTime: 83 , AvgGCDTime: 5 , AdjustedProve: 88
+--------------------------
+Job 10: job_16_10.txt	State:[OK]	 Files: 157
+  Files:  157 , SetUp (sec): 668 , TotalProve (Sec): 5963 , TOTAL (sec): 6631
+  TotalGCD: 69 , AvgProveTime: 37 , AvgGCDTime: 0 , AdjustedProve: 37
+--------------------------
+Job 11: job_16_15.txt	State:[OK]	 Files: 119
+  Files:  119 , SetUp (sec): 654 , TotalProve (Sec): 6106 , TOTAL (sec): 6760
+  TotalGCD: 67 , AvgProveTime: 51 , AvgGCDTime: 0 , AdjustedProve: 51
+--------------------------
+Job 12: job_16_20.txt	State:[OK]	 Files: 68
+  Files:  68 , SetUp (sec): 631 , TotalProve (Sec): 3646 , TOTAL (sec): 4277
+  TotalGCD: 61 , AvgProveTime: 53 , AvgGCDTime: 0 , AdjustedProve: 53
+--------------------------
+Job 13: job_16_30.txt	State:[OK]	 Files: 29
+  Files:  29 , SetUp (sec): 618 , TotalProve (Sec): 1704 , TOTAL (sec): 2322
+  TotalGCD: 62 , AvgProveTime: 58 , AvgGCDTime: 2 , AdjustedProve: 60
+--------------------------
+Job 14: job_16_40.txt	State:[OK]	 Files: 14
+  Files:  14 , SetUp (sec): 635 , TotalProve (Sec): 1157 , TOTAL (sec): 1792
+  TotalGCD: 65 , AvgProveTime: 82 , AvgGCDTime: 4 , AdjustedProve: 86
+--------------------------
+Job 15: job_16_50.txt	State:[OK]	 Files: 3
+  Files:  3 , SetUp (sec): 620 , TotalProve (Sec): 260 , TOTAL (sec): 880
+  TotalGCD: 63 , AvgProveTime: 86 , AvgGCDTime: 21 , AdjustedProve: 107
+--------------------------
+Job 16: job_17_10.txt	State:[OK]	 Files: 49
+  Files:  49 , SetUp (sec): 725 , TotalProve (Sec): 2004 , TOTAL (sec): 2729
+  TotalGCD: 153 , AvgProveTime: 40 , AvgGCDTime: 3 , AdjustedProve: 43
+--------------------------
+Job 17: job_17_15.txt	State:[OK]	 Files: 89
+  Files:  89 , SetUp (sec): 734 , TotalProve (Sec): 4907 , TOTAL (sec): 5641
+  TotalGCD: 149 , AvgProveTime: 55 , AvgGCDTime: 1 , AdjustedProve: 56
+--------------------------
+Job 18: job_17_20.txt	State:[OK]	 Files: 63
+  Files:  63 , SetUp (sec): 716 , TotalProve (Sec): 3569 , TOTAL (sec): 4285
+  TotalGCD: 113 , AvgProveTime: 56 , AvgGCDTime: 1 , AdjustedProve: 57
+--------------------------
+Job 19: job_17_30.txt	State:[OK]	 Files: 54
+  Files:  54 , SetUp (sec): 753 , TotalProve (Sec): 3336 , TOTAL (sec): 4089
+  TotalGCD: 110 , AvgProveTime: 61 , AvgGCDTime: 2 , AdjustedProve: 63
+--------------------------
+Job 20: job_17_40.txt	State:[OK]	 Files: 15
+  Files:  15 , SetUp (sec): 665 , TotalProve (Sec): 1287 , TOTAL (sec): 1952
+  TotalGCD: 115 , AvgProveTime: 85 , AvgGCDTime: 7 , AdjustedProve: 92
+--------------------------
+Job 21: job_17_50.txt	State:[OK]	 Files: 3
+  Files:  3 , SetUp (sec): 684 , TotalProve (Sec): 271 , TOTAL (sec): 955
+  TotalGCD: 111 , AvgProveTime: 90 , AvgGCDTime: 37 , AdjustedProve: 127
+--------------------------
+Job 22: job_15_300.txt	State:[OK]	 Files: 1
+  Files:  1 , SetUp (sec): 736 , TotalProve (Sec): 245 , TOTAL (sec): 981
+  TotalGCD: 52 , AvgProveTime: 245 , AvgGCDTime: 52 , AdjustedProve: 297
+--------------------------
+Job 23: job_18_10.txt	State:[OK]	 Files: 13
+  Files:  13 , SetUp (sec): 782 , TotalProve (Sec): 610 , TOTAL (sec): 1392
+  TotalGCD: 207 , AvgProveTime: 46 , AvgGCDTime: 15 , AdjustedProve: 61
+--------------------------
+Job 24: job_18_15.txt	State:[OK]	 Files: 50
+  Files:  50 , SetUp (sec): 844 , TotalProve (Sec): 3067 , TOTAL (sec): 3911
+  TotalGCD: 202 , AvgProveTime: 61 , AvgGCDTime: 4 , AdjustedProve: 65
+--------------------------
+Job 25: job_18_15_1.txt	State:[OK]	 Files: 2
+  Files:  2 , SetUp (sec): 713 , TotalProve (Sec): 123 , TOTAL (sec): 836
+  TotalGCD: 180 , AvgProveTime: 61 , AvgGCDTime: 90 , AdjustedProve: 151
+--------------------------
+Job 26: job_18_20.txt	State:[OK]	 Files: 47
+  Files:  47 , SetUp (sec): 812 , TotalProve (Sec): 3001 , TOTAL (sec): 3813
+  TotalGCD: 215 , AvgProveTime: 63 , AvgGCDTime: 4 , AdjustedProve: 67
+--------------------------
+Job 27: job_18_30.txt	State:[OK]	 Files: 31
+  Files:  31 , SetUp (sec): 806 , TotalProve (Sec): 2128 , TOTAL (sec): 2934
+  TotalGCD: 188 , AvgProveTime: 68 , AvgGCDTime: 6 , AdjustedProve: 74
+--------------------------
+Job 28: job_18_40.txt	State:[OK]	 Files: 20
+  Files:  20 , SetUp (sec): 821 , TotalProve (Sec): 1857 , TOTAL (sec): 2678
+  TotalGCD: 207 , AvgProveTime: 92 , AvgGCDTime: 10 , AdjustedProve: 102
+--------------------------
+Job 29: job_18_50.txt	State:[OK]	 Files: 5
+  Files:  5 , SetUp (sec): 730 , TotalProve (Sec): 478 , TOTAL (sec): 1208
+  TotalGCD: 167 , AvgProveTime: 95 , AvgGCDTime: 33 , AdjustedProve: 128
+--------------------------
+Job 30: job_16_300.txt	State:[OK]	 Files: 4
+  Files:  4 , SetUp (sec): 642 , TotalProve (Sec): 986 , TOTAL (sec): 1628
+  TotalGCD: 67 , AvgProveTime: 246 , AvgGCDTime: 16 , AdjustedProve: 262
+--------------------------
+Job 31: job_19_10.txt	State:[OK]	 Files: 9
+  Files:  9 , SetUp (sec): 918 , TotalProve (Sec): 533 , TOTAL (sec): 1451
+  TotalGCD: 323 , AvgProveTime: 59 , AvgGCDTime: 35 , AdjustedProve: 94
+--------------------------
+Job 32: job_19_15.txt	State:[OK]	 Files: 32
+  Files:  32 , SetUp (sec): 1055 , TotalProve (Sec): 2345 , TOTAL (sec): 3400
+  TotalGCD: 336 , AvgProveTime: 73 , AvgGCDTime: 10 , AdjustedProve: 83
+--------------------------
+Job 33: job_19_20.txt	State:[OK]	 Files: 47
+  Files:  47 , SetUp (sec): 1117 , TotalProve (Sec): 3569 , TOTAL (sec): 4686
+  TotalGCD: 339 , AvgProveTime: 75 , AvgGCDTime: 7 , AdjustedProve: 82
+--------------------------
+Job 34: job_19_30.txt	State:[OK]	 Files: 44
+  Files:  44 , SetUp (sec): 1071 , TotalProve (Sec): 3587 , TOTAL (sec): 4658
+  TotalGCD: 328 , AvgProveTime: 81 , AvgGCDTime: 7 , AdjustedProve: 88
+--------------------------
+Job 35: job_19_40.txt	State:[OK]	 Files: 27
+  Files:  27 , SetUp (sec): 982 , TotalProve (Sec): 2854 , TOTAL (sec): 3836
+  TotalGCD: 331 , AvgProveTime: 105 , AvgGCDTime: 12 , AdjustedProve: 117
+--------------------------
+Job 36: job_19_50.txt	State:[OK]	 Files: 5
+  Files:  5 , SetUp (sec): 932 , TotalProve (Sec): 546 , TOTAL (sec): 1478
+  TotalGCD: 325 , AvgProveTime: 109 , AvgGCDTime: 65 , AdjustedProve: 174
+--------------------------
+Job 37: job_17_300.txt	State:[OK]	 Files: 5
+  Files:  5 , SetUp (sec): 707 , TotalProve (Sec): 1246 , TOTAL (sec): 1953
+  TotalGCD: 112 , AvgProveTime: 249 , AvgGCDTime: 22 , AdjustedProve: 271
+--------------------------
+Job 38: job_20_10.txt	State:[OK]	 Files: 59
+  Files:  59 , SetUp (sec): 1827 , TotalProve (Sec): 5047 , TOTAL (sec): 6874
+  TotalGCD: 901 , AvgProveTime: 85 , AvgGCDTime: 15 , AdjustedProve: 100
+--------------------------
+Job 39: job_20_10_1.txt	State:[OK]	 Files: 68
+  Files:  68 , SetUp (sec): 1606 , TotalProve (Sec): 5674 , TOTAL (sec): 7280
+  TotalGCD: 662 , AvgProveTime: 83 , AvgGCDTime: 9 , AdjustedProve: 92
+--------------------------
+Job 40: job_20_10_2.txt	State:[OK]	 Files: 68
+  Files:  68 , SetUp (sec): 1598 , TotalProve (Sec): 5664 , TOTAL (sec): 7262
+  TotalGCD: 642 , AvgProveTime: 83 , AvgGCDTime: 9 , AdjustedProve: 92
+--------------------------
+Job 41: job_20_10_3.txt	State:[OK]	 Files: 66
+  Files:  66 , SetUp (sec): 1647 , TotalProve (Sec): 5535 , TOTAL (sec): 7182
+  TotalGCD: 641 , AvgProveTime: 83 , AvgGCDTime: 9 , AdjustedProve: 92
+--------------------------
+Job 42: job_20_10_4.txt	State:[OK]	 Files: 6
+  Files:  6 , SetUp (sec): 1335 , TotalProve (Sec): 499 , TOTAL (sec): 1834
+  TotalGCD: 657 , AvgProveTime: 83 , AvgGCDTime: 109 , AdjustedProve: 192
+--------------------------
+Job 43: job_20_15.txt	State:[OK]	 Files: 53
+  Files:  53 , SetUp (sec): 1607 , TotalProve (Sec): 5147 , TOTAL (sec): 6754
+  TotalGCD: 622 , AvgProveTime: 97 , AvgGCDTime: 11 , AdjustedProve: 108
+--------------------------
+Job 44: job_20_15_1.txt	State:[OK]	 Files: 54
+  Files:  54 , SetUp (sec): 1639 , TotalProve (Sec): 5245 , TOTAL (sec): 6884
+  TotalGCD: 655 , AvgProveTime: 97 , AvgGCDTime: 12 , AdjustedProve: 109
+--------------------------
+Job 45: job_20_15_2.txt	State:[OK]	 Files: 13
+  Files:  13 , SetUp (sec): 1456 , TotalProve (Sec): 1281 , TOTAL (sec): 2737
+  TotalGCD: 710 , AvgProveTime: 98 , AvgGCDTime: 54 , AdjustedProve: 152
+--------------------------
+Job 46: job_20_20.txt	State:[OK]	 Files: 39
+  Files:  39 , SetUp (sec): 1842 , TotalProve (Sec): 3900 , TOTAL (sec): 5742
+  TotalGCD: 919 , AvgProveTime: 100 , AvgGCDTime: 23 , AdjustedProve: 123
+--------------------------
+Job 47: job_20_20_1.txt	State:[OK]	 Files: 57
+  Files:  57 , SetUp (sec): 1674 , TotalProve (Sec): 5689 , TOTAL (sec): 7363
+  TotalGCD: 706 , AvgProveTime: 99 , AvgGCDTime: 12 , AdjustedProve: 111
+--------------------------
+Job 48: job_20_30.txt	State:[OK]	 Files: 55
+  Files:  55 , SetUp (sec): 1689 , TotalProve (Sec): 5773 , TOTAL (sec): 7462
+  TotalGCD: 601 , AvgProveTime: 104 , AvgGCDTime: 10 , AdjustedProve: 114
+--------------------------
+Job 49: job_20_30_1.txt	State:[OK]	 Files: 43
+  Files:  43 , SetUp (sec): 1579 , TotalProve (Sec): 4571 , TOTAL (sec): 6150
+  TotalGCD: 708 , AvgProveTime: 106 , AvgGCDTime: 16 , AdjustedProve: 122
+--------------------------
+Job 50: job_20_40.txt	State:[OK]	 Files: 40
+  Files:  40 , SetUp (sec): 1618 , TotalProve (Sec): 5264 , TOTAL (sec): 6882
+  TotalGCD: 735 , AvgProveTime: 131 , AvgGCDTime: 18 , AdjustedProve: 149
+--------------------------
+Job 51: job_20_50.txt	State:[OK]	 Files: 19
+  Files:  19 , SetUp (sec): 1543 , TotalProve (Sec): 2562 , TOTAL (sec): 4105
+  TotalGCD: 718 , AvgProveTime: 134 , AvgGCDTime: 37 , AdjustedProve: 171
+--------------------------
+Job 52: job_18_300.txt	State:[OK]	 Files: 11
+  Files:  11 , SetUp (sec): 917 , TotalProve (Sec): 2841 , TOTAL (sec): 3758
+  TotalGCD: 188 , AvgProveTime: 258 , AvgGCDTime: 17 , AdjustedProve: 275
+--------------------------
+Job 53: job_19_300.txt	State:[OK]	 Files: 15
+  Files:  15 , SetUp (sec): 1032 , TotalProve (Sec): 4051 , TOTAL (sec): 5083
+  TotalGCD: 340 , AvgProveTime: 270 , AvgGCDTime: 22 , AdjustedProve: 292
+--------------------------
+Job 54: job_20_300.txt	State:[OK]	 Files: 38
+  Files:  38 , SetUp (sec): 1677 , TotalProve (Sec): 11252 , TOTAL (sec): 12929
+  TotalGCD: 700 , AvgProveTime: 296 , AvgGCDTime: 18 , AdjustedProve: 314
+==================================================
+Files: 2954, TotalSetup: 54109 sec, TotalProve: 194219 sec
+================= END REPORT =====================

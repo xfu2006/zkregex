@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libsqlite3.so.0.8.6 753280 20 0 21 0 17499781

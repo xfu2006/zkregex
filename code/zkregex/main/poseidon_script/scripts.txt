@@ -1,0 +1,7 @@
+Generate Jsnark parameters (Also Aurora)
+
+sage generate_parameters_grain.sage 1 0 254 2 8 114 0x30644E72E131A029B85045B68181585D2833E84879B9709143E1F593F0000001
+
+Generate Spartan Parameters
+
+sage generate_parameters_grain.sage 1 0 253 2 8 113 0x1000000000000000000000000000000014DEF9DEA2F79CD65812631A5CF5D3ED

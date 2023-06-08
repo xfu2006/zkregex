@@ -1,0 +1,6 @@
+# execute as a prover 
+# provide the src dir of automata
+# provide the bin executable file to prove
+# provide the dest path of executable file (assuming folder exits)
+# --- JARDIR will be replaced by the real path: see getjar.py ---
+java -Xmx12g -cp J_ARDIR cs.Employer.zkregex.App prover ../DATA/anti_virus_output/clamav_5/ ../DATA/anti_virus_output/clamav_5/sample2.bin ../DATA/anti_virus_output/clamav_5/proof

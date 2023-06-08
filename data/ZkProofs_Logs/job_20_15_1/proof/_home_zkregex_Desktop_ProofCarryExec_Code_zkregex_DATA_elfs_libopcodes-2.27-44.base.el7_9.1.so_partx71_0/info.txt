@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libopcodes-2.27-44.base.el7_9.1.so_partx71_0 1000000 20 0 14 0 17927084

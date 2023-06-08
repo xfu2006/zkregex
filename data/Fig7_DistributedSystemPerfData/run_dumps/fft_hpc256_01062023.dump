@@ -1,0 +1,354 @@
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 4 ========
+---- size: 65536 -----
+	 Round: 0, Time: 28 ms
+	 Round: 1, Time: 15 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 15 ms, np: 4
+---- size: 131072 -----
+	 Round: 0, Time: 31 ms
+REPORT_op: fft, size: 131072, time: 31 ms, np: 4
+---- size: 262144 -----
+	 Round: 0, Time: 61 ms
+REPORT_op: fft, size: 262144, time: 61 ms, np: 4
+---- size: 524288 -----
+	 Round: 0, Time: 125 ms
+REPORT_op: fft, size: 524288, time: 125 ms, np: 4
+---- size: 1048576 -----
+	 Round: 0, Time: 250 ms
+REPORT_op: fft, size: 1048576, time: 250 ms, np: 4
+---- size: 2097152 -----
+	 Round: 0, Time: 507 ms
+REPORT_op: fft, size: 2097152, time: 507 ms, np: 4
+---- size: 4194304 -----
+	 Round: 0, Time: 1072 ms
+REPORT_op: fft, size: 4194304, time: 1072 ms, np: 4
+---- size: 8388608 -----
+	 Round: 0, Time: 2153 ms
+REPORT_op: fft, size: 8388608, time: 2153 ms, np: 4
+---- size: 16777216 -----
+	 Round: 0, Time: 4459 ms
+REPORT_op: fft, size: 16777216, time: 4459 ms, np: 4
+---- size: 33554432 -----
+	 Round: 0, Time: 8884 ms
+REPORT_op: fft, size: 33554432, time: 8884 ms, np: 4
+---- size: 67108864 -----
+	 Round: 0, Time: 17982 ms
+REPORT_op: fft, size: 67108864, time: 17982 ms, np: 4
+---- size: 134217728 -----
+	 Round: 0, Time: 36458 ms
+REPORT_op: fft, size: 134217728, time: 36458 ms, np: 4
+TIMEOUT for op: fft size: 134217728
+LOG: WaitForBarrier of Main 74319 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 8 ========
+---- size: 65536 -----
+	 Round: 0, Time: 20 ms
+	 Round: 1, Time: 8 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 8 ms, np: 8
+---- size: 131072 -----
+	 Round: 0, Time: 17 ms
+REPORT_op: fft, size: 131072, time: 17 ms, np: 8
+---- size: 262144 -----
+	 Round: 0, Time: 33 ms
+REPORT_op: fft, size: 262144, time: 33 ms, np: 8
+---- size: 524288 -----
+	 Round: 0, Time: 64 ms
+REPORT_op: fft, size: 524288, time: 64 ms, np: 8
+---- size: 1048576 -----
+	 Round: 0, Time: 128 ms
+REPORT_op: fft, size: 1048576, time: 128 ms, np: 8
+---- size: 2097152 -----
+	 Round: 0, Time: 259 ms
+REPORT_op: fft, size: 2097152, time: 259 ms, np: 8
+---- size: 4194304 -----
+	 Round: 0, Time: 521 ms
+REPORT_op: fft, size: 4194304, time: 521 ms, np: 8
+---- size: 8388608 -----
+	 Round: 0, Time: 1106 ms
+REPORT_op: fft, size: 8388608, time: 1106 ms, np: 8
+---- size: 16777216 -----
+	 Round: 0, Time: 2209 ms
+REPORT_op: fft, size: 16777216, time: 2209 ms, np: 8
+---- size: 33554432 -----
+	 Round: 0, Time: 4484 ms
+REPORT_op: fft, size: 33554432, time: 4484 ms, np: 8
+---- size: 67108864 -----
+	 Round: 0, Time: 9199 ms
+REPORT_op: fft, size: 67108864, time: 9199 ms, np: 8
+---- size: 134217728 -----
+	 Round: 0, Time: 18555 ms
+REPORT_op: fft, size: 134217728, time: 18555 ms, np: 8
+---- size: 268435456 -----
+	 Round: 0, Time: 37613 ms
+REPORT_op: fft, size: 268435456, time: 37613 ms, np: 8
+TIMEOUT for op: fft size: 268435456
+LOG: WaitForBarrier of Main 76490 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 16 ========
+---- size: 65536 -----
+	 Round: 0, Time: 20 ms
+	 Round: 1, Time: 7 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 7 ms, np: 16
+---- size: 131072 -----
+	 Round: 0, Time: 12 ms
+REPORT_op: fft, size: 131072, time: 12 ms, np: 16
+---- size: 262144 -----
+	 Round: 0, Time: 19 ms
+REPORT_op: fft, size: 262144, time: 19 ms, np: 16
+---- size: 524288 -----
+	 Round: 0, Time: 38 ms
+REPORT_op: fft, size: 524288, time: 38 ms, np: 16
+---- size: 1048576 -----
+	 Round: 0, Time: 73 ms
+REPORT_op: fft, size: 1048576, time: 73 ms, np: 16
+---- size: 2097152 -----
+	 Round: 0, Time: 140 ms
+REPORT_op: fft, size: 2097152, time: 140 ms, np: 16
+---- size: 4194304 -----
+	 Round: 0, Time: 277 ms
+REPORT_op: fft, size: 4194304, time: 277 ms, np: 16
+---- size: 8388608 -----
+	 Round: 0, Time: 557 ms
+REPORT_op: fft, size: 8388608, time: 557 ms, np: 16
+---- size: 16777216 -----
+	 Round: 0, Time: 1166 ms
+REPORT_op: fft, size: 16777216, time: 1166 ms, np: 16
+---- size: 33554432 -----
+	 Round: 0, Time: 2349 ms
+REPORT_op: fft, size: 33554432, time: 2349 ms, np: 16
+---- size: 67108864 -----
+	 Round: 0, Time: 4760 ms
+REPORT_op: fft, size: 67108864, time: 4760 ms, np: 16
+---- size: 134217728 -----
+	 Round: 0, Time: 9727 ms
+REPORT_op: fft, size: 134217728, time: 9727 ms, np: 16
+---- size: 268435456 -----
+	 Round: 0, Time: 19828 ms
+REPORT_op: fft, size: 268435456, time: 19828 ms, np: 16
+---- size: 536870912 -----
+	 Round: 0, Time: 40872 ms
+REPORT_op: fft, size: 536870912, time: 40872 ms, np: 16
+TIMEOUT for op: fft size: 536870912
+LOG: WaitForBarrier of Main 82151 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 32 ========
+---- size: 65536 -----
+	 Round: 0, Time: 519 ms
+	 Round: 1, Time: 3 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 3 ms, np: 32
+---- size: 131072 -----
+	 Round: 0, Time: 13 ms
+REPORT_op: fft, size: 131072, time: 13 ms, np: 32
+---- size: 262144 -----
+	 Round: 0, Time: 19 ms
+REPORT_op: fft, size: 262144, time: 19 ms, np: 32
+---- size: 524288 -----
+	 Round: 0, Time: 30 ms
+REPORT_op: fft, size: 524288, time: 30 ms, np: 32
+---- size: 1048576 -----
+	 Round: 0, Time: 55 ms
+REPORT_op: fft, size: 1048576, time: 55 ms, np: 32
+---- size: 2097152 -----
+	 Round: 0, Time: 90 ms
+REPORT_op: fft, size: 2097152, time: 90 ms, np: 32
+---- size: 4194304 -----
+	 Round: 0, Time: 162 ms
+REPORT_op: fft, size: 4194304, time: 162 ms, np: 32
+---- size: 8388608 -----
+	 Round: 0, Time: 310 ms
+REPORT_op: fft, size: 8388608, time: 310 ms, np: 32
+---- size: 16777216 -----
+	 Round: 0, Time: 617 ms
+REPORT_op: fft, size: 16777216, time: 617 ms, np: 32
+---- size: 33554432 -----
+	 Round: 0, Time: 1660 ms
+REPORT_op: fft, size: 33554432, time: 1660 ms, np: 32
+---- size: 67108864 -----
+	 Round: 0, Time: 2769 ms
+REPORT_op: fft, size: 67108864, time: 2769 ms, np: 32
+---- size: 134217728 -----
+	 Round: 0, Time: 5195 ms
+REPORT_op: fft, size: 134217728, time: 5195 ms, np: 32
+---- size: 268435456 -----
+	 Round: 0, Time: 10548 ms
+REPORT_op: fft, size: 268435456, time: 10548 ms, np: 32
+---- size: 536870912 -----
+	 Round: 0, Time: 19750 ms
+REPORT_op: fft, size: 536870912, time: 19750 ms, np: 32
+---- size: 1073741824 -----
+	 Round: 0, Time: 42631 ms
+REPORT_op: fft, size: 1073741824, time: 42631 ms, np: 32
+TIMEOUT for op: fft size: 1073741824
+LOG: WaitForBarrier of Main 86729 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 64 ========
+---- size: 65536 -----
+	 Round: 0, Time: 16 ms
+	 Round: 1, Time: 4 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 4 ms, np: 64
+---- size: 131072 -----
+	 Round: 0, Time: 6 ms
+REPORT_op: fft, size: 131072, time: 6 ms, np: 64
+---- size: 262144 -----
+	 Round: 0, Time: 9 ms
+REPORT_op: fft, size: 262144, time: 9 ms, np: 64
+---- size: 524288 -----
+	 Round: 0, Time: 36 ms
+REPORT_op: fft, size: 524288, time: 36 ms, np: 64
+---- size: 1048576 -----
+	 Round: 0, Time: 49 ms
+REPORT_op: fft, size: 1048576, time: 49 ms, np: 64
+---- size: 2097152 -----
+	 Round: 0, Time: 76 ms
+REPORT_op: fft, size: 2097152, time: 76 ms, np: 64
+---- size: 4194304 -----
+	 Round: 0, Time: 129 ms
+REPORT_op: fft, size: 4194304, time: 129 ms, np: 64
+---- size: 8388608 -----
+	 Round: 0, Time: 210 ms
+REPORT_op: fft, size: 8388608, time: 210 ms, np: 64
+---- size: 16777216 -----
+	 Round: 0, Time: 374 ms
+REPORT_op: fft, size: 16777216, time: 374 ms, np: 64
+---- size: 33554432 -----
+	 Round: 0, Time: 716 ms
+REPORT_op: fft, size: 33554432, time: 716 ms, np: 64
+---- size: 67108864 -----
+	 Round: 0, Time: 1478 ms
+REPORT_op: fft, size: 67108864, time: 1478 ms, np: 64
+---- size: 134217728 -----
+	 Round: 0, Time: 2952 ms
+REPORT_op: fft, size: 134217728, time: 2952 ms, np: 64
+---- size: 268435456 -----
+	 Round: 0, Time: 6164 ms
+REPORT_op: fft, size: 268435456, time: 6164 ms, np: 64
+---- size: 536870912 -----
+	 Round: 0, Time: 10446 ms
+REPORT_op: fft, size: 536870912, time: 10446 ms, np: 64
+---- size: 1073741824 -----
+	 Round: 0, Time: 21199 ms
+REPORT_op: fft, size: 1073741824, time: 21199 ms, np: 64
+---- size: 2147483648 -----
+	 Round: 0, Time: 43353 ms
+REPORT_op: fft, size: 2147483648, time: 43353 ms, np: 64
+TIMEOUT for op: fft size: 2147483648
+LOG: WaitForBarrier of Main 89752 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 128 ========
+---- size: 65536 -----
+	 Round: 0, Time: 86 ms
+	 Round: 1, Time: 2 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 2 ms, np: 128
+---- size: 131072 -----
+	 Round: 0, Time: 1295 ms
+REPORT_op: fft, size: 131072, time: 1295 ms, np: 128
+---- size: 262144 -----
+	 Round: 0, Time: 11 ms
+REPORT_op: fft, size: 262144, time: 11 ms, np: 128
+---- size: 524288 -----
+	 Round: 0, Time: 13 ms
+REPORT_op: fft, size: 524288, time: 13 ms, np: 128
+---- size: 1048576 -----
+	 Round: 0, Time: 20 ms
+REPORT_op: fft, size: 1048576, time: 20 ms, np: 128
+---- size: 2097152 -----
+	 Round: 0, Time: 108 ms
+REPORT_op: fft, size: 2097152, time: 108 ms, np: 128
+---- size: 4194304 -----
+	 Round: 0, Time: 132 ms
+REPORT_op: fft, size: 4194304, time: 132 ms, np: 128
+---- size: 8388608 -----
+	 Round: 0, Time: 174 ms
+REPORT_op: fft, size: 8388608, time: 174 ms, np: 128
+---- size: 16777216 -----
+	 Round: 0, Time: 288 ms
+REPORT_op: fft, size: 16777216, time: 288 ms, np: 128
+---- size: 33554432 -----
+	 Round: 0, Time: 542 ms
+REPORT_op: fft, size: 33554432, time: 542 ms, np: 128
+---- size: 67108864 -----
+	 Round: 0, Time: 969 ms
+REPORT_op: fft, size: 67108864, time: 969 ms, np: 128
+---- size: 134217728 -----
+	 Round: 0, Time: 1951 ms
+REPORT_op: fft, size: 134217728, time: 1951 ms, np: 128
+---- size: 268435456 -----
+	 Round: 0, Time: 3839 ms
+REPORT_op: fft, size: 268435456, time: 3839 ms, np: 128
+---- size: 536870912 -----
+	 Round: 0, Time: 6025 ms
+REPORT_op: fft, size: 536870912, time: 6025 ms, np: 128
+---- size: 1073741824 -----
+	 Round: 0, Time: 12146 ms
+REPORT_op: fft, size: 1073741824, time: 12146 ms, np: 128
+---- size: 2147483648 -----
+	 Round: 0, Time: 24588 ms
+REPORT_op: fft, size: 2147483648, time: 24588 ms, np: 128
+---- size: 4294967296 -----
+	 Round: 0, Time: 49295 ms
+REPORT_op: fft, size: 4294967296, time: 49295 ms, np: 128
+TIMEOUT for op: fft size: 4294967296
+LOG: WaitForBarrier of Main 104260 ms
+ACC COMPLETED
+===== DATA for fft: log_min_size: 16 -> log_max_size: 32, NODES: 256 ========
+---- size: 65536 -----
+	 Round: 0, Time: 35 ms
+	 Round: 1, Time: 2 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+REPORT_op: fft, size: 65536, time: 2 ms, np: 256
+---- size: 131072 -----
+	 Round: 0, Time: 3 ms
+REPORT_op: fft, size: 131072, time: 3 ms, np: 256
+---- size: 262144 -----
+	 Round: 0, Time: 4 ms
+REPORT_op: fft, size: 262144, time: 4 ms, np: 256
+---- size: 524288 -----
+	 Round: 0, Time: 3587 ms
+REPORT_op: fft, size: 524288, time: 3587 ms, np: 256
+---- size: 1048576 -----
+	 Round: 0, Time: 38 ms
+REPORT_op: fft, size: 1048576, time: 38 ms, np: 256
+---- size: 2097152 -----
+	 Round: 0, Time: 40 ms
+REPORT_op: fft, size: 2097152, time: 40 ms, np: 256
+---- size: 4194304 -----
+	 Round: 0, Time: 60 ms
+REPORT_op: fft, size: 4194304, time: 60 ms, np: 256
+---- size: 8388608 -----
+	 Round: 0, Time: 365 ms
+REPORT_op: fft, size: 8388608, time: 365 ms, np: 256
+---- size: 16777216 -----
+	 Round: 0, Time: 443 ms
+REPORT_op: fft, size: 16777216, time: 443 ms, np: 256
+---- size: 33554432 -----
+	 Round: 0, Time: 580 ms
+REPORT_op: fft, size: 33554432, time: 580 ms, np: 256
+---- size: 67108864 -----
+	 Round: 0, Time: 952 ms
+REPORT_op: fft, size: 67108864, time: 952 ms, np: 256
+---- size: 134217728 -----
+	 Round: 0, Time: 1850 ms
+REPORT_op: fft, size: 134217728, time: 1850 ms, np: 256
+---- size: 268435456 -----
+	 Round: 0, Time: 3668 ms
+REPORT_op: fft, size: 268435456, time: 3668 ms, np: 256
+---- size: 536870912 -----
+	 Round: 0, Time: 5093 ms
+REPORT_op: fft, size: 536870912, time: 5093 ms, np: 256
+---- size: 1073741824 -----
+	 Round: 0, Time: 9610 ms
+REPORT_op: fft, size: 1073741824, time: 9610 ms, np: 256
+---- size: 2147483648 -----
+	 Round: 0, Time: 19438 ms
+REPORT_op: fft, size: 2147483648, time: 19438 ms, np: 256
+---- size: 4294967296 -----
+	 Round: 0, Time: 37266 ms
+REPORT_op: fft, size: 4294967296, time: 37266 ms, np: 256
+TIMEOUT for op: fft size: 4294967296
+LOG: WaitForBarrier of Main 84717 ms
+ACC COMPLETED

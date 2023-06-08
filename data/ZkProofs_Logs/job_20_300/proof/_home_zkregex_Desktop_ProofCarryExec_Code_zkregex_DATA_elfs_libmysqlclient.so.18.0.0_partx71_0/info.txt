@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libmysqlclient.so.18.0.0_partx71_0 1000000 20 0 146 0 12249459

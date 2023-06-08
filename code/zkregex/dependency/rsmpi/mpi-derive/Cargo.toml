@@ -1,0 +1,21 @@
+[package]
+name = "mpi-derive"
+version = "0.1.0"
+authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
+description = "MPI derive support for user types"
+homepage = "https://github.com/rsmpi/rsmpi"
+repository = "https://github.com/rsmpi/rsmpi"
+license = "MIT/Apache-2.0"
+edition = "2018"
+rust-version = "1.54"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+proc-macro2 = "1"
+quote = "1"
+syn = "1"
+
+[package.metadata.release]
+tag-name = "{{crate_name}}-{{version}}"

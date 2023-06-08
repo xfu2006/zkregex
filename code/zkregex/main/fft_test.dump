@@ -1,0 +1,56 @@
+===== DATA for fft: log_min_size: 25 -> log_max_size: 25, NODES: 4 ========
+ === G1 element size: 48
+LOG: -- GetNetworkArch:  4 ms
+LOG: size: 33554432 -----
+LOG: ------ broadcast_wk1 Step1: copy_from_slice. TOTAL size: 8388608 233 ms
+LOG: ------ broadcast_wk1 Step2: to_vec8 293 ms
+LOG: ------ broadcast_wk1 Step3: all_to_all_into 152 ms
+LOG: ------ broadcast_wk1 Step4: from_u8 420 ms
+LOG: ------ broadcast_wk1 Step5: assemble 136 ms
+LOG: ------ broadcast_wk1 TOTAL 1235 ms
+LOG: ------ --FFT Step1 send_col_data: size: 33554432 1865 ms
+LOG: ------ broadcast_wk1 Step1: copy_from_slice. TOTAL size: 8388608 197 ms
+LOG: ------ broadcast_wk1 Step2: to_vec8 291 ms
+LOG: ------ broadcast_wk1 Step3: all_to_all_into 201 ms
+LOG: ------ broadcast_wk1 Step4: from_u8 422 ms
+LOG: ------ broadcast_wk1 Step5: assemble 144 ms
+LOG: ------ broadcast_wk1 TOTAL 1257 ms
+LOG: ------ --FFT Step2 process col_data 5199 ms
+LOG: ------ broadcast_wk1 Step1: copy_from_slice. TOTAL size: 8388608 140 ms
+LOG: ------ broadcast_wk1 Step2: to_vec8 298 ms
+LOG: ------ broadcast_wk1 Step3: all_to_all_into 150 ms
+LOG: ------ broadcast_wk1 Step4: from_u8 427 ms
+LOG: ------ broadcast_wk1 Step5: assemble 138 ms
+LOG: ------ broadcast_wk1 TOTAL 1155 ms
+LOG: ------ --FFT Step3 process row_data 5481 ms
+LOG: ------ --FFT Step4 sync 5 ms
+LOG: ------ --FFT TOTAL 12552 ms
+LOG: 	 Round: 0, Time: 12604 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: ------ broadcast_wk1 Step1: copy_from_slice. TOTAL size: 8388608 232 ms
+LOG: ------ broadcast_wk1 Step2: to_vec8 337 ms
+LOG: ------ broadcast_wk1 Step3: all_to_all_into 191 ms
+LOG: ------ broadcast_wk1 Step4: from_u8 612 ms
+LOG: ------ broadcast_wk1 Step5: assemble 195 ms
+LOG: ------ broadcast_wk1 TOTAL 1570 ms
+LOG: ------ --FFT Step1 send_col_data: size: 33554432 2219 ms
+LOG: ------ broadcast_wk1 Step1: copy_from_slice. TOTAL size: 8388608 187 ms
+LOG: ------ broadcast_wk1 Step2: to_vec8 405 ms
+LOG: ------ broadcast_wk1 Step3: all_to_all_into 258 ms
+LOG: ------ broadcast_wk1 Step4: from_u8 596 ms
+LOG: ------ broadcast_wk1 Step5: assemble 190 ms
+LOG: ------ broadcast_wk1 TOTAL 1639 ms
+LOG: ------ --FFT Step2 process col_data 7026 ms
+LOG: ------ broadcast_wk1 Step1: copy_from_slice. TOTAL size: 8388608 193 ms
+LOG: ------ broadcast_wk1 Step2: to_vec8 426 ms
+LOG: ------ broadcast_wk1 Step3: all_to_all_into 234 ms
+LOG: ------ broadcast_wk1 Step4: from_u8 600 ms
+LOG: ------ broadcast_wk1 Step5: assemble 189 ms
+LOG: ------ broadcast_wk1 TOTAL 1645 ms
+LOG: ------ --FFT Step3 process row_data 6848 ms
+LOG: ------ --FFT Step4 sync 40 us
+LOG: ------ --FFT TOTAL 16093 ms
+LOG: 	 Round: 1, Time: 16146 ms
+REPORT_op: fft, size: 33554432, time: 16146 ms, np: 4
+LOG: WaitForBarrier of Main 29449 ms
+ACC COMPLETED

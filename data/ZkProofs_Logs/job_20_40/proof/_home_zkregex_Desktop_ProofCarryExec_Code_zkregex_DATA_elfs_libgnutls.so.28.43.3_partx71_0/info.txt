@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libgnutls.so.28.43.3_partx71_0 1000000 20 0 35 0 10955430

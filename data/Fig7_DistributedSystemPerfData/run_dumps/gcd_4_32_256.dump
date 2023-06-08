@@ -1,0 +1,23 @@
+===== DATA for gcd: log_min_size: 20 -> log_max_size: 20, NODES: 4 ========
+LOG: -- GetNetworkArch:  32 ms
+LOG: size: 1048576 -----
+LOG: 	 Round: 0, Time: 372957 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: 	 Round: 1, Time: 372640 ms
+REPORT_op: gcd, size: 1048576, time: 372640 ms, np: 4
+LOG: WaitForBarrier of Main 745703 ms
+ACC COMPLETED
+===== DATA for gcd: log_min_size: 20 -> log_max_size: 20, NODES: 32 ========
+LOG: -- GetNetworkArch:  25 ms
+LOG: size: 1048576 -----
+LOG: 	 Round: 0, Time: 316121 ms
+LOG: SKIP 1st record for discounting TCP connection establish time
+LOG: 	 Round: 1, Time: 315984 ms
+REPORT_op: gcd, size: 1048576, time: 315984 ms, np: 32
+LOG: WaitForBarrier of Main 632160 ms
+ACC COMPLETED
+===== DATA for gcd: log_min_size: 20 -> log_max_size: 20, NODES: 256 ========
+LOG: -- GetNetworkArch:  231 ms
+LOG: size: 1048576 -----
+LOG: 	 Round: 0, Time: 401386 ms
+LOG: SKIP 1st record for discounting TCP connection establish time

@@ -1,0 +1,59 @@
+[package]
+name = "benches"
+version = "0.3.0"
+authors = ["Nirvan Tyagi <nirvan.tyagi@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+ark-ec = { version = "0.3", features = [ "parallel" ] }
+ark-ff = { version = "0.3", features = [ "parallel" ] }
+ark-poly = { version = "0.3", features = [ "parallel" ] }
+ark-std = { version = "0.3", features = [ "parallel" ] }
+ark-groth16 = { version = "0.3", features = [ "parallel", "r1cs" ] }
+ark-crypto-primitives = { version = "0.3", features = [ "parallel", "r1cs" ] }
+ark-bls12-381 = { version = "0.3", features = [ "curve" ] }
+ark-ed-on-bls12-381 = "0.3"
+ark-bls12-377 = { version = "0.3", features = [ "curve", "r1cs" ] }
+ark-bw6-761 = "0.3"
+
+ark-relations = "0.3"
+ark-r1cs-std = "0.3"
+
+digest = "0.9"
+blake2 = "0.9"
+csv = "1"
+
+ark-inner-products = { path = "../inner_products" }
+ark-ip-proofs = { path = "../ip_proofs" }
+ark-dh-commitments = { path = "../dh_commitments" }
+
+[[bench]]
+name = "inner_products"
+path = "benches/inner_products.rs"
+harness = false
+
+[[bench]]
+name = "gipa"
+path = "benches/gipa.rs"
+harness = false
+
+[[bench]]
+name = "tipa"
+path = "benches/tipa.rs"
+harness = false
+
+[[bench]]
+name = "poly_commit"
+path = "benches/poly_commit.rs"
+harness = false
+
+[[bench]]
+name = "groth16_aggregation"
+path = "benches/groth16_aggregation/bench.rs"
+harness = false
+
+[[example]]
+name = "groth16_aggregation"
+path = "examples/groth16_aggregation.rs"

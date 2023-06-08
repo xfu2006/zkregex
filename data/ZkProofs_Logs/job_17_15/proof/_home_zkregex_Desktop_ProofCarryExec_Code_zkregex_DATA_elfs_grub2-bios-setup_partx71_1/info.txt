@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/grub2-bios-setup_partx71_1 78480 17 1000000 14 2285518 17499781

@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/perf_partx71_1 1000000 20 1000000 13 12643888 3679001

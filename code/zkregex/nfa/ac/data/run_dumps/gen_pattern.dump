@@ -1,0 +1,73 @@
+#----------------------------------
+# time python3 gen_pattern.py > gen_pattern.dump
+# real    0m5.574s
+#-----------------------------------
+FALSE POSITIVE PATTRENS:  74
+AFTER prcessing file: false_positives/data1.txt, arr_set size:  74
+FALSE POSITIVE PATTRENS:  110
+AFTER prcessing file: false_positives/data2.txt, arr_set size:  110
+FALSE POSITIVE PATTRENS:  136
+AFTER prcessing file: false_positives/data3.txt, arr_set size:  136
+FALSE POSITIVE PATTRENS:  145
+AFTER prcessing file: false_positives/data4.txt, arr_set size:  145
+FALSE POSITIVE PATTRENS:  145
+AFTER prcessing file: false_positives/data5.txt, arr_set size:  145
+FALSE POSITIVE PATTRENS:  148
+AFTER prcessing file: false_positives/data6.txt, arr_set size:  148
+FALSE POSITIVE PATTRENS:  151
+AFTER prcessing file: false_positives/data7.txt, arr_set size:  151
+FALSE POSITIVE PATTRENS:  154
+AFTER prcessing file: false_positives/data8.txt, arr_set size:  154
+FALSE POSITIVE PATTRENS:  156
+AFTER prcessing file: false_positives/data9.txt, arr_set size:  156
+FALSE POSITIVE PATTRENS:  158
+AFTER prcessing file: false_positives/data10.txt, arr_set size:  158
+FALSE POSITIVE PATTRENS:  159
+AFTER prcessing file: false_positives/data11.txt, arr_set size:  159
+FALSE POSITIVE PATTRENS:  160
+AFTER prcessing file: false_positives/data12.txt, arr_set size:  160
+FALSE POSITIVE PATTRENS:  162
+AFTER prcessing file: false_positives/data13.txt, arr_set size:  162
+FALSE POSITIVE PATTRENS:  163
+AFTER prcessing file: false_positives/data14.txt, arr_set size:  163
+FALSE POSITIVE PATTRENS:  165
+AFTER prcessing file: false_positives/data15.txt, arr_set size:  165
+FALSE POSITIVE PATTRENS:  165
+AFTER prcessing file: false_positives/data16.txt, arr_set size:  165
+FALSE POSITIVE PATTRENS:  165
+AFTER prcessing file: false_positives/data17.txt, arr_set size:  165
+FALSE POSITIVE PATTRENS:  165
+AFTER prcessing file: false_positives/data18.txt, arr_set size:  165
+FALSE POSITIVE PATTRENS:  165
+AFTER prcessing file: false_positives/data19.txt, arr_set size:  165
+FALSE POSITIVE PATTRENS:  165
+AFTER prcessing file: false_positives/data20.txt, arr_set size:  165
+FALSE POSITIVE PATTRENS:  172
+AFTER prcessing file: false_positives/data21.txt, arr_set size:  172
+FALSE POSITIVE PATTRENS:  174
+AFTER prcessing file: false_positives/data22.txt, arr_set size:  174
+FALSE POSITIVE PATTRENS:  174
+AFTER prcessing file: false_positives/data22.txt, arr_set size:  174
+FALSE POSITIVE PATTRENS:  175
+AFTER prcessing file: false_positives/data23.txt, arr_set size:  175
+FALSE POSITIVE PATTRENS:  175
+AFTER prcessing file: false_positives/data24.txt, arr_set size:  175
+FALSE POSITIVE PATTRENS:  193
+AFTER prcessing file: false_positives/data25.txt, arr_set size:  193
+FALSE POSITIVE PATTRENS:  203
+AFTER prcessing file: false_positives/data26.txt, arr_set size:  203
+FALSE POSITIVE PATTRENS:  208
+AFTER prcessing file: false_positives/data27.txt, arr_set size:  208
+FALSE POSITIVE PATTRENS:  210
+AFTER prcessing file: false_positives/data28.txt, arr_set size:  210
+FALSE POSITIVE PATTRENS:  212
+AFTER prcessing file: false_positives/data29.txt, arr_set size:  212
+======= Summary ==========
+Signatures:  101634
+Regex Sigs:  11040
+Regex Sigs with Dropped:  5343
+Bad Patterns Discarded:  8482
+Short Bad Patterns Discarded (included above):  8073
+False Positive Patterns (included in BadBatterns):  212
+Empty Patterns:  1615
+Total Patterns:  110806

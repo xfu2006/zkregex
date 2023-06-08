@@ -1,0 +1,280 @@
+ ==== n: 1024, np: 1 ===
+Serial PolySub: size: 1024, time: 0 us
+REPORT_op: PolySub, size: 1024, time: 0 ms, np: 1
+Serial PolyMul : size: 1024, time: 2 us
+REPORT_op: PolyMul, size: 1024, time: 9 ms, np: 1
+Serial PolyDiv: size: 1024, time: 7 us
+REPORT_op: PolyDiv, size: 1024, time: 57 ms, np: 1
+profile distributed : size: 1024, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 1024, time: 17 ms, np: 1
+profile Dist-Poly From Roots time: 17 ms
+REPORT_op: gcd, size: 1024, time: 444 ms, np: 1
+
+ ==== n: 2048, np: 1 ===
+Serial PolySub: size: 2048, time: 0 us
+REPORT_op: PolySub, size: 2048, time: 0 ms, np: 1
+Serial PolyMul : size: 2048, time: 9 us
+REPORT_op: PolyMul, size: 2048, time: 18 ms, np: 1
+Serial PolyDiv: size: 2048, time: 14 us
+REPORT_op: PolyDiv, size: 2048, time: 108 ms, np: 1
+profile distributed : size: 2048, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 2048, time: 39 ms, np: 1
+profile Dist-Poly From Roots time: 39 ms
+REPORT_op: gcd, size: 2048, time: 1052 ms, np: 1
+
+ ==== n: 4096, np: 1 ===
+Serial PolySub: size: 4096, time: 0 us
+REPORT_op: PolySub, size: 4096, time: 0 ms, np: 1
+Serial PolyMul : size: 4096, time: 10 us
+REPORT_op: PolyMul, size: 4096, time: 36 ms, np: 1
+Serial PolyDiv: size: 4096, time: 48 us
+REPORT_op: PolyDiv, size: 4096, time: 246 ms, np: 1
+profile distributed : size: 4096, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 4096, time: 94 ms, np: 1
+profile Dist-Poly From Roots time: 94 ms
+REPORT_op: gcd, size: 4096, time: 2714 ms, np: 1
+
+ ==== n: 8192, np: 1 ===
+Serial PolySub: size: 8192, time: 0 us
+REPORT_op: PolySub, size: 8192, time: 0 ms, np: 1
+Serial PolyMul : size: 8192, time: 17 us
+REPORT_op: PolyMul, size: 8192, time: 51 ms, np: 1
+Serial PolyDiv: size: 8192, time: 69 us
+REPORT_op: PolyDiv, size: 8192, time: 446 ms, np: 1
+profile distributed : size: 8192, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 8192, time: 237 ms, np: 1
+profile Dist-Poly From Roots time: 237 ms
+REPORT_op: gcd, size: 8192, time: 5601 ms, np: 1
+
+ ==== n: 16384, np: 1 ===
+Serial PolySub: size: 16384, time: 0 us
+REPORT_op: PolySub, size: 16384, time: 1 ms, np: 1
+Serial PolyMul : size: 16384, time: 35 us
+REPORT_op: PolyMul, size: 16384, time: 86 ms, np: 1
+Serial PolyDiv: size: 16384, time: 130 us
+REPORT_op: PolyDiv, size: 16384, time: 819 ms, np: 1
+profile distributed : size: 16384, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 16384, time: 397 ms, np: 1
+profile Dist-Poly From Roots time: 397 ms
+REPORT_op: gcd, size: 16384, time: 12886 ms, np: 1
+
+ ==== n: 32768, np: 1 ===
+Serial PolySub: size: 32768, time: 1 us
+REPORT_op: PolySub, size: 32768, time: 5 ms, np: 1
+Serial PolyMul : size: 32768, time: 72 us
+REPORT_op: PolyMul, size: 32768, time: 173 ms, np: 1
+Serial PolyDiv: size: 32768, time: 289 us
+REPORT_op: PolyDiv, size: 32768, time: 1923 ms, np: 1
+profile distributed : size: 32768, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 32768, time: 920 ms, np: 1
+profile Dist-Poly From Roots time: 920 ms
+REPORT_op: gcd, size: 32768, time: 30380 ms, np: 1
+
+ ==== n: 65536, np: 1 ===
+Serial PolySub: size: 65536, time: 1 us
+REPORT_op: PolySub, size: 65536, time: 7 ms, np: 1
+Serial PolyMul : size: 65536, time: 150 us
+REPORT_op: PolyMul, size: 65536, time: 384 ms, np: 1
+Serial PolyDiv: size: 65536, time: 679 us
+REPORT_op: PolyDiv, size: 65536, time: 3986 ms, np: 1
+profile distributed : size: 65536, cfg: Config: Processors: 1
+REPORT_op: PolyFromRoot, size: 65536, time: 1953 ms, np: 1
+profile Dist-Poly From Roots time: 1953 ms
+REPORT_op: gcd, size: 65536, time: 62781 ms, np: 1
+
+ ==== n: 1024, np: 2 ===
+Serial PolySub: size: 1024, time: 0 us
+REPORT_op: PolySub, size: 1024, time: 0 ms, np: 2
+Serial PolyMul : size: 1024, time: 4 us
+REPORT_op: PolyMul, size: 1024, time: 7 ms, np: 2
+Serial PolyDiv: size: 1024, time: 9 us
+profile distributed : size: 1024, cfg: Config: Processors: 2
+REPORT_op: PolyDiv, size: 1024, time: 28 ms, np: 2
+profile distributed : size: 1024, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 1024, time: 10 ms, np: 2
+profile Dist-Poly From Roots time: 10 ms
+REPORT_op: gcd, size: 1024, time: 196 ms, np: 2
+
+ ==== n: 2048, np: 2 ===
+Serial PolySub: size: 2048, time: 0 us
+REPORT_op: PolySub, size: 2048, time: 0 ms, np: 2
+Serial PolyMul : size: 2048, time: 6 us
+REPORT_op: PolyMul, size: 2048, time: 8 ms, np: 2
+Serial PolyDiv: size: 2048, time: 14 us
+profile distributed : size: 2048, cfg: Config: Processors: 2
+REPORT_op: PolyDiv, size: 2048, time: 52 ms, np: 2
+profile distributed : size: 2048, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 2048, time: 21 ms, np: 2
+profile Dist-Poly From Roots time: 21 ms
+REPORT_op: gcd, size: 2048, time: 487 ms, np: 2
+
+ ==== n: 4096, np: 2 ===
+Serial PolySub: size: 4096, time: 0 us
+REPORT_op: PolySub, size: 4096, time: 0 ms, np: 2
+Serial PolyMul : size: 4096, time: 10 us
+REPORT_op: PolyMul, size: 4096, time: 15 ms, np: 2
+Serial PolyDiv: size: 4096, time: 34 us
+profile distributed : size: 4096, cfg: Config: Processors: 2
+REPORT_op: PolyDiv, size: 4096, time: 111 ms, np: 2
+profile distributed : size: 4096, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 4096, time: 47 ms, np: 2
+profile Dist-Poly From Roots time: 47 ms
+REPORT_op: gcd, size: 4096, time: 1150 ms, np: 2
+
+ ==== n: 8192, np: 2 ===
+Serial PolySub: size: 8192, time: 0 us
+REPORT_op: PolySub, size: 8192, time: 0 ms, np: 2
+Serial PolyMul : size: 8192, time: 19 us
+REPORT_op: PolyMul, size: 8192, time: 25 ms, np: 2
+Serial PolyDiv: size: 8192, time: 61 us
+REPORT_op: PolyDiv, size: 8192, time: 196 ms, np: 2
+profile distributed : size: 8192, cfg: Config: Processors: 2
+profile distributed : size: 8192, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 8192, time: 100 ms, np: 2
+profile Dist-Poly From Roots time: 100 ms
+REPORT_op: gcd, size: 8192, time: 2615 ms, np: 2
+
+ ==== n: 16384, np: 2 ===
+Serial PolySub: size: 16384, time: 0 us
+REPORT_op: PolySub, size: 16384, time: 1 ms, np: 2
+Serial PolyMul : size: 16384, time: 38 us
+REPORT_op: PolyMul, size: 16384, time: 44 ms, np: 2
+Serial PolyDiv: size: 16384, time: 131 us
+REPORT_op: PolyDiv, size: 16384, time: 403 ms, np: 2
+profile distributed : size: 16384, cfg: Config: Processors: 2
+profile distributed : size: 16384, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 16384, time: 219 ms, np: 2
+profile Dist-Poly From Roots time: 219 ms
+REPORT_op: gcd, size: 16384, time: 6681 ms, np: 2
+
+ ==== n: 32768, np: 2 ===
+Serial PolySub: size: 32768, time: 0 us
+REPORT_op: PolySub, size: 32768, time: 2 ms, np: 2
+Serial PolyMul : size: 32768, time: 79 us
+REPORT_op: PolyMul, size: 32768, time: 92 ms, np: 2
+Serial PolyDiv: size: 32768, time: 298 us
+REPORT_op: PolyDiv, size: 32768, time: 878 ms, np: 2
+profile distributed : size: 32768, cfg: Config: Processors: 2
+profile distributed : size: 32768, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 32768, time: 579 ms, np: 2
+profile Dist-Poly From Roots time: 579 ms
+REPORT_op: gcd, size: 32768, time: 15394 ms, np: 2
+
+ ==== n: 65536, np: 2 ===
+Serial PolySub: size: 65536, time: 1 us
+REPORT_op: PolySub, size: 65536, time: 3 ms, np: 2
+Serial PolyMul : size: 65536, time: 145 us
+REPORT_op: PolyMul, size: 65536, time: 183 ms, np: 2
+Serial PolyDiv: size: 65536, time: 622 us
+REPORT_op: PolyDiv, size: 65536, time: 1783 ms, np: 2
+profile distributed : size: 65536, cfg: Config: Processors: 2
+profile distributed : size: 65536, cfg: Config: Processors: 2
+REPORT_op: PolyFromRoot, size: 65536, time: 1012 ms, np: 2
+profile Dist-Poly From Roots time: 1012 ms
+REPORT_op: gcd, size: 65536, time: 33561 ms, np: 2
+
+ ==== n: 1024, np: 4 ===
+Serial PolySub: size: 1024, time: 0 us
+REPORT_op: PolySub, size: 1024, time: 0 ms, np: 4
+Serial PolyMul : size: 1024, time: 2 us
+REPORT_op: PolyMul, size: 1024, time: 3 ms, np: 4
+Serial PolyDiv: size: 1024, time: 8 us
+profile distributed : size: 1024, cfg: Config: Processors: 4
+profile distributed : size: 1024, cfg: Config: Processors: 4
+profile distributed : size: 1024, cfg: Config: Processors: 4
+REPORT_op: PolyDiv, size: 1024, time: 21 ms, np: 4
+profile distributed : size: 1024, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 1024, time: 8 ms, np: 4
+profile Dist-Poly From Roots time: 8 ms
+REPORT_op: gcd, size: 1024, time: 202 ms, np: 4
+
+ ==== n: 2048, np: 4 ===
+Serial PolySub: size: 2048, time: 0 us
+REPORT_op: PolySub, size: 2048, time: 0 ms, np: 4
+Serial PolyMul : size: 2048, time: 4 us
+REPORT_op: PolyMul, size: 2048, time: 5 ms, np: 4
+Serial PolyDiv: size: 2048, time: 15 us
+profile distributed : size: 2048, cfg: Config: Processors: 4
+profile distributed : size: 2048, cfg: Config: Processors: 4
+profile distributed : size: 2048, cfg: Config: Processors: 4
+REPORT_op: PolyDiv, size: 2048, time: 38 ms, np: 4
+profile distributed : size: 2048, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 2048, time: 18 ms, np: 4
+profile Dist-Poly From Roots time: 18 ms
+REPORT_op: gcd, size: 2048, time: 367 ms, np: 4
+
+ ==== n: 4096, np: 4 ===
+Serial PolySub: size: 4096, time: 0 us
+REPORT_op: PolySub, size: 4096, time: 0 ms, np: 4
+Serial PolyMul : size: 4096, time: 8 us
+REPORT_op: PolyMul, size: 4096, time: 11 ms, np: 4
+Serial PolyDiv: size: 4096, time: 32 us
+profile distributed : size: 4096, cfg: Config: Processors: 4
+profile distributed : size: 4096, cfg: Config: Processors: 4
+REPORT_op: PolyDiv, size: 4096, time: 56 ms, np: 4
+profile distributed : size: 4096, cfg: Config: Processors: 4
+profile distributed : size: 4096, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 4096, time: 28 ms, np: 4
+profile Dist-Poly From Roots time: 28 ms
+REPORT_op: gcd, size: 4096, time: 789 ms, np: 4
+
+ ==== n: 8192, np: 4 ===
+Serial PolySub: size: 8192, time: 0 us
+REPORT_op: PolySub, size: 8192, time: 0 ms, np: 4
+Serial PolyMul : size: 8192, time: 21 us
+REPORT_op: PolyMul, size: 8192, time: 11 ms, np: 4
+Serial PolyDiv: size: 8192, time: 61 us
+REPORT_op: PolyDiv, size: 8192, time: 90 ms, np: 4
+profile distributed : size: 8192, cfg: Config: Processors: 4
+profile distributed : size: 8192, cfg: Config: Processors: 4
+profile distributed : size: 8192, cfg: Config: Processors: 4
+profile distributed : size: 8192, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 8192, time: 62 ms, np: 4
+profile Dist-Poly From Roots time: 62 ms
+REPORT_op: gcd, size: 8192, time: 1739 ms, np: 4
+
+ ==== n: 16384, np: 4 ===
+Serial PolySub: size: 16384, time: 0 us
+REPORT_op: PolySub, size: 16384, time: 0 ms, np: 4
+Serial PolyMul : size: 16384, time: 43 us
+REPORT_op: PolyMul, size: 16384, time: 28 ms, np: 4
+Serial PolyDiv: size: 16384, time: 131 us
+REPORT_op: PolyDiv, size: 16384, time: 190 ms, np: 4
+profile distributed : size: 16384, cfg: Config: Processors: 4
+profile distributed : size: 16384, cfg: Config: Processors: 4
+profile distributed : size: 16384, cfg: Config: Processors: 4
+profile distributed : size: 16384, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 16384, time: 137 ms, np: 4
+profile Dist-Poly From Roots time: 137 ms
+REPORT_op: gcd, size: 16384, time: 4747 ms, np: 4
+
+ ==== n: 32768, np: 4 ===
+Serial PolySub: size: 32768, time: 0 us
+REPORT_op: PolySub, size: 32768, time: 1 ms, np: 4
+Serial PolyMul : size: 32768, time: 81 us
+REPORT_op: PolyMul, size: 32768, time: 50 ms, np: 4
+Serial PolyDiv: size: 32768, time: 281 us
+REPORT_op: PolyDiv, size: 32768, time: 425 ms, np: 4
+profile distributed : size: 32768, cfg: Config: Processors: 4
+profile distributed : size: 32768, cfg: Config: Processors: 4
+profile distributed : size: 32768, cfg: Config: Processors: 4
+profile distributed : size: 32768, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 32768, time: 404 ms, np: 4
+profile Dist-Poly From Roots time: 404 ms
+REPORT_op: gcd, size: 32768, time: 12331 ms, np: 4
+
+ ==== n: 65536, np: 4 ===
+Serial PolySub: size: 65536, time: 1 us
+REPORT_op: PolySub, size: 65536, time: 2 ms, np: 4
+Serial PolyMul : size: 65536, time: 148 us
+REPORT_op: PolyMul, size: 65536, time: 98 ms, np: 4
+Serial PolyDiv: size: 65536, time: 612 us
+REPORT_op: PolyDiv, size: 65536, time: 876 ms, np: 4
+profile distributed : size: 65536, cfg: Config: Processors: 4
+profile distributed : size: 65536, cfg: Config: Processors: 4
+profile distributed : size: 65536, cfg: Config: Processors: 4
+profile distributed : size: 65536, cfg: Config: Processors: 4
+REPORT_op: PolyFromRoot, size: 65536, time: 655 ms, np: 4
+profile Dist-Poly From Roots time: 655 ms
+REPORT_op: gcd, size: 65536, time: 27874 ms, np: 4
+

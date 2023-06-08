@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libgcrypt.so.11.8.2 535064 20 0 18 0 17499781

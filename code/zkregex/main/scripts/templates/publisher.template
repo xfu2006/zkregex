@@ -1,0 +1,5 @@
+# execute as a publisher
+# provide the src dir of pattern signature data
+# provide the destination folder to write data to
+# --- JARDIR will be replaced by the real path: see getjar.py ---
+java -Xmx12g -cp J_ARDIR cs.Employer.zkregex.App publisher ../DATA/anti_virus_input/clamav_5/ ../DATA/anti_virus_output/clamav_5/

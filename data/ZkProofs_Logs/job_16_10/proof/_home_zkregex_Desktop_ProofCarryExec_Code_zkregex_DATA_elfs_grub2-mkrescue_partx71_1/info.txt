@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/grub2-mkrescue_partx71_1 38216 16 1000000 9 17414346 17499781

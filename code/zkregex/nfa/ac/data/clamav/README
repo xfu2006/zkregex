@@ -1,0 +1,3 @@
+retrieved 03/26/2022 Friday
+wget http://database.clamav.net/main.cvd
+sigtool -u main.cvd

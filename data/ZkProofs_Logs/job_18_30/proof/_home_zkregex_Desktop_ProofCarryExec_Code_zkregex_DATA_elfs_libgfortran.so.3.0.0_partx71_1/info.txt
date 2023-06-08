@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libgfortran.so.3.0.0_partx71_1 186104 18 1000000 24 15167241 17499781

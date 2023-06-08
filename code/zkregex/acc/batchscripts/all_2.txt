@@ -1,0 +1,16 @@
+PARTITION_SIZE: 16000
+Build the Trie ...
+Build Trie Time: 14 ms
+Build the Fail Edges...
+Build FailEdge Time: 20 ms
+Step 1. start collecting freq word. All ELF list in scripts/list.txt
+Collected files: 247
+Freq-set Size: 5
+Freq-Set: 2 22 23 26 27 
+Step 2. Processing ... File Size > 16000 will be split.
+Step 3. Write freq_set:  5
+FILEDUMP: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/crtn.o, Size: 648, Group: 10, Virus: (good), Time: 1 ms, MaxDepth: 8, NewMaxDepth: 5, Compression: 9.82 perc, init_state: 0, last_state: 1823
+FILEDUMP: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/vdso32-sysenter.so, Size: 1752, Group: 11, Virus: (good), Time: 2 ms, MaxDepth: 8, NewMaxDepth: 8, Compression: 10.94 perc, init_state: 0, last_state: 1823
+FILEDUMP: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/vdso32-syscall.so, Size: 1788, Group: 11, Virus: (good), Time: 2 ms, MaxDepth: 8, NewMaxDepth: 8, Compression: 10.91 perc, init_state: 0, last_state: 1823
+FILEDUMP: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/python.o, Size: 1208, Group: 11, Virus: (good), Time: 1 ms, MaxDepth: 8, NewMaxDepth: 8, Compression: 7.71 perc, init_state: 0, last_state: 1823
+FILEDUMP: /home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/python3, Size: 20456, Group: 14, Virus: (good), Time: 12 ms, MaxDepth: 16, NewMaxDepth: 8, Compression: 4.82 perc, init_state: 0, last_state: 1823, partitions_info: 8 0 1823 14 8 1823 1823 13 

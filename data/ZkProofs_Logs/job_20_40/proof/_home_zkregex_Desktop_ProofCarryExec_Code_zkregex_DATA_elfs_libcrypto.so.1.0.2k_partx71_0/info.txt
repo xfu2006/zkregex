@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libcrypto.so.1.0.2k_partx71_0 1000000 20 0 36 0 16461380

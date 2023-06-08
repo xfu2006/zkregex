@@ -1,0 +1,1 @@
+/home/zkregex/Desktop/ProofCarryExec/Code/zkregex/DATA/elfs/libnfnetlink.so.0.2.0 27608 15 0 9 0 17499781
